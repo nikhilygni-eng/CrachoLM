@@ -1,20 +1,20 @@
-# 🚀 CrachoLM-0.1: Custom Decoder-Only Transformer Language Model
+#  CrachoLM-0.1: Custom Decoder-Only Transformer Language Model
 
 Welcome to **CrachoLM**, an educational yet real decoder-only Transformer language model built completely **from scratch** using Python and PyTorch.
 
 ---
 
-## 🎯 Project Philosophy & Strict Rules
+##  Project Philosophy & Strict Rules
 
-* 🚫 **No API Keys**: 100% offline, private, and local.
-* 🚫 **No Ollama / External Runtimes**: Pure native Python and PyTorch.
-* 🚫 **No Pretrained Weights**: Every weight matrix is initialized randomly ($N(0, \sigma^2)$).
-* 🚫 **No Existing LLM Codebases**: Built from raw mathematical equations.
-* ⚡ **Hardware Acceleration**: Automatic CUDA GPU acceleration (RTX 3050 detected), with seamless fallback to CPU.
+*  **No API Keys**: 100% offline, private, and local.
+*  **No Ollama / External Runtimes**: Pure native Python and PyTorch.
+*  **No Pretrained Weights**: Every weight matrix is initialized randomly ($N(0, \sigma^2)$).
+*  **No Existing LLM Codebases**: Built from raw mathematical equations.
+*  **Hardware Acceleration**: Automatic CUDA GPU acceleration (RTX 3050 detected), with seamless fallback to CPU.
 
 ---
 
-## 📁 Project Directory Structure
+##  Project Directory Structure
 
 ```text
 CrachoLM/
@@ -50,7 +50,7 @@ CrachoLM/
 
 ---
 
-## 🛠️ Quick Start Guide
+##  Quick Start Guide
 
 ### 1. Create & Activate Virtual Environment
 ```bash
@@ -72,7 +72,7 @@ python3 check_system.py
 
 ---
 
-## 🚀 Running the Project
+##  Running the Project
 
 ### Inspect Baseline Model Metrics (Phase 7)
 ```bash
@@ -108,7 +108,7 @@ python3 generate.py --prompt "To be or not" --greedy --max-new-tokens 100
 
 ---
 
-## ⚙️ Configuration Overview (`config.py`)
+##  Configuration Overview (`config.py`)
 
 | Parameter | Default | Description |
 | :--- | :--- | :--- |
@@ -124,7 +124,7 @@ python3 generate.py --prompt "To be or not" --greedy --max-new-tokens 100
 
 ---
 
-## 🗺️ Completed Project Roadmap
+##  Completed Project Roadmap
 
 - [x] **Phase 1**: Project setup, GPU/CPU detection, configuration
 - [x] **Phase 2**: Custom character-level tokenizer from scratch
@@ -137,7 +137,7 @@ python3 generate.py --prompt "To be or not" --greedy --max-new-tokens 100
 
 ---
 
-## 📊 Evaluate a Trained Model (Phase 8)
+##  Evaluate a Trained Model (Phase 8)
 
 ```bash
 # Run evaluation against held-out eval questions (never seen during training)
@@ -154,7 +154,7 @@ Results are saved automatically to:
 - `logs/eval_results_<timestamp>.json`
 - `logs/eval_results_<timestamp>.csv`
 
-> ⚠️ **Important**: Evaluation data lives exclusively in `data/eval/` and is **never** passed to `train.py`. See `data/eval/README.txt` for the data leakage policy.
+>  **Important**: Evaluation data lives exclusively in `data/eval/` and is **never** passed to `train.py`. See `data/eval/README.txt` for the data leakage policy.
 
 ---
 
