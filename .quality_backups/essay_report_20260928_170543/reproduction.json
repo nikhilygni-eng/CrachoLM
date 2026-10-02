@@ -1,0 +1,34 @@
+{
+  "prompts": [
+    {
+      "status": "success",
+      "mode": "chat",
+      "source": "model",
+      "reply": "An essay is not divisible by 2 without a remainder.",
+      "prompt": "wirte an essay for population",
+      "generated_text": "wirte an essay for population\nAn essay is not divisible by 2 without a remainder.",
+      "parameters_used": {
+        "max_new_tokens": 120,
+        "temperature": 0.7,
+        "top_k": 40,
+        "greedy": true
+      }
+    },
+    {
+      "status": "success",
+      "mode": "chat",
+      "source": "model",
+      "reply": "Learning a little every day helps us build new skills.",
+      "prompt": "Write an essay about population.",
+      "generated_text": "Write an essay about population.\nLearning a little every day helps us build new skills.",
+      "parameters_used": {
+        "max_new_tokens": 120,
+        "temperature": 0.7,
+        "top_k": 40,
+        "greedy": true
+      }
+    }
+  ],
+  "finding": "Both the original typo and a correctly written population-essay request fail. Narrow curriculum scores did not establish general instruction following.",
+  "interface": "Server serves updated Chat/Calculator controls; screenshot shows an older page. Added no-store headers and a cache-busting launch URL."
+}

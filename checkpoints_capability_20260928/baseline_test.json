@@ -1,0 +1,821 @@
+{
+  "scores": {
+    "arithmetic": {
+      "correct": 1,
+      "total": 16
+    },
+    "chat": {
+      "correct": 2,
+      "total": 3
+    },
+    "comparison": {
+      "correct": 0,
+      "total": 12
+    },
+    "explanation": {
+      "correct": 0,
+      "total": 16
+    },
+    "grammar": {
+      "correct": 1,
+      "total": 16
+    },
+    "reading": {
+      "correct": 0,
+      "total": 16
+    }
+  },
+  "exact_rate": 0.05063291139240506,
+  "answers": [
+    {
+      "category": "arithmetic",
+      "group": "arithmetic:*:0:12",
+      "prompt": "Please calculate 0 times 12.",
+      "answer": "0.",
+      "split": "test",
+      "source": "authored",
+      "reply": "9.",
+      "exact": false
+    },
+    {
+      "category": "arithmetic",
+      "group": "arithmetic:+:6:14",
+      "prompt": "Sam has 6 apples and gets 14 more. How many apples does Sam have?",
+      "answer": "Sam has 20 apples.",
+      "split": "test",
+      "source": "authored",
+      "reply": "9.",
+      "exact": false
+    },
+    {
+      "category": "arithmetic",
+      "group": "arithmetic:+:12:13",
+      "prompt": "Sam has 12 apples and gets 13 more. How many apples does Sam have?",
+      "answer": "Sam has 25 apples.",
+      "split": "test",
+      "source": "authored",
+      "reply": "10.",
+      "exact": false
+    },
+    {
+      "category": "arithmetic",
+      "group": "arithmetic:+:5:6",
+      "prompt": "Sam has 5 apples and gets 6 more. How many apples does Sam have?",
+      "answer": "Sam has 11 apples.",
+      "split": "test",
+      "source": "authored",
+      "reply": "9.",
+      "exact": false
+    },
+    {
+      "category": "arithmetic",
+      "group": "arithmetic:+:2:3",
+      "prompt": "Please calculate 2 plus 3.",
+      "answer": "5.",
+      "split": "test",
+      "source": "authored",
+      "reply": "5.",
+      "exact": true
+    },
+    {
+      "category": "arithmetic",
+      "group": "arithmetic:+:6:16",
+      "prompt": "Sam has 6 apples and gets 16 more. How many apples does Sam have?",
+      "answer": "Sam has 22 apples.",
+      "split": "test",
+      "source": "authored",
+      "reply": "10.",
+      "exact": false
+    },
+    {
+      "category": "arithmetic",
+      "group": "arithmetic:+:3:11",
+      "prompt": "Sam has 11 apples and gets 3 more. How many apples does Sam have?",
+      "answer": "Sam has 14 apples.",
+      "split": "test",
+      "source": "authored",
+      "reply": "9.",
+      "exact": false
+    },
+    {
+      "category": "arithmetic",
+      "group": "arithmetic:+:6:16",
+      "prompt": "Please calculate 16 plus 6.",
+      "answer": "22.",
+      "split": "test",
+      "source": "authored",
+      "reply": "10.",
+      "exact": false
+    },
+    {
+      "category": "arithmetic",
+      "group": "arithmetic:+:5:6",
+      "prompt": "Please calculate 6 plus 5.",
+      "answer": "11.",
+      "split": "test",
+      "source": "authored",
+      "reply": "9.",
+      "exact": false
+    },
+    {
+      "category": "arithmetic",
+      "group": "arithmetic:*:3:11",
+      "prompt": "Please calculate 11 times 3.",
+      "answer": "33.",
+      "split": "test",
+      "source": "authored",
+      "reply": "10.",
+      "exact": false
+    },
+    {
+      "category": "arithmetic",
+      "group": "arithmetic:+:10:14",
+      "prompt": "Sam has 14 apples and gets 10 more. How many apples does Sam have?",
+      "answer": "Sam has 24 apples.",
+      "split": "test",
+      "source": "authored",
+      "reply": "10.",
+      "exact": false
+    },
+    {
+      "category": "arithmetic",
+      "group": "arithmetic:+:6:14",
+      "prompt": "Please calculate 6 plus 14.",
+      "answer": "20.",
+      "split": "test",
+      "source": "authored",
+      "reply": "9.",
+      "exact": false
+    },
+    {
+      "category": "arithmetic",
+      "group": "arithmetic:+:10:15",
+      "prompt": "Sam has 15 apples and gets 10 more. How many apples does Sam have?",
+      "answer": "Sam has 25 apples.",
+      "split": "test",
+      "source": "authored",
+      "reply": "10.",
+      "exact": false
+    },
+    {
+      "category": "arithmetic",
+      "group": "arithmetic:-:13:9",
+      "prompt": "Please calculate 13 minus 9.",
+      "answer": "4.",
+      "split": "test",
+      "source": "authored",
+      "reply": "13.",
+      "exact": false
+    },
+    {
+      "category": "arithmetic",
+      "group": "arithmetic:+:5:13",
+      "prompt": "Please calculate 5 plus 13.",
+      "answer": "18.",
+      "split": "test",
+      "source": "authored",
+      "reply": "9.",
+      "exact": false
+    },
+    {
+      "category": "arithmetic",
+      "group": "arithmetic:-:16:13",
+      "prompt": "Please calculate 16 minus 13.",
+      "answer": "3.",
+      "split": "test",
+      "source": "authored",
+      "reply": "10.",
+      "exact": false
+    },
+    {
+      "category": "chat",
+      "group": "greeting",
+      "prompt": "Good afternoon!",
+      "answer": "Hi! How can I help you?",
+      "split": "test",
+      "source": "authored",
+      "reply": "Goodbye! Have a good day.",
+      "exact": false
+    },
+    {
+      "category": "chat",
+      "group": "greeting",
+      "prompt": "hey bro",
+      "answer": "Hi! How can I help you?",
+      "split": "test",
+      "source": "authored",
+      "reply": "Hi! How can I help you?",
+      "exact": true
+    },
+    {
+      "category": "chat",
+      "group": "greeting",
+      "prompt": "Hi there!",
+      "answer": "Hi! How can I help you?",
+      "split": "test",
+      "source": "authored",
+      "reply": "Hi! How can I help you?",
+      "exact": true
+    },
+    {
+      "category": "comparison",
+      "group": "comparison:20:25",
+      "prompt": "Which is smaller, 20 or 25?",
+      "answer": "20 is smaller.",
+      "split": "test",
+      "source": "authored",
+      "reply": "10.",
+      "exact": false
+    },
+    {
+      "category": "comparison",
+      "group": "comparison:9:12",
+      "prompt": "Which is larger, 12 or 9?",
+      "answer": "12 is larger.",
+      "split": "test",
+      "source": "authored",
+      "reply": "13.",
+      "exact": false
+    },
+    {
+      "category": "comparison",
+      "group": "comparison:20:25",
+      "prompt": "Which is smaller, 25 or 20?",
+      "answer": "20 is smaller.",
+      "split": "test",
+      "source": "authored",
+      "reply": "10.",
+      "exact": false
+    },
+    {
+      "category": "comparison",
+      "group": "comparison:9:11",
+      "prompt": "Which is smaller, 9 or 11?",
+      "answer": "9 is smaller.",
+      "split": "test",
+      "source": "authored",
+      "reply": "13.",
+      "exact": false
+    },
+    {
+      "category": "comparison",
+      "group": "comparison:20:25",
+      "prompt": "Which is larger, 20 or 25?",
+      "answer": "25 is larger.",
+      "split": "test",
+      "source": "authored",
+      "reply": "10.",
+      "exact": false
+    },
+    {
+      "category": "comparison",
+      "group": "comparison:9:12",
+      "prompt": "Which is smaller, 9 or 12?",
+      "answer": "9 is smaller.",
+      "split": "test",
+      "source": "authored",
+      "reply": "13.",
+      "exact": false
+    },
+    {
+      "category": "comparison",
+      "group": "comparison:20:25",
+      "prompt": "Which is larger, 25 or 20?",
+      "answer": "25 is larger.",
+      "split": "test",
+      "source": "authored",
+      "reply": "10.",
+      "exact": false
+    },
+    {
+      "category": "comparison",
+      "group": "comparison:9:11",
+      "prompt": "Which is smaller, 11 or 9?",
+      "answer": "9 is smaller.",
+      "split": "test",
+      "source": "authored",
+      "reply": "11.",
+      "exact": false
+    },
+    {
+      "category": "comparison",
+      "group": "comparison:9:11",
+      "prompt": "Which is larger, 11 or 9?",
+      "answer": "11 is larger.",
+      "split": "test",
+      "source": "authored",
+      "reply": "13.",
+      "exact": false
+    },
+    {
+      "category": "comparison",
+      "group": "comparison:9:12",
+      "prompt": "Which is larger, 9 or 12?",
+      "answer": "12 is larger.",
+      "split": "test",
+      "source": "authored",
+      "reply": "13.",
+      "exact": false
+    },
+    {
+      "category": "comparison",
+      "group": "comparison:9:11",
+      "prompt": "Which is larger, 9 or 11?",
+      "answer": "11 is larger.",
+      "split": "test",
+      "source": "authored",
+      "reply": "13.",
+      "exact": false
+    },
+    {
+      "category": "comparison",
+      "group": "comparison:9:12",
+      "prompt": "Which is smaller, 12 or 9?",
+      "answer": "9 is smaller.",
+      "split": "test",
+      "source": "authored",
+      "reply": "11.",
+      "exact": false
+    },
+    {
+      "category": "explanation",
+      "group": "definition:a paragraph",
+      "prompt": "Give a short explanation of a paragraph.",
+      "answer": "A paragraph is a group of related sentences that develop a main idea.",
+      "split": "test",
+      "source": "authored",
+      "reply": "A paragraph is a programming language.",
+      "exact": false
+    },
+    {
+      "category": "explanation",
+      "group": "definition:a web browser",
+      "prompt": "Give a short explanation of a web browser.",
+      "answer": "A web browser is an application that retrieves and displays web pages.",
+      "split": "test",
+      "source": "authored",
+      "reply": "There are seven days in a week.",
+      "exact": false
+    },
+    {
+      "category": "explanation",
+      "group": "definition:a boolean",
+      "prompt": "Give a short explanation of a boolean.",
+      "answer": "A boolean has one of two values: true or false.",
+      "split": "test",
+      "source": "authored",
+      "reply": "A boolean language model is a programming language.",
+      "exact": false
+    },
+    {
+      "category": "explanation",
+      "group": "definition:a computer",
+      "prompt": "Give a short explanation of a computer.",
+      "answer": "A computer is an electronic machine that processes information and runs programs.",
+      "split": "test",
+      "source": "authored",
+      "reply": "A computers learn patterns from data.",
+      "exact": false
+    },
+    {
+      "category": "explanation",
+      "group": "definition:an API",
+      "prompt": "Give a short explanation of an API.",
+      "answer": "An API is an interface that lets software components communicate through defined requests and responses.",
+      "split": "test",
+      "source": "authored",
+      "reply": "API is a programming language.",
+      "exact": false
+    },
+    {
+      "category": "explanation",
+      "group": "definition:a magnet",
+      "prompt": "Give a short explanation of a magnet.",
+      "answer": "A magnet produces a magnetic field and can attract materials such as iron.",
+      "split": "test",
+      "source": "authored",
+      "reply": "9.",
+      "exact": false
+    },
+    {
+      "category": "explanation",
+      "group": "explanation:can language models make mistakes",
+      "prompt": "Answer in simple English: Can language models make mistakes?",
+      "answer": "Yes. Language models can produce fluent but incorrect answers. Check important claims against reliable evidence.",
+      "split": "test",
+      "source": "authored",
+      "reply": "11.",
+      "exact": false
+    },
+    {
+      "category": "explanation",
+      "group": "explanation:why should i test my code",
+      "prompt": "Answer in simple English: Why should I test my code?",
+      "answer": "Tests help find mistakes and check that changes preserve expected behavior.",
+      "split": "test",
+      "source": "authored",
+      "reply": "I can try to answer questions and help with writing.",
+      "exact": false
+    },
+    {
+      "category": "explanation",
+      "group": "explanation:what is the difference between a list and a tuple in python",
+      "prompt": "Answer in simple English: What is the difference between a list and a tuple in Python?",
+      "answer": "A list is mutable, so its items can be changed. A tuple is immutable, so its items cannot be replaced.",
+      "split": "test",
+      "source": "authored",
+      "reply": "The difference in text is a programming language.",
+      "exact": false
+    },
+    {
+      "category": "explanation",
+      "group": "definition:Python",
+      "prompt": "Give a short explanation of Python.",
+      "answer": "Python is a general-purpose programming language used for automation, web development, data analysis, and machine learning.",
+      "split": "test",
+      "source": "authored",
+      "reply": "Python is a programming language.",
+      "exact": false
+    },
+    {
+      "category": "explanation",
+      "group": "explanation:write one sentence about rain",
+      "prompt": "Answer in simple English: Write one sentence about rain.",
+      "answer": "Rain falls from the clouds and waters the plants.",
+      "split": "test",
+      "source": "authored",
+      "reply": "Write a language.",
+      "exact": false
+    },
+    {
+      "category": "explanation",
+      "group": "definition:validation data",
+      "prompt": "Give a short explanation of validation data.",
+      "answer": "Validation data is kept separate from training updates and helps measure how well a model generalizes.",
+      "split": "test",
+      "source": "authored",
+      "reply": "6.",
+      "exact": false
+    },
+    {
+      "category": "explanation",
+      "group": "definition:an epoch",
+      "prompt": "Give a short explanation of an epoch.",
+      "answer": "An epoch is one pass through the training dataset.",
+      "split": "test",
+      "source": "authored",
+      "reply": "Plants use sunlight to make food from water and carbon dioxide.",
+      "exact": false
+    },
+    {
+      "category": "explanation",
+      "group": "definition:a square",
+      "prompt": "Give a short explanation of a square.",
+      "answer": "A square has four equal sides and four right angles.",
+      "split": "test",
+      "source": "authored",
+      "reply": "There are seven days in a square.",
+      "exact": false
+    },
+    {
+      "category": "explanation",
+      "group": "definition:a batch",
+      "prompt": "Give a short explanation of a batch.",
+      "answer": "A batch is a group of examples processed together during model training.",
+      "split": "test",
+      "source": "authored",
+      "reply": "A battery is a programming language.",
+      "exact": false
+    },
+    {
+      "category": "explanation",
+      "group": "definition:a circle",
+      "prompt": "Give a short explanation of a circle.",
+      "answer": "A circle is the set of points in a plane at a fixed distance from its center.",
+      "split": "test",
+      "source": "authored",
+      "reply": "A circle is a programming language.",
+      "exact": false
+    },
+    {
+      "category": "grammar",
+      "group": "grammar:mia has five pens",
+      "prompt": "Please correct this sentence: Mia have five pen.",
+      "answer": "Mia has five pens.",
+      "split": "test",
+      "source": "authored",
+      "reply": "9.",
+      "exact": false
+    },
+    {
+      "category": "grammar",
+      "group": "grammar:the boy has three books",
+      "prompt": "Please correct this sentence: The boy have three book.",
+      "answer": "The boy has three books.",
+      "split": "test",
+      "source": "authored",
+      "reply": "The boy is twelve.",
+      "exact": false
+    },
+    {
+      "category": "grammar",
+      "group": "grammar:the children do not cook dinner",
+      "prompt": "Please correct this sentence: The children does not cook dinner.",
+      "answer": "The children do not cook dinner.",
+      "split": "test",
+      "source": "authored",
+      "reply": "The children are sad.",
+      "exact": false
+    },
+    {
+      "category": "grammar",
+      "group": "grammar:he does not help a friend",
+      "prompt": "Please correct this sentence: He do not help a friend.",
+      "answer": "He does not help a friend.",
+      "split": "test",
+      "source": "authored",
+      "reply": "He is welcome!",
+      "exact": false
+    },
+    {
+      "category": "grammar",
+      "group": "grammar:the boy has three apples",
+      "prompt": "Please correct this sentence: The boy have three apple.",
+      "answer": "The boy has three apples.",
+      "split": "test",
+      "source": "authored",
+      "reply": "The boy is sad.",
+      "exact": false
+    },
+    {
+      "category": "grammar",
+      "group": "grammar:we do not learn english",
+      "prompt": "Please correct this sentence: We does not learn English.",
+      "answer": "We do not learn English.",
+      "split": "test",
+      "source": "authored",
+      "reply": "We are playing.",
+      "exact": false
+    },
+    {
+      "category": "grammar",
+      "group": "grammar:tom is going to school every day",
+      "prompt": "Please correct this sentence: Tom is go to school every day.",
+      "answer": "Tom is going to school every day.",
+      "split": "test",
+      "source": "authored",
+      "reply": "Tom is school.",
+      "exact": false
+    },
+    {
+      "category": "grammar",
+      "group": "grammar:you have five books",
+      "prompt": "Please correct this sentence: You has five book.",
+      "answer": "You have five books.",
+      "split": "test",
+      "source": "authored",
+      "reply": "You are welcome!",
+      "exact": false
+    },
+    {
+      "category": "grammar",
+      "group": "grammar:the boy does not walk to work",
+      "prompt": "Please correct this sentence: The boy do not walk to work.",
+      "answer": "The boy does not walk to work.",
+      "split": "test",
+      "source": "authored",
+      "reply": "The boy is sad.",
+      "exact": false
+    },
+    {
+      "category": "grammar",
+      "group": "grammar:we learn english",
+      "prompt": "Please correct this sentence: We learns English.",
+      "answer": "We learn English.",
+      "split": "test",
+      "source": "authored",
+      "reply": "We are playing.",
+      "exact": false
+    },
+    {
+      "category": "grammar",
+      "group": "grammar:the children visit the park",
+      "prompt": "Please correct this sentence: The children visits the park.",
+      "answer": "The children visit the park.",
+      "split": "test",
+      "source": "authored",
+      "reply": "The children are sad.",
+      "exact": false
+    },
+    {
+      "category": "grammar",
+      "group": "grammar:tom has two pens",
+      "prompt": "Please correct this sentence: Tom have two pen.",
+      "answer": "Tom has two pens.",
+      "split": "test",
+      "source": "authored",
+      "reply": "Tom is a programming language.",
+      "exact": false
+    },
+    {
+      "category": "grammar",
+      "group": "grammar:she is tired",
+      "prompt": "Please correct this sentence: She are tired.",
+      "answer": "She is tired.",
+      "split": "test",
+      "source": "authored",
+      "reply": "She is tired.",
+      "exact": true
+    },
+    {
+      "category": "grammar",
+      "group": "grammar:mia has a new computer",
+      "prompt": "Please correct this sentence: Mia have a new computer.",
+      "answer": "Mia has a new computer.",
+      "split": "test",
+      "source": "authored",
+      "reply": "Mia is a programming language.",
+      "exact": false
+    },
+    {
+      "category": "grammar",
+      "group": "grammar:the children have four bags",
+      "prompt": "Please correct this sentence: The children has four bag.",
+      "answer": "The children have four bags.",
+      "split": "test",
+      "source": "authored",
+      "reply": "The children are twelve.",
+      "exact": false
+    },
+    {
+      "category": "grammar",
+      "group": "grammar:tom has four books",
+      "prompt": "Please correct this sentence: Tom have four book.",
+      "answer": "Tom has four books.",
+      "split": "test",
+      "source": "authored",
+      "reply": "Tom was three.",
+      "exact": false
+    },
+    {
+      "category": "reading",
+      "group": "reading:Anna:yellow:hat",
+      "prompt": "Anna has a yellow hat. Ben has a white hat. What color is Anna's hat?",
+      "answer": "Anna's hat is yellow.",
+      "split": "test",
+      "source": "authored",
+      "reply": "Anna is a hat.",
+      "exact": false
+    },
+    {
+      "category": "reading",
+      "group": "reading:Lily:green:bike",
+      "prompt": "Lily has a green bike. What color is Lily's bike?",
+      "answer": "Lily's bike is green.",
+      "split": "test",
+      "source": "authored",
+      "reply": "Lily is a color.",
+      "exact": false
+    },
+    {
+      "category": "reading",
+      "group": "reading:Sara:green:bag",
+      "prompt": "Sara has a green bag. Who has the green bag?",
+      "answer": "Sara has the green bag.",
+      "split": "test",
+      "source": "authored",
+      "reply": "The green bag is small.",
+      "exact": false
+    },
+    {
+      "category": "reading",
+      "group": "reading:Mia:green:box",
+      "prompt": "Mia has a green box. Tom has a black box. What color is Mia's box?",
+      "answer": "Mia's box is green.",
+      "split": "test",
+      "source": "authored",
+      "reply": "Mia is cold.",
+      "exact": false
+    },
+    {
+      "category": "reading",
+      "group": "reading:Lily:yellow:bag",
+      "prompt": "Lily has a yellow bag. Who has the yellow bag?",
+      "answer": "Lily has the yellow bag.",
+      "split": "test",
+      "source": "authored",
+      "reply": "The yellow bag is small.",
+      "exact": false
+    },
+    {
+      "category": "reading",
+      "group": "reading:Sara:green:bag",
+      "prompt": "Sara has a green bag. Mia has a black bag. What color is Sara's bag?",
+      "answer": "Sara's bag is green.",
+      "split": "test",
+      "source": "authored",
+      "reply": "Sara is cold.",
+      "exact": false
+    },
+    {
+      "category": "reading",
+      "group": "reading:Anna:yellow:hat",
+      "prompt": "Anna has a yellow hat. What color is Anna's hat?",
+      "answer": "Anna's hat is yellow.",
+      "split": "test",
+      "source": "authored",
+      "reply": "Anna is a hat.",
+      "exact": false
+    },
+    {
+      "category": "reading",
+      "group": "reading:Sara:green:bag",
+      "prompt": "Sara has a green bag. What color is Sara's bag?",
+      "answer": "Sara's bag is green.",
+      "split": "test",
+      "source": "authored",
+      "reply": "Sara is a color.",
+      "exact": false
+    },
+    {
+      "category": "reading",
+      "group": "reading:Anna:black:cup",
+      "prompt": "Anna has a black cup. Who has the black cup?",
+      "answer": "Anna has the black cup.",
+      "split": "test",
+      "source": "authored",
+      "reply": "The black cup of black cup is a programming language.",
+      "exact": false
+    },
+    {
+      "category": "reading",
+      "group": "reading:Lily:yellow:bag",
+      "prompt": "Lily has a yellow bag. What color is Lily's bag?",
+      "answer": "Lily's bag is yellow.",
+      "split": "test",
+      "source": "authored",
+      "reply": "Lily is a programming language.",
+      "exact": false
+    },
+    {
+      "category": "reading",
+      "group": "reading:Ben:blue:bike",
+      "prompt": "Ben has a blue bike. Ravi has a yellow bike. What color is Ben's bike?",
+      "answer": "Ben's bike is blue.",
+      "split": "test",
+      "source": "authored",
+      "reply": "He is a blue bike.",
+      "exact": false
+    },
+    {
+      "category": "reading",
+      "group": "reading:Anna:black:cup",
+      "prompt": "Anna has a black cup. What color is Anna's cup?",
+      "answer": "Anna's cup is black.",
+      "split": "test",
+      "source": "authored",
+      "reply": "Anna is a black cup.",
+      "exact": false
+    },
+    {
+      "category": "reading",
+      "group": "reading:Lily:yellow:bag",
+      "prompt": "Lily has a yellow bag. Anna has a white bag. What color is Lily's bag?",
+      "answer": "Lily's bag is yellow.",
+      "split": "test",
+      "source": "authored",
+      "reply": "She goes to a small experimental language model.",
+      "exact": false
+    },
+    {
+      "category": "reading",
+      "group": "reading:Anna:white:hat",
+      "prompt": "Anna has a white hat. Ben has a blue hat. What color is Anna's hat?",
+      "answer": "Anna's hat is white.",
+      "split": "test",
+      "source": "authored",
+      "reply": "Anna is a hat.",
+      "exact": false
+    },
+    {
+      "category": "reading",
+      "group": "reading:Anna:black:cup",
+      "prompt": "Anna has a black cup. Ben has a red cup. What color is Anna's cup?",
+      "answer": "Anna's cup is black.",
+      "split": "test",
+      "source": "authored",
+      "reply": "Anna is a black cup.",
+      "exact": false
+    },
+    {
+      "category": "reading",
+      "group": "reading:Mia:green:box",
+      "prompt": "Mia has a green box. Who has the green box?",
+      "answer": "Mia has the green box.",
+      "split": "test",
+      "source": "authored",
+      "reply": "Mia is a programming language.",
+      "exact": false
+    }
+  ]
+}

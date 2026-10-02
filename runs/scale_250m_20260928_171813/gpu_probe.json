@@ -1,0 +1,21 @@
+{
+  "parameters": 250431488,
+  "gpu": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+  "torch_version": "2.13.0+cu130",
+  "cuda_version": "13.0",
+  "micro_batch": 1,
+  "sequence_length": 512,
+  "precision": "FP16 autocast; FP32 weights/AdamW states",
+  "successful_optimizer_updates": 2,
+  "attempts": 2,
+  "seconds": 1.14865132299974,
+  "peak_allocated_mib": 3966.9599609375,
+  "peak_reserved_mib": 4100.0,
+  "losses": [
+    7.8288421630859375,
+    7.906585693359375
+  ],
+  "saved_probe_weights": false,
+  "checkpoint": "/home/escanor/Downloads/CrachoLM/checkpoints_250m_initial_20260928/initial_model.pt",
+  "note": "Synthetic memory test only. Updated weights discarded; initial checkpoint unchanged."
+}

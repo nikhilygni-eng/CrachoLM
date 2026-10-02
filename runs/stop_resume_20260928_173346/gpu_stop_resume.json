@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "parameters": 250431488,
+  "runs": [
+    {
+      "successful_updates": 1,
+      "tokens_processed": 128,
+      "progress": {
+        "version": 1,
+        "epoch": 1,
+        "next_batch": 2,
+        "epoch_loss_sum": 1006.90625,
+        "epoch_target_tokens": 128,
+        "sampler_seed": 42,
+        "dataset_size": 55,
+        "batch_size": 1,
+        "grad_accum": 2
+      },
+      "checkpoint_bytes": 3026365235,
+      "optimizer_state_entries": 164,
+      "has_scaler": true,
+      "has_cuda_rng": true
+    },
+    {
+      "successful_updates": 2,
+      "tokens_processed": 256,
+      "progress": {
+        "version": 1,
+        "epoch": 1,
+        "next_batch": 4,
+        "epoch_loss_sum": 1973.59765625,
+        "epoch_target_tokens": 256,
+        "sampler_seed": 42,
+        "dataset_size": 55,
+        "batch_size": 1,
+        "grad_accum": 2
+      },
+      "checkpoint_bytes": 3026365235,
+      "optimizer_state_entries": 164,
+      "has_scaler": true,
+      "has_cuda_rng": true
+    }
+  ],
+  "note": "Real SIGINT, full-size GPU checkpoint save and CLI resume tested. Temporary probe weights removed. Original checkpoints unchanged."
+}

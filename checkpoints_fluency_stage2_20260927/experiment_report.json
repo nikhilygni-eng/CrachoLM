@@ -1,0 +1,169 @@
+{
+  "source_model": {
+    "model_name": "checkpoints_fluency_trial_20260927",
+    "parameters": 72580608,
+    "parameters_m": 72.58,
+    "vocab_size": 2048,
+    "checkpoint_epoch": 1,
+    "val_loss": 1.8379730433225632,
+    "tokens_processed": 69173248,
+    "checkpoint": "/home/escanor/Downloads/CrachoLM/checkpoints_fluency_trial_20260927/best_model.pt",
+    "tokenizer": "/home/escanor/Downloads/CrachoLM/checkpoints_fluency_trial_20260927/tokenizer_bpe.json",
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU"
+  },
+  "data_manifest": {
+    "source": "https://huggingface.co/datasets/roneneldan/TinyStories",
+    "authors": [
+      "Ronen Eldan",
+      "Yuanzhi Li"
+    ],
+    "paper": "https://arxiv.org/abs/2305.07759",
+    "dataset_license": "CDLA-Sharing-1.0 (as listed on the source dataset card)",
+    "retrieved_utc": "2026-09-27T10:19:32.976873+00:00",
+    "selection": "First N eligible unique stories from each official split; not a random corpus sample.",
+    "normalization": "Unicode punctuation to ASCII equivalents; whitespace collapsed.",
+    "splits": {
+      "train": {
+        "url": "https://huggingface.co/datasets/roneneldan/TinyStories/resolve/main/TinyStoriesV2-GPT4-train.txt",
+        "stories": 5000,
+        "file": "train.txt",
+        "bytes": 4095681,
+        "sha256": "6565aaa5d954a7cc10c6610a275517be96c7846a2653d037fd3a3b80e3bc3eaa"
+      },
+      "valid": {
+        "url": "https://huggingface.co/datasets/roneneldan/TinyStories/resolve/main/TinyStoriesV2-GPT4-valid.txt",
+        "stories": 500,
+        "file": "validation.txt",
+        "bytes": 400710,
+        "sha256": "4e849c45553ba289a2af5b1134cf3cc7cbd3b91c6a8e0f0f342b7b793672947e"
+      }
+    }
+  },
+  "token_counts": {
+    "train": {
+      "tokens": 1448280,
+      "unknown": 0,
+      "unknown_percent": 0.0
+    },
+    "validation": {
+      "tokens": 141895,
+      "unknown": 0,
+      "unknown_percent": 0.0
+    }
+  },
+  "validation_chunks": [
+    534,
+    424,
+    310,
+    374,
+    296,
+    178,
+    553,
+    284,
+    112,
+    27,
+    254,
+    393,
+    429,
+    258,
+    513,
+    325,
+    411,
+    140,
+    63,
+    143,
+    201,
+    154,
+    545,
+    215,
+    338,
+    552,
+    126,
+    70,
+    316,
+    419,
+    83,
+    519,
+    485,
+    145,
+    418,
+    518,
+    344,
+    18,
+    443,
+    381,
+    52,
+    363,
+    51,
+    488,
+    383,
+    5,
+    415,
+    244,
+    119,
+    218,
+    539,
+    368,
+    59,
+    273,
+    65,
+    282,
+    197,
+    132,
+    256,
+    314,
+    356,
+    326,
+    174,
+    340
+  ],
+  "validation_target_tokens": 16384,
+  "seed": 17,
+  "optimizer_steps": 800,
+  "tokens_processed_in_experiment": 3276800,
+  "seconds": 451.93186030200013,
+  "training_loss": 1.6646247154474259,
+  "validation_loss_before": 1.8951827138662338,
+  "validation_loss_after": 1.6807677149772644,
+  "perplexity_before": 6.653764028524479,
+  "perplexity_after": 5.369676770399622,
+  "samples_before": [
+    {
+      "prompt": "One day, a little girl went to the park. She",
+      "output": "One day, a little girl went to the park. She was sad because she wanted to make a big , feather . She took her toy car . The girl felt good . She was so happy . The girl was so happy . The girl was free and scared she was so happy . She wanted"
+    },
+    {
+      "prompt": "Tom was hungry, so he",
+      "output": "Tom was hungry, so he could play with his toy . He played with his toy car and saw a big red ball in his yard . He thought it would be fun . Tom was hurt , and he was very happy ."
+    },
+    {
+      "prompt": "The dog saw a red ball and",
+      "output": "The dog saw a red ball and a big , red ball . The ball was shiny and shiny . The ball was so surprised and clapping . It ran to Spot , and it saw the ball all day . The ball was very hungry . Spot wanted to play with the ball . He looked"
+    },
+    {
+      "prompt": "User: What is machine learning?\nAssistant:",
+      "output": "User: What is machine learning?\nAssistant: \" Will , a horse and a blue candy . \""
+    }
+  ],
+  "samples_after": [
+    {
+      "prompt": "One day, a little girl went to the park. She",
+      "output": "One day, a little girl went to the park. She saw a big , red ball and wanted to play with it . She took the ball and jumped on the other side of the park . The ball was so happy ! The ball was not a toy , but it was a trick . Suddenly , the ball went up and up to the par"
+    },
+    {
+      "prompt": "Tom was hungry, so he",
+      "output": "Tom was hungry, so he could play with his toy car in the park . Tom was sad because he could not find his car . He wanted to play with his car , so he called his car . Tom was very sad . He wanted to play with his car too , but he knew he had to go to the car . He"
+    },
+    {
+      "prompt": "The dog saw a red ball and",
+      "output": "The dog saw a red ball and was very happy . He asked the dog , \" What is it ? \" The dog said , \" I ' m so thoughtful ! \" The dog wagged its tail and ran away . The dog was sad . The dog wanted to help the dog get its wings away"
+    },
+    {
+      "prompt": "User: What is machine learning?\nAssistant:",
+      "output": "User: What is machine learning?\nAssistant: The machine learning is that it is better to clean up things that are not nice to read and want to get better ."
+    }
+  ],
+  "quality_note": "Validation measures next-token prediction on simple stories, not factuality or general chat quality. Generated examples require human review.",
+  "saved_candidate": true
+}

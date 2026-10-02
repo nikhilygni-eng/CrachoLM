@@ -28,7 +28,8 @@ def generate_text(
     greedy: bool = False,
     repetition_penalty: float = 1.0,
     no_repeat_ngram_size: int = 0,
-    device: torch.device = torch.device("cpu")
+    device: torch.device = torch.device("cpu"),
+    stop_sequences=None,
 ) -> str:
     """
     Generates text autoregressively starting from a prompt string.
@@ -57,6 +58,11 @@ def generate_text(
     # Encode prompt into token IDs
     token_ids = tokenizer.encode(prompt, add_special_tokens=False)
     idx = torch.tensor([token_ids], dtype=torch.long, device=device)
+    stop_token_sequences = []
+    for text in stop_sequences or ():
+        sequence = tokenizer.encode(text, add_special_tokens=False)
+        if sequence and tokenizer.unk_id not in sequence:
+            stop_token_sequences.append(sequence)
 
     for _ in range(max_new_tokens):
         # Crop context sequence if it exceeds model max sequence length
@@ -123,8 +129,20 @@ def generate_text(
 
         # Append generated token to sequence
         idx = torch.cat((idx, idx_next), dim=1)
+        should_stop = False
+        for sequence in stop_token_sequences:
+            if idx.size(1) - len(token_ids) >= len(sequence) and idx[0, -len(sequence):].tolist() == sequence:
+                idx = idx[:, :-len(sequence)]
+                should_stop = True
+                break
+        if should_stop:
+            break
 
     # Decode full token ID sequence back into text string
     generated_tokens = idx[0].tolist()
-    generated_text = tokenizer.decode(generated_tokens, skip_special_tokens=True)
-    return generated_text
+    # Preserve the exact user's prompt. BPE decoding normalizes whitespace, so
+    # decoding it again breaks the web client's prompt/continuation boundary.
+    continuation = tokenizer.decode(generated_tokens[len(token_ids):], skip_special_tokens=True)
+    if isinstance(tokenizer, CrachoBPETokenizer) and continuation and not prompt[-1].isspace():
+        continuation = " " + continuation
+    return prompt + continuation

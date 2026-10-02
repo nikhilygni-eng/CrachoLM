@@ -16,6 +16,7 @@ import math
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+from torch.utils.checkpoint import checkpoint
 from typing import Tuple, Optional
 
 # Import configuration dataclass
@@ -35,6 +36,7 @@ class CausalSelfAttention(nn.Module):
         self.n_heads = config.n_heads
         self.d_model = config.d_model
         self.head_dim = config.d_model // config.n_heads
+        self.use_sdpa = config.use_sdpa
         
         # Combined Linear layer for Query, Key, and Value projections
         self.c_attn = nn.Linear(config.d_model, 3 * config.d_model, bias=config.bias)
@@ -64,19 +66,25 @@ class CausalSelfAttention(nn.Module):
         k = k.view(B, T, self.n_heads, self.head_dim).transpose(1, 2)
         v = v.view(B, T, self.n_heads, self.head_dim).transpose(1, 2)
 
-        # 3. Scaled Dot-Product Attention: (Q * K^T) / sqrt(head_dim)
-        # Shape: (B, n_heads, T, head_dim) @ (B, n_heads, head_dim, T) -> (B, n_heads, T, T)
-        att = (q @ k.transpose(-2, -1)) * (1.0 / math.sqrt(self.head_dim))
+        if self.use_sdpa:
+            y = F.scaled_dot_product_attention(
+                q, k, v, is_causal=True,
+                dropout_p=self.attn_dropout.p if self.training else 0.0,
+            )
+        else:
+            # 3. Scaled Dot-Product Attention: (Q * K^T) / sqrt(head_dim)
+            # Shape: (B, n_heads, T, head_dim) @ (B, n_heads, head_dim, T) -> (B, n_heads, T, T)
+            att = (q @ k.transpose(-2, -1)) * (1.0 / math.sqrt(self.head_dim))
 
-        # 4. Apply Causal Masking: fill future positions (where mask == 0) with -infinity
-        att = att.masked_fill(self.causal_mask[:, :, :T, :T] == 0, float("-inf"))
+            # 4. Apply Causal Masking: fill future positions (where mask == 0) with -infinity
+            att = att.masked_fill(self.causal_mask[:, :, :T, :T] == 0, float("-inf"))
 
-        # 5. Softmax over sequence dimension & Apply Dropout
-        att = F.softmax(att, dim=-1)
-        att = self.attn_dropout(att)
+            # 5. Softmax over sequence dimension & Apply Dropout
+            att = F.softmax(att, dim=-1)
+            att = self.attn_dropout(att)
 
-        # 6. Weight Value vectors: (B, n_heads, T, T) @ (B, n_heads, T, head_dim) -> (B, n_heads, T, head_dim)
-        y = att @ v
+            # 6. Weight Value vectors: (B, n_heads, T, T) @ (B, n_heads, T, head_dim) -> (B, n_heads, T, head_dim)
+            y = att @ v
 
         # 7. Concatenate all attention heads back: (B, n_heads, T, head_dim) -> (B, T, C)
         y = y.transpose(1, 2).contiguous().view(B, T, C)
@@ -218,7 +226,10 @@ class CrachoLM(nn.Module):
 
         # 2. Forward through N Transformer Blocks
         for block in self.blocks:
-            x = block(x)
+            if self.config.gradient_checkpointing and self.training and torch.is_grad_enabled():
+                x = checkpoint(block, x, use_reentrant=False)
+            else:
+                x = block(x)
 
         # 3. Final Layer Norm
         x = self.ln_f(x)

@@ -1,0 +1,69 @@
+{
+  "source_model": {
+    "model_name": "checkpoints_capability_20260928",
+    "parameters": 72580608,
+    "parameters_m": 72.58,
+    "vocab_size": 2048,
+    "checkpoint_epoch": null,
+    "val_loss": 0.17456471793059894,
+    "tokens_processed": null,
+    "checkpoint": "/home/escanor/Downloads/CrachoLM/checkpoints_capability_20260928/best_model.pt",
+    "tokenizer": "/home/escanor/Downloads/CrachoLM/checkpoints_capability_20260928/tokenizer_bpe.json",
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU"
+  },
+  "args": {
+    "checkpoint": "/home/escanor/Downloads/CrachoLM/checkpoints_capability_20260928/best_model.pt",
+    "output": "/home/escanor/Downloads/CrachoLM/checkpoints_capability_mixed_20260928",
+    "steps": 1200,
+    "learning_rate": 5e-05,
+    "eval_every": 400,
+    "batch_size": 4,
+    "accum": 4,
+    "seed": 28,
+    "story_chunks": 1200,
+    "dolly_limit": 1200
+  },
+  "examples": {
+    "train": {
+      "grammar": 10695,
+      "arithmetic": 2576,
+      "comparison": 464,
+      "reading": 1280,
+      "explanation": 471,
+      "chat": 52,
+      "dolly": 1181,
+      "story": 1200
+    },
+    "validation": {
+      "grammar": 194,
+      "arithmetic": 69,
+      "comparison": 24,
+      "reading": 110,
+      "explanation": 105,
+      "chat": 2
+    },
+    "test": {
+      "grammar": 208,
+      "arithmetic": 61,
+      "comparison": 12,
+      "reading": 50,
+      "explanation": 105,
+      "chat": 3
+    }
+  },
+  "rejected": {},
+  "loss": "mean of per-example target-token losses; chat prompts and padding masked; story replay uses all targets",
+  "sampling": {
+    "grammar": 0.18,
+    "arithmetic": 0.12,
+    "reading": 0.15,
+    "explanation": 0.18,
+    "comparison": 0.04,
+    "chat": 0.08,
+    "dolly": 0.15,
+    "story": 0.1
+  },
+  "split_note": "Grammar, reading, comparison, and arithmetic groups are disjoint in this curriculum. Explanation tests use new wording for trained facts. Some basic facts/arithmetic appeared in earlier checkpoints. This is not a broad intelligence benchmark.",
+  "data_source": "Authored synthetic examples, optional existing Dolly-15k and TinyStories training data. See DATA_SOURCES.md."
+}

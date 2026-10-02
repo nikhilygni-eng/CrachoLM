@@ -23,6 +23,8 @@ class ModelConfig:
     max_seq_len: int = 256        # Reduced from 512 for 4x attention VRAM memory efficiency
     dropout: float = 0.1          # Dropout rate for regularization
     bias: bool = False            # Enable/disable linear layer bias (False is modern LLM convention)
+    use_sdpa: bool = False       # Opt-in PyTorch memory-efficient attention
+    gradient_checkpointing: bool = False  # Opt-in activation recomputation
 
 
 @dataclass

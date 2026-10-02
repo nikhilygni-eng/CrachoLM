@@ -1,0 +1,376 @@
+{
+  "checkpoints_general_v2/checkpoint_epoch_2.pt": {
+    "bytes": 873701291,
+    "mtime_ns": 1788281453544059117
+  },
+  "checkpoints_general_v2/best_model.pt": {
+    "bytes": 873698411,
+    "mtime_ns": 1788281747594442397
+  },
+  "checkpoints_general_v2/checkpoint_epoch_3.pt": {
+    "bytes": 873701291,
+    "mtime_ns": 1788281555621940595
+  },
+  "checkpoints_general_v2/checkpoint_epoch_1.pt": {
+    "bytes": 873701291,
+    "mtime_ns": 1788281356093832985
+  },
+  "checkpoints_general_v2/checkpoint_epoch_4.pt": {
+    "bytes": 873701291,
+    "mtime_ns": 1788281652067485228
+  },
+  "checkpoints_general_v2/checkpoint_epoch_5.pt": {
+    "bytes": 873701291,
+    "mtime_ns": 1788281748478824340
+  },
+  "checkpoints_general_v2/tokenizer_bpe.json": {
+    "bytes": 143405,
+    "mtime_ns": 1788280863489953681
+  },
+  "checkpoints_chat_turns_20260927/report.json": {
+    "bytes": 3994,
+    "mtime_ns": 1790506245207921007
+  },
+  "checkpoints_chat_turns_20260927/best_model.pt": {
+    "bytes": 292981557,
+    "mtime_ns": 1790506245476490483
+  },
+  "checkpoints_chat_turns_20260927/tokenizer_bpe.json": {
+    "bytes": 143405,
+    "mtime_ns": 1788280863489953681
+  },
+  "checkpoints_chat_turns_20260927/training_pairs.json": {
+    "bytes": 11055,
+    "mtime_ns": 1790506245207672129
+  },
+  "checkpoints_chat_turns_20260927/live_api_checks.json": {
+    "bytes": 566,
+    "mtime_ns": 1790506601826840887
+  },
+  "checkpoints_general/best_model.pt": {
+    "bytes": 857183339,
+    "mtime_ns": 1788277812927282462
+  },
+  "checkpoints_general/checkpoint_epoch_1.pt": {
+    "bytes": 857186155,
+    "mtime_ns": 1788277813897374864
+  },
+  "checkpoints_general/tokenizer_bpe.json": {
+    "bytes": 16035,
+    "mtime_ns": 1788274065823953916
+  },
+  "checkpoints_capability_mixed_20260928/validation.json": {
+    "bytes": 130692,
+    "mtime_ns": 1790594461305826958
+  },
+  "checkpoints_capability_mixed_20260928/report.json": {
+    "bytes": 5007,
+    "mtime_ns": 1790594806359831878
+  },
+  "checkpoints_capability_mixed_20260928/manifest.json": {
+    "bytes": 2174,
+    "mtime_ns": 1790594461815575416
+  },
+  "checkpoints_capability_mixed_20260928/best_model.pt": {
+    "bytes": 292981793,
+    "mtime_ns": 1790594791184435706,
+    "sha256": "d50d8f8dfcbc077093d122ab0b17c20553ccc158c38a29cd1c9eb991837459e7"
+  },
+  "checkpoints_capability_mixed_20260928/dev_400.json": {
+    "bytes": 10735,
+    "mtime_ns": 1790594563771916104
+  },
+  "checkpoints_capability_mixed_20260928/baseline_dev.json": {
+    "bytes": 10688,
+    "mtime_ns": 1790594464698665897
+  },
+  "checkpoints_capability_mixed_20260928/train.json": {
+    "bytes": 7228397,
+    "mtime_ns": 1790594461302594592
+  },
+  "checkpoints_capability_mixed_20260928/dev_800.json": {
+    "bytes": 10735,
+    "mtime_ns": 1790594669705873940
+  },
+  "checkpoints_capability_mixed_20260928/baseline_test.json": {
+    "bytes": 25977,
+    "mtime_ns": 1790594806359569264
+  },
+  "checkpoints_capability_mixed_20260928/last_training.pt": {
+    "bytes": 873705299,
+    "mtime_ns": 1790594791929976094
+  },
+  "checkpoints_capability_mixed_20260928/candidate_test.json": {
+    "bytes": 26384,
+    "mtime_ns": 1790594799204212862
+  },
+  "checkpoints_capability_mixed_20260928/tokenizer_bpe.json": {
+    "bytes": 143405,
+    "mtime_ns": 1788280863489953681
+  },
+  "checkpoints_capability_mixed_20260928/test.json": {
+    "bytes": 113029,
+    "mtime_ns": 1790594461306566678
+  },
+  "checkpoints_capability_mixed_20260928/dev_1200.json": {
+    "bytes": 10735,
+    "mtime_ns": 1790594790980102164
+  },
+  "checkpoints_general_benchmark/checkpoint_epoch_2.pt": {
+    "bytes": 873701291,
+    "mtime_ns": 1788276732353063056
+  },
+  "checkpoints_general_benchmark/best_model.pt": {
+    "bytes": 873698475,
+    "mtime_ns": 1788276741330337113
+  },
+  "checkpoints_general_benchmark/checkpoint_epoch_3.pt": {
+    "bytes": 873701291,
+    "mtime_ns": 1788276742253493313
+  },
+  "checkpoints_general_benchmark/checkpoint_epoch_1.pt": {
+    "bytes": 873701291,
+    "mtime_ns": 1788276722339483778
+  },
+  "checkpoints_general_benchmark/tokenizer_bpe.json": {
+    "bytes": 156091,
+    "mtime_ns": 1788276690638264848
+  },
+  "checkpoints_capability_20260928/validation.json": {
+    "bytes": 77411,
+    "mtime_ns": 1790593931913346881
+  },
+  "checkpoints_capability_20260928/report.json": {
+    "bytes": 5416,
+    "mtime_ns": 1790594219630189939
+  },
+  "checkpoints_capability_20260928/manifest.json": {
+    "bytes": 1982,
+    "mtime_ns": 1790593932065251042
+  },
+  "checkpoints_capability_20260928/best_model.pt": {
+    "bytes": 292981793,
+    "mtime_ns": 1790594208819977100
+  },
+  "checkpoints_capability_20260928/dev_400.json": {
+    "bytes": 10506,
+    "mtime_ns": 1790594003517085504
+  },
+  "checkpoints_capability_20260928/baseline_dev.json": {
+    "bytes": 10321,
+    "mtime_ns": 1790593934445642729
+  },
+  "checkpoints_capability_20260928/train.json": {
+    "bytes": 1425105,
+    "mtime_ns": 1790593931912397461
+  },
+  "checkpoints_capability_20260928/dev_1600.json": {
+    "bytes": 10500,
+    "mtime_ns": 1790594208622412424
+  },
+  "checkpoints_capability_20260928/dev_800.json": {
+    "bytes": 10503,
+    "mtime_ns": 1790594072143879567
+  },
+  "checkpoints_capability_20260928/baseline_test.json": {
+    "bytes": 24668,
+    "mtime_ns": 1790594219629831646
+  },
+  "checkpoints_capability_20260928/last_training.pt": {
+    "bytes": 873705299,
+    "mtime_ns": 1790594209500324489
+  },
+  "checkpoints_capability_20260928/candidate_test.json": {
+    "bytes": 25523,
+    "mtime_ns": 1790594215132466883
+  },
+  "checkpoints_capability_20260928/tokenizer_bpe.json": {
+    "bytes": 143405,
+    "mtime_ns": 1788280863489953681
+  },
+  "checkpoints_capability_20260928/test.json": {
+    "bytes": 65843,
+    "mtime_ns": 1790593931913758394
+  },
+  "checkpoints_capability_20260928/dev_1200.json": {
+    "bytes": 10503,
+    "mtime_ns": 1790594139844810264
+  },
+  "checkpoints_fluency_stage2_20260927/best_model.pt": {
+    "bytes": 292981857,
+    "mtime_ns": 1790505130528688656
+  },
+  "checkpoints_fluency_stage2_20260927/tokenizer_bpe.json": {
+    "bytes": 143405,
+    "mtime_ns": 1788280863489953681
+  },
+  "checkpoints_fluency_stage2_20260927/full_validation.json": {
+    "bytes": 7128,
+    "mtime_ns": 1790505209765801215
+  },
+  "checkpoints_fluency_stage2_20260927/experiment_report.json": {
+    "bytes": 5503,
+    "mtime_ns": 1790505130530740756
+  },
+  "checkpoints_fluency_trial_20260927/best_model.pt": {
+    "bytes": 292981857,
+    "mtime_ns": 1790504556036348253
+  },
+  "checkpoints_fluency_trial_20260927/tokenizer_bpe.json": {
+    "bytes": 143405,
+    "mtime_ns": 1788280863489953681
+  },
+  "checkpoints_fluency_trial_20260927/experiment_report.json": {
+    "bytes": 5507,
+    "mtime_ns": 1790504556038217083
+  },
+  "checkpoints/checkpoint_epoch_15.pt": {
+    "bytes": 855463179,
+    "mtime_ns": 1788254392925808192
+  },
+  "checkpoints/checkpoint_epoch_6.pt": {
+    "bytes": 855462827,
+    "mtime_ns": 1788253553318267196
+  },
+  "checkpoints/checkpoint_epoch_17.pt": {
+    "bytes": 855463179,
+    "mtime_ns": 1788254569975385610
+  },
+  "checkpoints/checkpoint_epoch_2.pt": {
+    "bytes": 855462827,
+    "mtime_ns": 1788253199466958871
+  },
+  "checkpoints/.gitkeep": {
+    "bytes": 36,
+    "mtime_ns": 1788064186141949984
+  },
+  "checkpoints/checkpoint_epoch_8.pt": {
+    "bytes": 855462827,
+    "mtime_ns": 1788253728491514845
+  },
+  "checkpoints/checkpoint_epoch_7.pt": {
+    "bytes": 855462827,
+    "mtime_ns": 1788253640882325245
+  },
+  "checkpoints/checkpoint_epoch_18.pt": {
+    "bytes": 855463179,
+    "mtime_ns": 1788254660849966091
+  },
+  "checkpoints/best_model.pt": {
+    "bytes": 855460011,
+    "mtime_ns": 1788254202067808884
+  },
+  "checkpoints/checkpoint_epoch_3.pt": {
+    "bytes": 855462827,
+    "mtime_ns": 1788253290376533123
+  },
+  "checkpoints/checkpoint_epoch_1.pt": {
+    "bytes": 855462827,
+    "mtime_ns": 1788253108573739558
+  },
+  "checkpoints/checkpoint_epoch_13.pt": {
+    "bytes": 855463179,
+    "mtime_ns": 1788254203407294854
+  },
+  "checkpoints/checkpoint_epoch_4.pt": {
+    "bytes": 855462827,
+    "mtime_ns": 1788253377826342762
+  },
+  "checkpoints/tokenizer.json": {
+    "bytes": 2086,
+    "mtime_ns": 1788248170213861498
+  },
+  "checkpoints/checkpoint_epoch_5.pt": {
+    "bytes": 855462827,
+    "mtime_ns": 1788253465182301918
+  },
+  "checkpoints/checkpoint_epoch_14.pt": {
+    "bytes": 855463179,
+    "mtime_ns": 1788254304236253479
+  },
+  "checkpoints/checkpoint_epoch_9.pt": {
+    "bytes": 855462827,
+    "mtime_ns": 1788253820387802394
+  },
+  "checkpoints/checkpoint_epoch_10.pt": {
+    "bytes": 855463179,
+    "mtime_ns": 1788253909551403989
+  },
+  "checkpoints/checkpoint_epoch_11.pt": {
+    "bytes": 855463179,
+    "mtime_ns": 1788253997060751020
+  },
+  "checkpoints/checkpoint_epoch_20.pt": {
+    "bytes": 855463179,
+    "mtime_ns": 1788254840589478634
+  },
+  "checkpoints/checkpoint_epoch_12.pt": {
+    "bytes": 855463179,
+    "mtime_ns": 1788254098197945477
+  },
+  "checkpoints/checkpoint_epoch_19.pt": {
+    "bytes": 855463179,
+    "mtime_ns": 1788254750688750522
+  },
+  "checkpoints/checkpoint_epoch_16.pt": {
+    "bytes": 855463179,
+    "mtime_ns": 1788254481806362761
+  },
+  "backup_70m/best_model.pt": {
+    "bytes": 855460011,
+    "mtime_ns": 1788255447967765077
+  },
+  "backup_70m/tokenizer.json": {
+    "bytes": 2086,
+    "mtime_ns": 1788255448245820883
+  },
+  "checkpoints_general_v3/checkpoint_epoch_6.pt": {
+    "bytes": 873701291,
+    "mtime_ns": 1788863583299400849
+  },
+  "checkpoints_general_v3/checkpoint_epoch_2.pt": {
+    "bytes": 873701291,
+    "mtime_ns": 1788859338009005038
+  },
+  "checkpoints_general_v3/checkpoint_epoch_8.pt": {
+    "bytes": 873701291,
+    "mtime_ns": 1788865702756028592
+  },
+  "checkpoints_general_v3/checkpoint_epoch_7.pt": {
+    "bytes": 873701291,
+    "mtime_ns": 1788864644633645547
+  },
+  "checkpoints_general_v3/best_model.pt": {
+    "bytes": 873698411,
+    "mtime_ns": 1788864643609053846,
+    "sha256": "5039d2252eb388a05d28f0e74b480f589b0398268d9dae590aa5140e6ca33c96"
+  },
+  "checkpoints_general_v3/checkpoint_epoch_3.pt": {
+    "bytes": 873701291,
+    "mtime_ns": 1788860399561229822
+  },
+  "checkpoints_general_v3/checkpoint_epoch_1.pt": {
+    "bytes": 873701291,
+    "mtime_ns": 1788858277876294472
+  },
+  "checkpoints_general_v3/checkpoint_epoch_4.pt": {
+    "bytes": 873701291,
+    "mtime_ns": 1788861460928821479
+  },
+  "checkpoints_general_v3/checkpoint_epoch_5.pt": {
+    "bytes": 873701291,
+    "mtime_ns": 1788862521837094379
+  },
+  "checkpoints_general_v3/checkpoint_epoch_9.pt": {
+    "bytes": 873701291,
+    "mtime_ns": 1788866761820918727
+  },
+  "checkpoints_general_v3/tokenizer_bpe.json": {
+    "bytes": 143405,
+    "mtime_ns": 1788280863489953681
+  },
+  "checkpoints_general_v3/checkpoint_epoch_10.pt": {
+    "bytes": 873701643,
+    "mtime_ns": 1788867818815189430
+  }
+}

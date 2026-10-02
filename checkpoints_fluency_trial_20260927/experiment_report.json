@@ -1,0 +1,169 @@
+{
+  "source_model": {
+    "model_name": "CrachoLM-General-v3",
+    "parameters": 72580608,
+    "parameters_m": 72.58,
+    "vocab_size": 2048,
+    "checkpoint_epoch": 7,
+    "val_loss": 3.4744247979712934,
+    "tokens_processed": 68354048,
+    "checkpoint": "/home/escanor/Downloads/CrachoLM/checkpoints_general_v3/best_model.pt",
+    "tokenizer": "/home/escanor/Downloads/CrachoLM/checkpoints_general_v3/tokenizer_bpe.json",
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU"
+  },
+  "data_manifest": {
+    "source": "https://huggingface.co/datasets/roneneldan/TinyStories",
+    "authors": [
+      "Ronen Eldan",
+      "Yuanzhi Li"
+    ],
+    "paper": "https://arxiv.org/abs/2305.07759",
+    "dataset_license": "CDLA-Sharing-1.0 (as listed on the source dataset card)",
+    "retrieved_utc": "2026-09-27T10:19:32.976873+00:00",
+    "selection": "First N eligible unique stories from each official split; not a random corpus sample.",
+    "normalization": "Unicode punctuation to ASCII equivalents; whitespace collapsed.",
+    "splits": {
+      "train": {
+        "url": "https://huggingface.co/datasets/roneneldan/TinyStories/resolve/main/TinyStoriesV2-GPT4-train.txt",
+        "stories": 5000,
+        "file": "train.txt",
+        "bytes": 4095681,
+        "sha256": "6565aaa5d954a7cc10c6610a275517be96c7846a2653d037fd3a3b80e3bc3eaa"
+      },
+      "valid": {
+        "url": "https://huggingface.co/datasets/roneneldan/TinyStories/resolve/main/TinyStoriesV2-GPT4-valid.txt",
+        "stories": 500,
+        "file": "validation.txt",
+        "bytes": 400710,
+        "sha256": "4e849c45553ba289a2af5b1134cf3cc7cbd3b91c6a8e0f0f342b7b793672947e"
+      }
+    }
+  },
+  "token_counts": {
+    "train": {
+      "tokens": 1448280,
+      "unknown": 0,
+      "unknown_percent": 0.0
+    },
+    "validation": {
+      "tokens": 141895,
+      "unknown": 0,
+      "unknown_percent": 0.0
+    }
+  },
+  "validation_chunks": [
+    114,
+    25,
+    281,
+    250,
+    228,
+    142,
+    104,
+    89,
+    432,
+    32,
+    30,
+    95,
+    223,
+    238,
+    517,
+    27,
+    203,
+    429,
+    225,
+    459,
+    284,
+    6,
+    163,
+    348,
+    159,
+    220,
+    344,
+    94,
+    389,
+    99,
+    367,
+    352,
+    270,
+    44,
+    470,
+    549,
+    127,
+    387,
+    80,
+    300,
+    370,
+    196,
+    71,
+    46,
+    233,
+    296,
+    81,
+    103,
+    464,
+    373,
+    166,
+    379,
+    363,
+    214,
+    273,
+    73,
+    175,
+    546,
+    167,
+    473,
+    388,
+    276,
+    224,
+    332
+  ],
+  "validation_target_tokens": 16384,
+  "seed": 42,
+  "optimizer_steps": 200,
+  "tokens_processed_in_experiment": 819200,
+  "seconds": 93.83819920499991,
+  "training_loss": 2.091853710860014,
+  "validation_loss_before": 2.9841931760311127,
+  "validation_loss_after": 1.8379730433225632,
+  "perplexity_before": 19.770544450533304,
+  "perplexity_after": 6.283788376850464,
+  "samples_before": [
+    {
+      "prompt": "One day, a little girl went to the park. She",
+      "output": "One day, a little girl went to the park. She flew into the bench , and was already given a sigh , but she was a friend of the couple \u2019 s shop . Suddenly , she was in a foolish and hung by a small girl and was already a couple of guns"
+    },
+    {
+      "prompt": "Tom was hungry, so he",
+      "output": "Tom was hungry, so he felt that it was not very real that he would have been a young man who had been in a more existing console to him . \u201d \u201c So much the better , \u201d replied Porthos , \u201c I do not think that it was a great reason to do so . \u201d \u201c What about the"
+    },
+    {
+      "prompt": "The dog saw a red ball and",
+      "output": "The dog saw a red ball and two @ - @ point shaft . Heaven ' s caught on the track with a half @ - @ point field with a caught grip on the field , with a caught grip and two tortured rider . The next week , the grid was held for a t"
+    },
+    {
+      "prompt": "User: What is machine learning?\nAssistant:",
+      "output": "User: What is machine learning?\nAssistant: People enjoy learning skills with learning in learning , learning from learning a learning and learning ."
+    }
+  ],
+  "samples_after": [
+    {
+      "prompt": "One day, a little girl went to the park. She",
+      "output": "One day, a little girl went to the park. She saw a big bench in the sky . The bench wanted to help the bench . The bench wanted to help the bench . The bench saw a big snake . The bench was happy , so the bench saw"
+    },
+    {
+      "prompt": "Tom was hungry, so he",
+      "output": "Tom was hungry, so he flew away with a big tree . He saw a small , round , curious bird . He looked at it and said , \" I love you , kids ! \" The bird thought , \" Let ' s go to the tree , but , I love you . \" The bird"
+    },
+    {
+      "prompt": "The dog saw a red ball and",
+      "output": "The dog saw a red ball and wanted to play with it . The ball was brave and played with it . The ball was a fun game . It was a small cat . The ball was very happy . It was fun to play . The ball was very good . The ball had lots of fun in it . The ball was very happ"
+    },
+    {
+      "prompt": "User: What is machine learning?\nAssistant:",
+      "output": "User: What is machine learning?\nAssistant: Machines learning learning is the perfect learning and learning ."
+    }
+  ],
+  "quality_note": "Validation measures next-token prediction on simple stories, not factuality or general chat quality. Generated examples require human review.",
+  "saved_candidate": true
+}

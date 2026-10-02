@@ -1,0 +1,107 @@
+{
+  "model": {
+    "model_name": "checkpoints_chat_turns_20260927",
+    "parameters": 72580608,
+    "parameters_m": 72.58,
+    "vocab_size": 2048,
+    "checkpoint_epoch": 1,
+    "val_loss": 0.08937968189517657,
+    "tokens_processed": null,
+    "checkpoint": "/home/escanor/Downloads/CrachoLM/checkpoints_chat_turns_20260927/best_model.pt",
+    "tokenizer": "/home/escanor/Downloads/CrachoLM/checkpoints_chat_turns_20260927/tokenizer_bpe.json",
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU"
+  },
+  "rows": [
+    {
+      "prompt": "hi",
+      "reply": "Hi! How can I help you?",
+      "seconds": 0.408
+    },
+    {
+      "prompt": "How are you today?",
+      "reply": "I am here and ready to help.",
+      "seconds": 0.096
+    },
+    {
+      "prompt": "Can you explain what a computer is?",
+      "reply": "A computer is a programming language.",
+      "seconds": 0.084
+    },
+    {
+      "prompt": "Why do plants need sunlight?",
+      "reply": "plants use sunlight to make food from water and carbon dioxide.",
+      "seconds": 0.165
+    },
+    {
+      "prompt": "What is gravity?",
+      "reply": "gravity is a programming language.",
+      "seconds": 0.074
+    },
+    {
+      "prompt": "What is the difference between a CPU and a GPU?",
+      "reply": "The difference between a CPU performs many calculations in parallel.",
+      "seconds": 0.154
+    },
+    {
+      "prompt": "What does a Python function do?",
+      "reply": "A Python is a programming language.",
+      "seconds": 0.091
+    },
+    {
+      "prompt": "Fix the grammar: He go to work every day.",
+      "reply": "He is ready to help.",
+      "seconds": 0.068
+    },
+    {
+      "prompt": "Correct this sentence: They is reading books.",
+      "reply": "They are ready to help.",
+      "seconds": 0.063
+    },
+    {
+      "prompt": "Correct my English: I has two pen.",
+      "reply": "I have a pen.",
+      "seconds": 0.054
+    },
+    {
+      "prompt": "What is 7 + 8?",
+      "reply": "11.",
+      "seconds": 0.02
+    },
+    {
+      "prompt": "What is 12 - 5?",
+      "reply": "10.",
+      "seconds": 0.021
+    },
+    {
+      "prompt": "What is 6 times 7?",
+      "reply": "10.",
+      "seconds": 0.02
+    },
+    {
+      "prompt": "Which is larger, 9 or 4?",
+      "reply": "13.",
+      "seconds": 0.021
+    },
+    {
+      "prompt": "Mia has a red bag. What color is Mia's bag?",
+      "reply": "Mia is cold.",
+      "seconds": 0.05
+    },
+    {
+      "prompt": "Sam has 3 apples and gets 2 more. How many apples does Sam have?",
+      "reply": "5.",
+      "seconds": 0.026
+    },
+    {
+      "prompt": "Give me one tip to learn programming.",
+      "reply": "programming language.",
+      "seconds": 0.043
+    },
+    {
+      "prompt": "Write one sentence about rain.",
+      "reply": "rain is cold.",
+      "seconds": 0.048
+    }
+  ]
+}

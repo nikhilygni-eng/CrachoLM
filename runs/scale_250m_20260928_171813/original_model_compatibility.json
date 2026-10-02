@@ -1,0 +1,7 @@
+{
+  "parameters": 72580608,
+  "checkpoint": "/home/escanor/Downloads/CrachoLM/checkpoints_capability_mixed_20260928/best_model.pt",
+  "old_logits_identical": true,
+  "use_sdpa": false,
+  "gradient_checkpointing": false
+}

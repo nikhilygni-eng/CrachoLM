@@ -1,0 +1,3514 @@
+[
+  {
+    "category": "grammar",
+    "group": "grammar:i am at home",
+    "prompt": "Please correct this sentence: I are at home.",
+    "answer": "I am at home.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:i have a book",
+    "prompt": "Please correct this sentence: I has a book.",
+    "answer": "I have a book.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:you are writing a letter",
+    "prompt": "Please correct this sentence: You are write a letter.",
+    "answer": "You are writing a letter.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:you are visiting the park",
+    "prompt": "Please correct this sentence: You are visit the park.",
+    "answer": "You are visiting the park.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:you have three bags",
+    "prompt": "Please correct this sentence: You has three bag.",
+    "answer": "You have three bags.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:you have five books",
+    "prompt": "Please correct this sentence: You has five book.",
+    "answer": "You have five books.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:we do not cook dinner",
+    "prompt": "Please correct this sentence: We does not cook dinner.",
+    "answer": "We do not cook dinner.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:we do not drink water",
+    "prompt": "Please correct this sentence: We does not drink water.",
+    "answer": "We do not drink water.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:we learn english",
+    "prompt": "Please correct this sentence: We learns English.",
+    "answer": "We learn English.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:we do not learn english",
+    "prompt": "Please correct this sentence: We does not learn English.",
+    "answer": "We do not learn English.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they do not learn english",
+    "prompt": "Please correct this sentence: They does not learn English.",
+    "answer": "They do not learn English.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they do not wash the dishes",
+    "prompt": "Please correct this sentence: They does not wash the dishes.",
+    "answer": "They do not wash the dishes.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they are learning python",
+    "prompt": "Please correct this sentence: They is learning Python.",
+    "answer": "They are learning Python.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they have five pens",
+    "prompt": "Please correct this sentence: They has five pen.",
+    "answer": "They have five pens.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he goes to school every day",
+    "prompt": "Please correct this sentence: He go to school every day.",
+    "answer": "He goes to school every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he is watching a movie",
+    "prompt": "Please correct this sentence: He is watch a movie.",
+    "answer": "He is watching a movie.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he is eating breakfast",
+    "prompt": "Please correct this sentence: He is eat breakfast.",
+    "answer": "He is eating breakfast.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he is learning english",
+    "prompt": "Please correct this sentence: He is learn English.",
+    "answer": "He is learning English.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he does not help a friend",
+    "prompt": "Please correct this sentence: He do not help a friend.",
+    "answer": "He does not help a friend.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:she is going to school every day",
+    "prompt": "Please correct this sentence: She is go to school every day.",
+    "answer": "She is going to school every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:she is tired",
+    "prompt": "Please correct this sentence: She are tired.",
+    "answer": "She is tired.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom is going to school every day",
+    "prompt": "Please correct this sentence: Tom is go to school every day.",
+    "answer": "Tom is going to school every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom is cooking dinner",
+    "prompt": "Please correct this sentence: Tom is cook dinner.",
+    "answer": "Tom is cooking dinner.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom has a pen",
+    "prompt": "Please correct this sentence: Tom have a pen.",
+    "answer": "Tom has a pen.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom has two pens",
+    "prompt": "Please correct this sentence: Tom have two pens.",
+    "answer": "Tom has two pens.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom has two pens",
+    "prompt": "Please correct this sentence: Tom have two pen.",
+    "answer": "Tom has two pens.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom has four books",
+    "prompt": "Please correct this sentence: Tom have four book.",
+    "answer": "Tom has four books.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia walks to work",
+    "prompt": "Please correct this sentence: Mia walk to work.",
+    "answer": "Mia walks to work.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia is reading a book",
+    "prompt": "Please correct this sentence: Mia is read a book.",
+    "answer": "Mia is reading a book.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia washes the dishes",
+    "prompt": "Please correct this sentence: Mia wash the dishes.",
+    "answer": "Mia washes the dishes.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia needs more time",
+    "prompt": "Please correct this sentence: Mia need more time.",
+    "answer": "Mia needs more time.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia is at home",
+    "prompt": "Please correct this sentence: Mia are at home.",
+    "answer": "Mia is at home.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia is reading books",
+    "prompt": "Please correct this sentence: Mia are reading books.",
+    "answer": "Mia is reading books.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia has two pens",
+    "prompt": "Please correct this sentence: Mia have two pens.",
+    "answer": "Mia has two pens.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia has a new computer",
+    "prompt": "Please correct this sentence: Mia have a new computer.",
+    "answer": "Mia has a new computer.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia has two pens",
+    "prompt": "Please correct this sentence: Mia have two pen.",
+    "answer": "Mia has two pens.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia has two chairs",
+    "prompt": "Please correct this sentence: Mia have two chair.",
+    "answer": "Mia has two chairs.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia has five pens",
+    "prompt": "Please correct this sentence: Mia have five pen.",
+    "answer": "Mia has five pens.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy goes to school every day",
+    "prompt": "Please correct this sentence: The boy go to school every day.",
+    "answer": "The boy goes to school every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy is going to school every day",
+    "prompt": "Please correct this sentence: The boy is go to school every day.",
+    "answer": "The boy is going to school every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy does not walk to work",
+    "prompt": "Please correct this sentence: The boy do not walk to work.",
+    "answer": "The boy does not walk to work.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy is cooking dinner",
+    "prompt": "Please correct this sentence: The boy is cook dinner.",
+    "answer": "The boy is cooking dinner.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy makes a cake",
+    "prompt": "Please correct this sentence: The boy make a cake.",
+    "answer": "The boy makes a cake.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy does not need more time",
+    "prompt": "Please correct this sentence: The boy do not need more time.",
+    "answer": "The boy does not need more time.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy has three apples",
+    "prompt": "Please correct this sentence: The boy have three apples.",
+    "answer": "The boy has three apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy has three books",
+    "prompt": "Please correct this sentence: The boy have three book.",
+    "answer": "The boy has three books.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy has three apples",
+    "prompt": "Please correct this sentence: The boy have three apple.",
+    "answer": "The boy has three apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy has five apples",
+    "prompt": "Please correct this sentence: The boy have five apple.",
+    "answer": "The boy has five apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the children do not cook dinner",
+    "prompt": "Please correct this sentence: The children does not cook dinner.",
+    "answer": "The children do not cook dinner.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the children are making a cake",
+    "prompt": "Please correct this sentence: The children are make a cake.",
+    "answer": "The children are making a cake.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the children visit the park",
+    "prompt": "Please correct this sentence: The children visits the park.",
+    "answer": "The children visit the park.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the children have four bags",
+    "prompt": "Please correct this sentence: The children has four bag.",
+    "answer": "The children have four bags.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the children have four chairs",
+    "prompt": "Please correct this sentence: The children has four chair.",
+    "answer": "The children have four chairs.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:2:3",
+    "prompt": "Please calculate 2 plus 3.",
+    "answer": "5.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:2:3",
+    "prompt": "Sam has 2 apples and gets 3 more. How many apples does Sam have?",
+    "answer": "Sam has 5 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:2:3",
+    "prompt": "Please calculate 3 plus 2.",
+    "answer": "5.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:2:3",
+    "prompt": "Sam has 3 apples and gets 2 more. How many apples does Sam have?",
+    "answer": "Sam has 5 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:3:11",
+    "prompt": "Please calculate 3 plus 11.",
+    "answer": "14.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:3:11",
+    "prompt": "Sam has 3 apples and gets 11 more. How many apples does Sam have?",
+    "answer": "Sam has 14 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:5:6",
+    "prompt": "Please calculate 5 plus 6.",
+    "answer": "11.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:5:6",
+    "prompt": "Sam has 5 apples and gets 6 more. How many apples does Sam have?",
+    "answer": "Sam has 11 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:5:13",
+    "prompt": "Please calculate 5 plus 13.",
+    "answer": "18.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:5:13",
+    "prompt": "Sam has 5 apples and gets 13 more. How many apples does Sam have?",
+    "answer": "Sam has 18 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:5:6",
+    "prompt": "Please calculate 6 plus 5.",
+    "answer": "11.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:5:6",
+    "prompt": "Sam has 6 apples and gets 5 more. How many apples does Sam have?",
+    "answer": "Sam has 11 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:6:14",
+    "prompt": "Please calculate 6 plus 14.",
+    "answer": "20.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:6:14",
+    "prompt": "Sam has 6 apples and gets 14 more. How many apples does Sam have?",
+    "answer": "Sam has 20 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:6:16",
+    "prompt": "Please calculate 6 plus 16.",
+    "answer": "22.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:6:16",
+    "prompt": "Sam has 6 apples and gets 16 more. How many apples does Sam have?",
+    "answer": "Sam has 22 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:7:7",
+    "prompt": "Please calculate 7 plus 7.",
+    "answer": "14.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:7:7",
+    "prompt": "Sam has 7 apples and gets 7 more. How many apples does Sam have?",
+    "answer": "Sam has 14 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:8:13",
+    "prompt": "Please calculate 8 plus 13.",
+    "answer": "21.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:8:13",
+    "prompt": "Sam has 8 apples and gets 13 more. How many apples does Sam have?",
+    "answer": "Sam has 21 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:10:14",
+    "prompt": "Please calculate 10 plus 14.",
+    "answer": "24.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:10:14",
+    "prompt": "Sam has 10 apples and gets 14 more. How many apples does Sam have?",
+    "answer": "Sam has 24 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:10:15",
+    "prompt": "Please calculate 10 plus 15.",
+    "answer": "25.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:10:15",
+    "prompt": "Sam has 10 apples and gets 15 more. How many apples does Sam have?",
+    "answer": "Sam has 25 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:3:11",
+    "prompt": "Please calculate 11 plus 3.",
+    "answer": "14.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:3:11",
+    "prompt": "Sam has 11 apples and gets 3 more. How many apples does Sam have?",
+    "answer": "Sam has 14 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:12:13",
+    "prompt": "Please calculate 12 plus 13.",
+    "answer": "25.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:12:13",
+    "prompt": "Sam has 12 apples and gets 13 more. How many apples does Sam have?",
+    "answer": "Sam has 25 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:5:13",
+    "prompt": "Please calculate 13 plus 5.",
+    "answer": "18.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:5:13",
+    "prompt": "Sam has 13 apples and gets 5 more. How many apples does Sam have?",
+    "answer": "Sam has 18 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:8:13",
+    "prompt": "Please calculate 13 plus 8.",
+    "answer": "21.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:8:13",
+    "prompt": "Sam has 13 apples and gets 8 more. How many apples does Sam have?",
+    "answer": "Sam has 21 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:12:13",
+    "prompt": "Please calculate 13 plus 12.",
+    "answer": "25.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:12:13",
+    "prompt": "Sam has 13 apples and gets 12 more. How many apples does Sam have?",
+    "answer": "Sam has 25 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:6:14",
+    "prompt": "Please calculate 14 plus 6.",
+    "answer": "20.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:6:14",
+    "prompt": "Sam has 14 apples and gets 6 more. How many apples does Sam have?",
+    "answer": "Sam has 20 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:10:14",
+    "prompt": "Please calculate 14 plus 10.",
+    "answer": "24.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:10:14",
+    "prompt": "Sam has 14 apples and gets 10 more. How many apples does Sam have?",
+    "answer": "Sam has 24 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:10:15",
+    "prompt": "Please calculate 15 plus 10.",
+    "answer": "25.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:10:15",
+    "prompt": "Sam has 15 apples and gets 10 more. How many apples does Sam have?",
+    "answer": "Sam has 25 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:6:16",
+    "prompt": "Please calculate 16 plus 6.",
+    "answer": "22.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:6:16",
+    "prompt": "Sam has 16 apples and gets 6 more. How many apples does Sam have?",
+    "answer": "Sam has 22 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:18:18",
+    "prompt": "Please calculate 18 plus 18.",
+    "answer": "36.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:18:18",
+    "prompt": "Sam has 18 apples and gets 18 more. How many apples does Sam have?",
+    "answer": "Sam has 36 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:-:11:7",
+    "prompt": "Please calculate 11 minus 7.",
+    "answer": "4.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:-:13:9",
+    "prompt": "Please calculate 13 minus 9.",
+    "answer": "4.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:-:13:13",
+    "prompt": "Please calculate 13 minus 13.",
+    "answer": "0.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:-:14:12",
+    "prompt": "Please calculate 14 minus 12.",
+    "answer": "2.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:-:15:13",
+    "prompt": "Please calculate 15 minus 13.",
+    "answer": "2.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:-:16:0",
+    "prompt": "Please calculate 16 minus 0.",
+    "answer": "16.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:-:16:10",
+    "prompt": "Please calculate 16 minus 10.",
+    "answer": "6.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:-:16:13",
+    "prompt": "Please calculate 16 minus 13.",
+    "answer": "3.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:-:18:0",
+    "prompt": "Please calculate 18 minus 0.",
+    "answer": "18.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:-:20:8",
+    "prompt": "Please calculate 20 minus 8.",
+    "answer": "12.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:-:20:11",
+    "prompt": "Please calculate 20 minus 11.",
+    "answer": "9.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:*:0:12",
+    "prompt": "Please calculate 0 times 12.",
+    "answer": "0.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:*:3:11",
+    "prompt": "Please calculate 3 times 11.",
+    "answer": "33.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:*:5:6",
+    "prompt": "Please calculate 5 times 6.",
+    "answer": "30.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:*:5:6",
+    "prompt": "Please calculate 6 times 5.",
+    "answer": "30.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:*:3:11",
+    "prompt": "Please calculate 11 times 3.",
+    "answer": "33.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:*:0:12",
+    "prompt": "Please calculate 12 times 0.",
+    "answer": "0.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:9:11",
+    "prompt": "Which is larger, 9 or 11?",
+    "answer": "11 is larger.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:9:11",
+    "prompt": "Which is smaller, 9 or 11?",
+    "answer": "9 is smaller.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:9:11",
+    "prompt": "Which is larger, 11 or 9?",
+    "answer": "11 is larger.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:9:11",
+    "prompt": "Which is smaller, 11 or 9?",
+    "answer": "9 is smaller.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:9:12",
+    "prompt": "Which is larger, 9 or 12?",
+    "answer": "12 is larger.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:9:12",
+    "prompt": "Which is smaller, 9 or 12?",
+    "answer": "9 is smaller.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:9:12",
+    "prompt": "Which is larger, 12 or 9?",
+    "answer": "12 is larger.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:9:12",
+    "prompt": "Which is smaller, 12 or 9?",
+    "answer": "9 is smaller.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:20:25",
+    "prompt": "Which is larger, 20 or 25?",
+    "answer": "25 is larger.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:20:25",
+    "prompt": "Which is smaller, 20 or 25?",
+    "answer": "20 is smaller.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:20:25",
+    "prompt": "Which is larger, 25 or 20?",
+    "answer": "25 is larger.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:20:25",
+    "prompt": "Which is smaller, 25 or 20?",
+    "answer": "20 is smaller.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Mia:green:box",
+    "prompt": "Mia has a green box. What color is Mia's box?",
+    "answer": "Mia's box is green.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Mia:green:box",
+    "prompt": "Mia has a green box. Tom has a black box. What color is Mia's box?",
+    "answer": "Mia's box is green.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Mia:green:box",
+    "prompt": "Mia has a green box. Who has the green box?",
+    "answer": "Mia has the green box.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Mia:white:bike",
+    "prompt": "Mia has a white bike. What color is Mia's bike?",
+    "answer": "Mia's bike is white.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Mia:white:bike",
+    "prompt": "Mia has a white bike. Tom has a blue bike. What color is Mia's bike?",
+    "answer": "Mia's bike is white.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Mia:white:bike",
+    "prompt": "Mia has a white bike. Who has the white bike?",
+    "answer": "Mia has the white bike.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Lily:green:bike",
+    "prompt": "Lily has a green bike. What color is Lily's bike?",
+    "answer": "Lily's bike is green.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Lily:green:bike",
+    "prompt": "Lily has a green bike. Anna has a black bike. What color is Lily's bike?",
+    "answer": "Lily's bike is green.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Lily:green:bike",
+    "prompt": "Lily has a green bike. Who has the green bike?",
+    "answer": "Lily has the green bike.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Lily:yellow:bag",
+    "prompt": "Lily has a yellow bag. What color is Lily's bag?",
+    "answer": "Lily's bag is yellow.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Lily:yellow:bag",
+    "prompt": "Lily has a yellow bag. Anna has a white bag. What color is Lily's bag?",
+    "answer": "Lily's bag is yellow.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Lily:yellow:bag",
+    "prompt": "Lily has a yellow bag. Who has the yellow bag?",
+    "answer": "Lily has the yellow bag.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:yellow:hat",
+    "prompt": "Anna has a yellow hat. What color is Anna's hat?",
+    "answer": "Anna's hat is yellow.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:yellow:hat",
+    "prompt": "Anna has a yellow hat. Ben has a white hat. What color is Anna's hat?",
+    "answer": "Anna's hat is yellow.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:yellow:hat",
+    "prompt": "Anna has a yellow hat. Who has the yellow hat?",
+    "answer": "Anna has the yellow hat.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:black:cup",
+    "prompt": "Anna has a black cup. What color is Anna's cup?",
+    "answer": "Anna's cup is black.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:black:cup",
+    "prompt": "Anna has a black cup. Ben has a red cup. What color is Anna's cup?",
+    "answer": "Anna's cup is black.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:black:cup",
+    "prompt": "Anna has a black cup. Who has the black cup?",
+    "answer": "Anna has the black cup.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:white:hat",
+    "prompt": "Anna has a white hat. What color is Anna's hat?",
+    "answer": "Anna's hat is white.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:white:hat",
+    "prompt": "Anna has a white hat. Ben has a blue hat. What color is Anna's hat?",
+    "answer": "Anna's hat is white.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:white:hat",
+    "prompt": "Anna has a white hat. Who has the white hat?",
+    "answer": "Anna has the white hat.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Ben:blue:bike",
+    "prompt": "Ben has a blue bike. What color is Ben's bike?",
+    "answer": "Ben's bike is blue.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Ben:blue:bike",
+    "prompt": "Ben has a blue bike. Ravi has a yellow bike. What color is Ben's bike?",
+    "answer": "Ben's bike is blue.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Ben:blue:bike",
+    "prompt": "Ben has a blue bike. Who has the blue bike?",
+    "answer": "Ben has the blue bike.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Ravi:white:hat",
+    "prompt": "Ravi has a white hat. What color is Ravi's hat?",
+    "answer": "Ravi's hat is white.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Ravi:white:hat",
+    "prompt": "Ravi has a white hat. Sara has a blue hat. What color is Ravi's hat?",
+    "answer": "Ravi's hat is white.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Ravi:white:hat",
+    "prompt": "Ravi has a white hat. Who has the white hat?",
+    "answer": "Ravi has the white hat.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Sara:green:bag",
+    "prompt": "Sara has a green bag. What color is Sara's bag?",
+    "answer": "Sara's bag is green.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Sara:green:bag",
+    "prompt": "Sara has a green bag. Mia has a black bag. What color is Sara's bag?",
+    "answer": "Sara's bag is green.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Sara:green:bag",
+    "prompt": "Sara has a green bag. Who has the green bag?",
+    "answer": "Sara has the green bag.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a computer",
+    "prompt": "Give a short explanation of a computer.",
+    "answer": "A computer is an electronic machine that processes information and runs programs.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:gravity",
+    "prompt": "Give a short explanation of gravity.",
+    "answer": "Gravity is the attraction between objects with mass. It keeps us on Earth and planets in orbit.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a CPU",
+    "prompt": "Give a short explanation of a CPU.",
+    "answer": "A CPU is a computer's central processing unit. It executes instructions and handles many general tasks.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a GPU",
+    "prompt": "Give a short explanation of a GPU.",
+    "answer": "A GPU performs many calculations in parallel. It is useful for graphics and training neural networks.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:RAM",
+    "prompt": "Give a short explanation of RAM.",
+    "answer": "RAM temporarily stores data that a computer is using. Its contents are usually lost when power is turned off.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an SSD",
+    "prompt": "Give a short explanation of an SSD.",
+    "answer": "An SSD stores files using flash memory. It keeps data even when the computer is switched off.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a Python function",
+    "prompt": "Give a short explanation of a Python function.",
+    "answer": "A Python function is a reusable block of code that performs a task. It can take inputs and return a result.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a variable",
+    "prompt": "Give a short explanation of a variable.",
+    "answer": "A variable is a name that refers to a value in a program.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a loop",
+    "prompt": "Give a short explanation of a loop.",
+    "answer": "A loop repeats a block of code. It can process items in a collection or run while a condition is true.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a Python list",
+    "prompt": "Give a short explanation of a Python list.",
+    "answer": "A Python list is an ordered, mutable collection of values. You can add, remove, and change its items.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a Python tuple",
+    "prompt": "Give a short explanation of a Python tuple.",
+    "answer": "A Python tuple is an ordered collection whose items cannot be replaced after the tuple is created.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a dictionary in Python",
+    "prompt": "Give a short explanation of a dictionary in Python.",
+    "answer": "A Python dictionary stores key-value pairs. You use a key to look up its associated value.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a string",
+    "prompt": "Give a short explanation of a string.",
+    "answer": "A string is a sequence of characters used to represent text.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a boolean",
+    "prompt": "Give a short explanation of a boolean.",
+    "answer": "A boolean has one of two values: true or false.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an integer",
+    "prompt": "Give a short explanation of an integer.",
+    "answer": "An integer is a whole number, such as -2, 0, or 7.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an algorithm",
+    "prompt": "Give a short explanation of an algorithm.",
+    "answer": "An algorithm is a sequence of steps for solving a problem or completing a task.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a bug in a program",
+    "prompt": "Give a short explanation of a bug in a program.",
+    "answer": "A bug is an error in a program that causes incorrect or unexpected behavior.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:debugging",
+    "prompt": "Give a short explanation of debugging.",
+    "answer": "Debugging means finding and fixing errors in a program.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a syntax error",
+    "prompt": "Give a short explanation of a syntax error.",
+    "answer": "A syntax error occurs when code breaks the grammatical rules of a programming language.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an exception",
+    "prompt": "Give a short explanation of an exception.",
+    "answer": "An exception signals a problem during program execution. Code can catch and handle some exceptions.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a unit test",
+    "prompt": "Give a short explanation of a unit test.",
+    "answer": "A unit test checks a small piece of code against an expected result.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:recursion",
+    "prompt": "Give a short explanation of recursion.",
+    "answer": "Recursion happens when a function calls itself. It needs a stopping condition to avoid continuing forever.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:Python",
+    "prompt": "Give a short explanation of Python.",
+    "answer": "Python is a general-purpose programming language used for automation, web development, data analysis, and machine learning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:Java",
+    "prompt": "Give a short explanation of Java.",
+    "answer": "Java is a programming language commonly used for applications and server software. Java bytecode runs on a Java Virtual Machine.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:JavaScript",
+    "prompt": "Give a short explanation of JavaScript.",
+    "answer": "JavaScript is a programming language used to add behavior to web pages and to build other applications.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:HTML",
+    "prompt": "Give a short explanation of HTML.",
+    "answer": "HTML describes the structure of a web page using elements such as headings, paragraphs, and links.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:CSS",
+    "prompt": "Give a short explanation of CSS.",
+    "answer": "CSS controls the appearance of a web page, including colors, spacing, and layout.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a database",
+    "prompt": "Give a short explanation of a database.",
+    "answer": "A database stores organized information so that it can be searched, retrieved, and updated.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an API",
+    "prompt": "Give a short explanation of an API.",
+    "answer": "An API is an interface that lets software components communicate through defined requests and responses.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an operating system",
+    "prompt": "Give a short explanation of an operating system.",
+    "answer": "An operating system manages computer hardware and provides services that applications use.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:Linux",
+    "prompt": "Give a short explanation of Linux.",
+    "answer": "Linux is an operating system kernel. Linux distributions combine it with other software to provide a complete system.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a file",
+    "prompt": "Give a short explanation of a file.",
+    "answer": "A file is a named collection of data stored on a device.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a folder",
+    "prompt": "Give a short explanation of a folder.",
+    "answer": "A folder organizes files and other folders.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:the internet",
+    "prompt": "Give a short explanation of the internet.",
+    "answer": "The internet is a worldwide network of interconnected computer networks.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a web browser",
+    "prompt": "Give a short explanation of a web browser.",
+    "answer": "A web browser is an application that retrieves and displays web pages.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a server",
+    "prompt": "Give a short explanation of a server.",
+    "answer": "A server provides data or services to other programs or devices over a connection.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a password",
+    "prompt": "Give a short explanation of a password.",
+    "answer": "A password is a secret used to help verify access to an account or system.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:encryption",
+    "prompt": "Give a short explanation of encryption.",
+    "answer": "Encryption transforms readable data into a protected form that requires the appropriate key to read.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:machine learning",
+    "prompt": "Give a short explanation of machine learning.",
+    "answer": "Machine learning uses data to learn patterns that help a computer make predictions or perform tasks.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a neural network",
+    "prompt": "Give a short explanation of a neural network.",
+    "answer": "A neural network is a model with connected layers that transform inputs using learned weights.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a language model",
+    "prompt": "Give a short explanation of a language model.",
+    "answer": "A language model learns patterns in text and predicts tokens. It can generate sentences but may make factual mistakes.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a tokenizer",
+    "prompt": "Give a short explanation of a tokenizer.",
+    "answer": "A tokenizer splits text into units called tokens and maps them to numbers that a model can process.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a model parameter",
+    "prompt": "Give a short explanation of a model parameter.",
+    "answer": "A model parameter is a learned value, such as a weight, that affects the model's predictions.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:training loss",
+    "prompt": "Give a short explanation of training loss.",
+    "answer": "Training loss measures prediction error on training examples. Lower training loss alone does not prove better answers on new questions.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:validation data",
+    "prompt": "Give a short explanation of validation data.",
+    "answer": "Validation data is kept separate from training updates and helps measure how well a model generalizes.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:overfitting",
+    "prompt": "Give a short explanation of overfitting.",
+    "answer": "Overfitting happens when a model learns training examples too closely and performs poorly on new examples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:gradient descent",
+    "prompt": "Give a short explanation of gradient descent.",
+    "answer": "Gradient descent updates model parameters in a direction intended to reduce a loss function.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a learning rate",
+    "prompt": "Give a short explanation of a learning rate.",
+    "answer": "The learning rate controls the size of parameter updates during training.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a batch",
+    "prompt": "Give a short explanation of a batch.",
+    "answer": "A batch is a group of examples processed together during model training.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an epoch",
+    "prompt": "Give a short explanation of an epoch.",
+    "answer": "An epoch is one pass through the training dataset.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a checkpoint",
+    "prompt": "Give a short explanation of a checkpoint.",
+    "answer": "A checkpoint saves a model's state so it can be loaded later. Training checkpoints may also save optimizer state.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a context window",
+    "prompt": "Give a short explanation of a context window.",
+    "answer": "A context window is the amount of text a language model can consider at one time, measured in tokens.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:photosynthesis",
+    "prompt": "Give a short explanation of photosynthesis.",
+    "answer": "Photosynthesis lets plants use light energy to make sugars from water and carbon dioxide, releasing oxygen.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:evaporation",
+    "prompt": "Give a short explanation of evaporation.",
+    "answer": "Evaporation is the change of a liquid into a gas at its surface.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:condensation",
+    "prompt": "Give a short explanation of condensation.",
+    "answer": "Condensation is the change of a gas into a liquid, such as water vapor forming droplets.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an atom",
+    "prompt": "Give a short explanation of an atom.",
+    "answer": "An atom is a basic unit of ordinary matter. It has a nucleus surrounded by electrons.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a molecule",
+    "prompt": "Give a short explanation of a molecule.",
+    "answer": "A molecule consists of atoms bonded together.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:energy",
+    "prompt": "Give a short explanation of energy.",
+    "answer": "Energy is the capacity to do work or cause change. It can take forms such as heat, motion, and light.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:friction",
+    "prompt": "Give a short explanation of friction.",
+    "answer": "Friction is a force that opposes relative motion between surfaces in contact.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:electric current",
+    "prompt": "Give a short explanation of electric current.",
+    "answer": "Electric current is the flow of electric charge.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a battery",
+    "prompt": "Give a short explanation of a battery.",
+    "answer": "A battery stores chemical energy and can convert it into electrical energy.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a magnet",
+    "prompt": "Give a short explanation of a magnet.",
+    "answer": "A magnet produces a magnetic field and can attract materials such as iron.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a planet",
+    "prompt": "Give a short explanation of a planet.",
+    "answer": "A planet is a large body that orbits a star. Earth is a planet in the Solar System.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a star",
+    "prompt": "Give a short explanation of a star.",
+    "answer": "A star is a hot ball of plasma that produces energy through nuclear fusion. The Sun is a star.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:the Moon",
+    "prompt": "Give a short explanation of the Moon.",
+    "answer": "The Moon is Earth's natural satellite. It reflects sunlight and orbits Earth.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a noun",
+    "prompt": "Give a short explanation of a noun.",
+    "answer": "A noun names a person, place, thing, or idea.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a verb",
+    "prompt": "Give a short explanation of a verb.",
+    "answer": "A verb expresses an action, event, or state.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an adjective",
+    "prompt": "Give a short explanation of an adjective.",
+    "answer": "An adjective describes a noun, as in a red ball or a tall tree.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an adverb",
+    "prompt": "Give a short explanation of an adverb.",
+    "answer": "An adverb can modify a verb, adjective, or another adverb, as in running quickly.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a sentence",
+    "prompt": "Give a short explanation of a sentence.",
+    "answer": "A sentence expresses a complete thought and normally begins with a capital letter and ends with punctuation.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a paragraph",
+    "prompt": "Give a short explanation of a paragraph.",
+    "answer": "A paragraph is a group of related sentences that develop a main idea.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a fraction",
+    "prompt": "Give a short explanation of a fraction.",
+    "answer": "A fraction represents a number as one quantity divided by another, such as 1/2.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a prime number",
+    "prompt": "Give a short explanation of a prime number.",
+    "answer": "A prime number is an integer greater than 1 with exactly two positive divisors: 1 and itself.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an even number",
+    "prompt": "Give a short explanation of an even number.",
+    "answer": "An even integer is divisible by 2 without a remainder.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an odd number",
+    "prompt": "Give a short explanation of an odd number.",
+    "answer": "An odd integer is not divisible by 2 without a remainder.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a triangle",
+    "prompt": "Give a short explanation of a triangle.",
+    "answer": "A triangle is a polygon with three sides and three angles.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a square",
+    "prompt": "Give a short explanation of a square.",
+    "answer": "A square has four equal sides and four right angles.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a circle",
+    "prompt": "Give a short explanation of a circle.",
+    "answer": "A circle is the set of points in a plane at a fixed distance from its center.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:why do plants need sunlight",
+    "prompt": "Answer in simple English: Why do plants need sunlight?",
+    "answer": "Plants use light energy for photosynthesis, which lets them make food from water and carbon dioxide.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:why does it rain",
+    "prompt": "Answer in simple English: Why does it rain?",
+    "answer": "Water vapor condenses into droplets in clouds. When the droplets become heavy enough, they fall as rain.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:why is the sky blue",
+    "prompt": "Answer in simple English: Why is the sky blue?",
+    "answer": "Air molecules scatter sunlight. They scatter blue light more strongly than red light, making the daytime sky look blue.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:why do we have day and night",
+    "prompt": "Answer in simple English: Why do we have day and night?",
+    "answer": "Earth rotates. The side facing the Sun has daylight, while the side facing away has night.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:why should i test my code",
+    "prompt": "Answer in simple English: Why should I test my code?",
+    "answer": "Tests help find mistakes and check that changes preserve expected behavior.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:how can i learn programming",
+    "prompt": "Answer in simple English: How can I learn programming?",
+    "answer": "Choose one language, learn its basics, and build small projects. Read error messages and practice solving simple problems.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:give me one tip to learn programming",
+    "prompt": "Answer in simple English: Give me one tip to learn programming.",
+    "answer": "Practice by building a small project and fixing the errors you encounter.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:how can i improve my english sentences",
+    "prompt": "Answer in simple English: How can I improve my English sentences?",
+    "answer": "Use a clear subject and verb, check the tense, and read the sentence aloud. Practice rewriting short sentences.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:how can i improve a language model",
+    "prompt": "Answer in simple English: How can I improve a language model?",
+    "answer": "Use clean and varied training data, check the training code, and compare answers on examples excluded from training.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:does a low training loss mean my model is intelligent",
+    "prompt": "Answer in simple English: Does a low training loss mean my model is intelligent?",
+    "answer": "No. A model can memorize training data. Evaluate its answers on new questions to check understanding and accuracy.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:what is the difference between a cpu and a gpu",
+    "prompt": "Answer in simple English: What is the difference between a CPU and a GPU?",
+    "answer": "A CPU handles varied general tasks. A GPU is designed to perform many similar calculations in parallel.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:what is the difference between ram and storage",
+    "prompt": "Answer in simple English: What is the difference between RAM and storage?",
+    "answer": "RAM holds data currently in use and is usually temporary. Storage keeps files when the power is off.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:what is the difference between a list and a tuple in python",
+    "prompt": "Answer in simple English: What is the difference between a list and a tuple in Python?",
+    "answer": "A list is mutable, so its items can be changed. A tuple is immutable, so its items cannot be replaced.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:what is the difference between training and inference",
+    "prompt": "Answer in simple English: What is the difference between training and inference?",
+    "answer": "Training updates a model's learned parameters. Inference uses those parameters to produce an output.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:what is the difference between hardware and software",
+    "prompt": "Answer in simple English: What is the difference between hardware and software?",
+    "answer": "Hardware is the physical equipment. Software is the programs and instructions that run on it.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:can language models make mistakes",
+    "prompt": "Answer in simple English: Can language models make mistakes?",
+    "answer": "Yes. Language models can produce fluent but incorrect answers. Check important claims against reliable evidence.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:can you see my screen",
+    "prompt": "Answer in simple English: Can you see my screen?",
+    "answer": "I do not have screen access through this chat model.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:what is the weather right now",
+    "prompt": "Answer in simple English: What is the weather right now?",
+    "answer": "I do not have live weather data. Check a weather service for your location.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:what is my password",
+    "prompt": "Answer in simple English: What is my password?",
+    "answer": "I do not know your password.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:who will win tomorrow's match",
+    "prompt": "Answer in simple English: Who will win tomorrow's match?",
+    "answer": "I cannot know the result of a future match.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:write one sentence about rain",
+    "prompt": "Answer in simple English: Write one sentence about rain.",
+    "answer": "Rain falls from the clouds and waters the plants.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:write one sentence about a dog",
+    "prompt": "Answer in simple English: Write one sentence about a dog.",
+    "answer": "The friendly dog ran across the garden.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:write one sentence about learning",
+    "prompt": "Answer in simple English: Write one sentence about learning.",
+    "answer": "Learning a little every day helps us build new skills.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:write a short story about a lost cat",
+    "prompt": "Answer in simple English: Write a short story about a lost cat.",
+    "answer": "A small cat wandered away from home. A kind neighbor found it near a tree and helped it return to its family.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:help me",
+    "prompt": "Answer in simple English: Help me.",
+    "answer": "What would you like help with?",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:can you fix this",
+    "prompt": "Answer in simple English: Can you fix this?",
+    "answer": "Please share the text or problem you want me to fix.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:explain it",
+    "prompt": "Answer in simple English: Explain it.",
+    "answer": "What would you like me to explain?",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "chat",
+    "group": "greeting",
+    "prompt": "Hi there!",
+    "answer": "Hi! How can I help you?",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "chat",
+    "group": "greeting",
+    "prompt": "hey bro",
+    "answer": "Hi! How can I help you?",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "chat",
+    "group": "greeting",
+    "prompt": "Good afternoon!",
+    "answer": "Hi! How can I help you?",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:i do not walk to work in the morning",
+    "prompt": "Please correct this sentence: I does not walk to work in the morning.",
+    "answer": "I do not walk to work in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:i am walking to work every day",
+    "prompt": "Please correct this sentence: I am walk to work every day.",
+    "answer": "I am walking to work every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:i do not read a book after school",
+    "prompt": "Please correct this sentence: I does not read a book after school.",
+    "answer": "I do not read a book after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:i am reading a book on monday",
+    "prompt": "Please correct this sentence: I am read a book on Monday.",
+    "answer": "I am reading a book on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:i drink water every day",
+    "prompt": "Please correct this sentence: I drinks water every day.",
+    "answer": "I drink water every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:i am drinking water in the morning",
+    "prompt": "Please correct this sentence: I am drink water in the morning.",
+    "answer": "I am drinking water in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:i am hungry on monday",
+    "prompt": "Please correct this sentence: I are hungry on Monday.",
+    "answer": "I am hungry on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:i am learning python on monday",
+    "prompt": "Please correct this sentence: I are learning Python on Monday.",
+    "answer": "I am learning Python on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:i have three pens on monday",
+    "prompt": "Please correct this sentence: I has three pen on Monday.",
+    "answer": "I have three pens on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:i have four pens in the morning",
+    "prompt": "Please correct this sentence: I has four pen in the morning.",
+    "answer": "I have four pens in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:i have four apples in the morning",
+    "prompt": "Please correct this sentence: I has four apple in the morning.",
+    "answer": "I have four apples in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:you do not walk to work in the morning",
+    "prompt": "Please correct this sentence: You does not walk to work in the morning.",
+    "answer": "You do not walk to work in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:you do not cook dinner on monday",
+    "prompt": "Please correct this sentence: You does not cook dinner on Monday.",
+    "answer": "You do not cook dinner on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:you write a letter in the morning",
+    "prompt": "Please correct this sentence: You writes a letter in the morning.",
+    "answer": "You write a letter in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:you do not learn english on monday",
+    "prompt": "Please correct this sentence: You does not learn English on Monday.",
+    "answer": "You do not learn English on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:you are making a cake on monday",
+    "prompt": "Please correct this sentence: You are make a cake on Monday.",
+    "answer": "You are making a cake on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:you do not help a friend after school",
+    "prompt": "Please correct this sentence: You does not help a friend after school.",
+    "answer": "You do not help a friend after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:you do not visit the park every day",
+    "prompt": "Please correct this sentence: You does not visit the park every day.",
+    "answer": "You do not visit the park every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:you have a new computer every day",
+    "prompt": "Please correct this sentence: You has a new computer every day.",
+    "answer": "You have a new computer every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:you have two books every day",
+    "prompt": "Please correct this sentence: You has two book every day.",
+    "answer": "You have two books every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:you have two chairs every day",
+    "prompt": "Please correct this sentence: You has two chair every day.",
+    "answer": "You have two chairs every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:you have five apples after school",
+    "prompt": "Please correct this sentence: You has five apple after school.",
+    "answer": "You have five apples after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:we do not walk to work after school",
+    "prompt": "Please correct this sentence: We does not walk to work after school.",
+    "answer": "We do not walk to work after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:we read a book in the morning",
+    "prompt": "Please correct this sentence: We reads a book in the morning.",
+    "answer": "We read a book in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:we are reading a book on monday",
+    "prompt": "Please correct this sentence: We are read a book on Monday.",
+    "answer": "We are reading a book on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:we cook dinner in the morning",
+    "prompt": "Please correct this sentence: We cooks dinner in the morning.",
+    "answer": "We cook dinner in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:we are cooking dinner after school",
+    "prompt": "Please correct this sentence: We are cook dinner after school.",
+    "answer": "We are cooking dinner after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:we are writing a letter after school",
+    "prompt": "Please correct this sentence: We are write a letter after school.",
+    "answer": "We are writing a letter after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:we do not help a friend after school",
+    "prompt": "Please correct this sentence: We does not help a friend after school.",
+    "answer": "We do not help a friend after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:we are in the garden on monday",
+    "prompt": "Please correct this sentence: We is in the garden on Monday.",
+    "answer": "We are in the garden on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:we have two pens in the morning",
+    "prompt": "Please correct this sentence: We has two pens in the morning.",
+    "answer": "We have two pens in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:we have two pens in the morning",
+    "prompt": "Please correct this sentence: We has two pen in the morning.",
+    "answer": "We have two pens in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:we have three bags in the morning",
+    "prompt": "Please correct this sentence: We has three bag in the morning.",
+    "answer": "We have three bags in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:we have four bags on monday",
+    "prompt": "Please correct this sentence: We has four bag on Monday.",
+    "answer": "We have four bags on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:we have five pens in the morning",
+    "prompt": "Please correct this sentence: We has five pen in the morning.",
+    "answer": "We have five pens in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:we have five pens after school",
+    "prompt": "Please correct this sentence: We has five pen after school.",
+    "answer": "We have five pens after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they do not walk to work in the morning",
+    "prompt": "Please correct this sentence: They does not walk to work in the morning.",
+    "answer": "They do not walk to work in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they do not read a book after school",
+    "prompt": "Please correct this sentence: They does not read a book after school.",
+    "answer": "They do not read a book after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they are cooking dinner every day",
+    "prompt": "Please correct this sentence: They are cook dinner every day.",
+    "answer": "They are cooking dinner every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they are watching a movie every day",
+    "prompt": "Please correct this sentence: They are watch a movie every day.",
+    "answer": "They are watching a movie every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they make a cake on monday",
+    "prompt": "Please correct this sentence: They makes a cake on Monday.",
+    "answer": "They make a cake on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they help a friend after school",
+    "prompt": "Please correct this sentence: They helps a friend after school.",
+    "answer": "They help a friend after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they help a friend on monday",
+    "prompt": "Please correct this sentence: They helps a friend on Monday.",
+    "answer": "They help a friend on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they do not need more time every day",
+    "prompt": "Please correct this sentence: They does not need more time every day.",
+    "answer": "They do not need more time every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they are late on monday",
+    "prompt": "Please correct this sentence: They is late on Monday.",
+    "answer": "They are late on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they are hungry on monday",
+    "prompt": "Please correct this sentence: They is hungry on Monday.",
+    "answer": "They are hungry on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they are reading books every day",
+    "prompt": "Please correct this sentence: They is reading books every day.",
+    "answer": "They are reading books every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they have two pens on monday",
+    "prompt": "Please correct this sentence: They has two pens on Monday.",
+    "answer": "They have two pens on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they have two pens on monday",
+    "prompt": "Please correct this sentence: They has two pen on Monday.",
+    "answer": "They have two pens on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they have two bags on monday",
+    "prompt": "Please correct this sentence: They has two bag on Monday.",
+    "answer": "They have two bags on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they have five apples on monday",
+    "prompt": "Please correct this sentence: They has five apple on Monday.",
+    "answer": "They have five apples on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he walks to work after school",
+    "prompt": "Please correct this sentence: He walk to work after school.",
+    "answer": "He walks to work after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he does not play football on monday",
+    "prompt": "Please correct this sentence: He do not play football on Monday.",
+    "answer": "He does not play football on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he drinks water every day",
+    "prompt": "Please correct this sentence: He drink water every day.",
+    "answer": "He drinks water every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he does not learn english in the morning",
+    "prompt": "Please correct this sentence: He do not learn English in the morning.",
+    "answer": "He does not learn English in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he is helping a friend every day",
+    "prompt": "Please correct this sentence: He is help a friend every day.",
+    "answer": "He is helping a friend every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he visits the park after school",
+    "prompt": "Please correct this sentence: He visit the park after school.",
+    "answer": "He visits the park after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he does not visit the park every day",
+    "prompt": "Please correct this sentence: He do not visit the park every day.",
+    "answer": "He does not visit the park every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he is visiting the park in the morning",
+    "prompt": "Please correct this sentence: He is visit the park in the morning.",
+    "answer": "He is visiting the park in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he does not like coffee every day",
+    "prompt": "Please correct this sentence: He do not like coffee every day.",
+    "answer": "He does not like coffee every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he does not like coffee after school",
+    "prompt": "Please correct this sentence: He do not like coffee after school.",
+    "answer": "He does not like coffee after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he is at home after school",
+    "prompt": "Please correct this sentence: He are at home after school.",
+    "answer": "He is at home after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he is learning python every day",
+    "prompt": "Please correct this sentence: He are learning Python every day.",
+    "answer": "He is learning Python every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he has a red bag on monday",
+    "prompt": "Please correct this sentence: He have a red bag on Monday.",
+    "answer": "He has a red bag on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he has a new computer on monday",
+    "prompt": "Please correct this sentence: He have a new computer on Monday.",
+    "answer": "He has a new computer on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he has two bags on monday",
+    "prompt": "Please correct this sentence: He have two bag on Monday.",
+    "answer": "He has two bags on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he has five apples in the morning",
+    "prompt": "Please correct this sentence: He have five apple in the morning.",
+    "answer": "He has five apples in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he has five bags on monday",
+    "prompt": "Please correct this sentence: He have five bag on Monday.",
+    "answer": "He has five bags on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:she walks to work on monday",
+    "prompt": "Please correct this sentence: She walk to work on Monday.",
+    "answer": "She walks to work on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:she does not read a book in the morning",
+    "prompt": "Please correct this sentence: She do not read a book in the morning.",
+    "answer": "She does not read a book in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:she is drinking water every day",
+    "prompt": "Please correct this sentence: She is drink water every day.",
+    "answer": "She is drinking water every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:she learns english in the morning",
+    "prompt": "Please correct this sentence: She learn English in the morning.",
+    "answer": "She learns English in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:she washes the dishes every day",
+    "prompt": "Please correct this sentence: She wash the dishes every day.",
+    "answer": "She washes the dishes every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:she is late in the morning",
+    "prompt": "Please correct this sentence: She are late in the morning.",
+    "answer": "She is late in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:she is at home every day",
+    "prompt": "Please correct this sentence: She are at home every day.",
+    "answer": "She is at home every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:she is at home after school",
+    "prompt": "Please correct this sentence: She are at home after school.",
+    "answer": "She is at home after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:she has a pen on monday",
+    "prompt": "Please correct this sentence: She have a pen on Monday.",
+    "answer": "She has a pen on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:she has a book on monday",
+    "prompt": "Please correct this sentence: She have a book on Monday.",
+    "answer": "She has a book on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:she has two bags every day",
+    "prompt": "Please correct this sentence: She have two bag every day.",
+    "answer": "She has two bags every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:she has five books every day",
+    "prompt": "Please correct this sentence: She have five book every day.",
+    "answer": "She has five books every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:she has five books in the morning",
+    "prompt": "Please correct this sentence: She have five book in the morning.",
+    "answer": "She has five books in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom does not read a book on monday",
+    "prompt": "Please correct this sentence: Tom do not read a book on Monday.",
+    "answer": "Tom does not read a book on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom is reading a book on monday",
+    "prompt": "Please correct this sentence: Tom is read a book on Monday.",
+    "answer": "Tom is reading a book on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom plays football on monday",
+    "prompt": "Please correct this sentence: Tom play football on Monday.",
+    "answer": "Tom plays football on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom writes a letter on monday",
+    "prompt": "Please correct this sentence: Tom write a letter on Monday.",
+    "answer": "Tom writes a letter on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom is drinking water on monday",
+    "prompt": "Please correct this sentence: Tom is drink water on Monday.",
+    "answer": "Tom is drinking water on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom eats breakfast in the morning",
+    "prompt": "Please correct this sentence: Tom eat breakfast in the morning.",
+    "answer": "Tom eats breakfast in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom is eating breakfast in the morning",
+    "prompt": "Please correct this sentence: Tom is eat breakfast in the morning.",
+    "answer": "Tom is eating breakfast in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom is visiting the park on monday",
+    "prompt": "Please correct this sentence: Tom is visit the park on Monday.",
+    "answer": "Tom is visiting the park on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom needs more time in the morning",
+    "prompt": "Please correct this sentence: Tom need more time in the morning.",
+    "answer": "Tom needs more time in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom is ready after school",
+    "prompt": "Please correct this sentence: Tom are ready after school.",
+    "answer": "Tom is ready after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom is late every day",
+    "prompt": "Please correct this sentence: Tom are late every day.",
+    "answer": "Tom is late every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom is in the garden after school",
+    "prompt": "Please correct this sentence: Tom are in the garden after school.",
+    "answer": "Tom is in the garden after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom has a book on monday",
+    "prompt": "Please correct this sentence: Tom have a book on Monday.",
+    "answer": "Tom has a book on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom has three apples after school",
+    "prompt": "Please correct this sentence: Tom have three apples after school.",
+    "answer": "Tom has three apples after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom has three apples after school",
+    "prompt": "Please correct this sentence: Tom have three apple after school.",
+    "answer": "Tom has three apples after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom has three bags in the morning",
+    "prompt": "Please correct this sentence: Tom have three bag in the morning.",
+    "answer": "Tom has three bags in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom has four pens every day",
+    "prompt": "Please correct this sentence: Tom have four pen every day.",
+    "answer": "Tom has four pens every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia does not walk to work on monday",
+    "prompt": "Please correct this sentence: Mia do not walk to work on Monday.",
+    "answer": "Mia does not walk to work on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia cooks dinner in the morning",
+    "prompt": "Please correct this sentence: Mia cook dinner in the morning.",
+    "answer": "Mia cooks dinner in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia is cooking dinner on monday",
+    "prompt": "Please correct this sentence: Mia is cook dinner on Monday.",
+    "answer": "Mia is cooking dinner on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia does not watch a movie every day",
+    "prompt": "Please correct this sentence: Mia do not watch a movie every day.",
+    "answer": "Mia does not watch a movie every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia does not learn english after school",
+    "prompt": "Please correct this sentence: Mia do not learn English after school.",
+    "answer": "Mia does not learn English after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia does not help a friend in the morning",
+    "prompt": "Please correct this sentence: Mia do not help a friend in the morning.",
+    "answer": "Mia does not help a friend in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia is late in the morning",
+    "prompt": "Please correct this sentence: Mia are late in the morning.",
+    "answer": "Mia is late in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia has two bags every day",
+    "prompt": "Please correct this sentence: Mia have two bag every day.",
+    "answer": "Mia has two bags every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia has three books after school",
+    "prompt": "Please correct this sentence: Mia have three book after school.",
+    "answer": "Mia has three books after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia has three bags in the morning",
+    "prompt": "Please correct this sentence: Mia have three bag in the morning.",
+    "answer": "Mia has three bags in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia has five chairs in the morning",
+    "prompt": "Please correct this sentence: Mia have five chair in the morning.",
+    "answer": "Mia has five chairs in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia has five chairs after school",
+    "prompt": "Please correct this sentence: Mia have five chair after school.",
+    "answer": "Mia has five chairs after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy plays football after school",
+    "prompt": "Please correct this sentence: The boy play football after school.",
+    "answer": "The boy plays football after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy is playing football in the morning",
+    "prompt": "Please correct this sentence: The boy is play football in the morning.",
+    "answer": "The boy is playing football in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy is playing football after school",
+    "prompt": "Please correct this sentence: The boy is play football after school.",
+    "answer": "The boy is playing football after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy cooks dinner in the morning",
+    "prompt": "Please correct this sentence: The boy cook dinner in the morning.",
+    "answer": "The boy cooks dinner in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy is learning english on monday",
+    "prompt": "Please correct this sentence: The boy is learn English on Monday.",
+    "answer": "The boy is learning English on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy does not help a friend after school",
+    "prompt": "Please correct this sentence: The boy do not help a friend after school.",
+    "answer": "The boy does not help a friend after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy is helping a friend on monday",
+    "prompt": "Please correct this sentence: The boy is help a friend on Monday.",
+    "answer": "The boy is helping a friend on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy washes the dishes every day",
+    "prompt": "Please correct this sentence: The boy wash the dishes every day.",
+    "answer": "The boy washes the dishes every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy does not visit the park after school",
+    "prompt": "Please correct this sentence: The boy do not visit the park after school.",
+    "answer": "The boy does not visit the park after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy is visiting the park in the morning",
+    "prompt": "Please correct this sentence: The boy is visit the park in the morning.",
+    "answer": "The boy is visiting the park in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy is hungry in the morning",
+    "prompt": "Please correct this sentence: The boy are hungry in the morning.",
+    "answer": "The boy is hungry in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy is at home on monday",
+    "prompt": "Please correct this sentence: The boy are at home on Monday.",
+    "answer": "The boy is at home on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy has two bags in the morning",
+    "prompt": "Please correct this sentence: The boy have two bag in the morning.",
+    "answer": "The boy has two bags in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy has three bags every day",
+    "prompt": "Please correct this sentence: The boy have three bag every day.",
+    "answer": "The boy has three bags every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy has four books after school",
+    "prompt": "Please correct this sentence: The boy have four book after school.",
+    "answer": "The boy has four books after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy has five books in the morning",
+    "prompt": "Please correct this sentence: The boy have five book in the morning.",
+    "answer": "The boy has five books in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl walks to work every day",
+    "prompt": "Please correct this sentence: The girl walk to work every day.",
+    "answer": "The girl walks to work every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl does not walk to work on monday",
+    "prompt": "Please correct this sentence: The girl do not walk to work on Monday.",
+    "answer": "The girl does not walk to work on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl cooks dinner every day",
+    "prompt": "Please correct this sentence: The girl cook dinner every day.",
+    "answer": "The girl cooks dinner every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl does not watch a movie every day",
+    "prompt": "Please correct this sentence: The girl do not watch a movie every day.",
+    "answer": "The girl does not watch a movie every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl does not watch a movie after school",
+    "prompt": "Please correct this sentence: The girl do not watch a movie after school.",
+    "answer": "The girl does not watch a movie after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl learns english in the morning",
+    "prompt": "Please correct this sentence: The girl learn English in the morning.",
+    "answer": "The girl learns English in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl visits the park on monday",
+    "prompt": "Please correct this sentence: The girl visit the park on Monday.",
+    "answer": "The girl visits the park on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl does not visit the park every day",
+    "prompt": "Please correct this sentence: The girl do not visit the park every day.",
+    "answer": "The girl does not visit the park every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl does not visit the park in the morning",
+    "prompt": "Please correct this sentence: The girl do not visit the park in the morning.",
+    "answer": "The girl does not visit the park in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl needs more time in the morning",
+    "prompt": "Please correct this sentence: The girl need more time in the morning.",
+    "answer": "The girl needs more time in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl is tired in the morning",
+    "prompt": "Please correct this sentence: The girl are tired in the morning.",
+    "answer": "The girl is tired in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl is late on monday",
+    "prompt": "Please correct this sentence: The girl are late on Monday.",
+    "answer": "The girl is late on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl is hungry after school",
+    "prompt": "Please correct this sentence: The girl are hungry after school.",
+    "answer": "The girl is hungry after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl is hungry on monday",
+    "prompt": "Please correct this sentence: The girl are hungry on Monday.",
+    "answer": "The girl is hungry on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl has two chairs every day",
+    "prompt": "Please correct this sentence: The girl have two chair every day.",
+    "answer": "The girl has two chairs every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl has three books on monday",
+    "prompt": "Please correct this sentence: The girl have three book on Monday.",
+    "answer": "The girl has three books on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl has four pens after school",
+    "prompt": "Please correct this sentence: The girl have four pen after school.",
+    "answer": "The girl has four pens after school.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl has four apples every day",
+    "prompt": "Please correct this sentence: The girl have four apple every day.",
+    "answer": "The girl has four apples every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl has four bags every day",
+    "prompt": "Please correct this sentence: The girl have four bag every day.",
+    "answer": "The girl has four bags every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl has four chairs every day",
+    "prompt": "Please correct this sentence: The girl have four chair every day.",
+    "answer": "The girl has four chairs every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl has four chairs in the morning",
+    "prompt": "Please correct this sentence: The girl have four chair in the morning.",
+    "answer": "The girl has four chairs in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl has five apples on monday",
+    "prompt": "Please correct this sentence: The girl have five apple on Monday.",
+    "answer": "The girl has five apples on Monday.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the girl has five chairs in the morning",
+    "prompt": "Please correct this sentence: The girl have five chair in the morning.",
+    "answer": "The girl has five chairs in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the children are reading a book every day",
+    "prompt": "Please correct this sentence: The children are read a book every day.",
+    "answer": "The children are reading a book every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the children cook dinner every day",
+    "prompt": "Please correct this sentence: The children cooks dinner every day.",
+    "answer": "The children cook dinner every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the children cook dinner in the morning",
+    "prompt": "Please correct this sentence: The children cooks dinner in the morning.",
+    "answer": "The children cook dinner in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the children do not watch a movie in the morning",
+    "prompt": "Please correct this sentence: The children does not watch a movie in the morning.",
+    "answer": "The children do not watch a movie in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the children are reading books in the morning",
+    "prompt": "Please correct this sentence: The children is reading books in the morning.",
+    "answer": "The children are reading books in the morning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the children have three chairs every day",
+    "prompt": "Please correct this sentence: The children has three chair every day.",
+    "answer": "The children have three chairs every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Mia:green:box",
+    "prompt": "Tom has a black box. Mia has a green box. What color is Mia's box?",
+    "answer": "Mia's box is green.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Mia:green:box",
+    "prompt": "Tom has a black box, but Mia has a green box. What color is Mia's box?",
+    "answer": "Mia's box is green.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Mia:white:bike",
+    "prompt": "Tom has a blue bike. Mia has a white bike. What color is Mia's bike?",
+    "answer": "Mia's bike is white.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Mia:white:bike",
+    "prompt": "Tom has a blue bike, but Mia has a white bike. What color is Mia's bike?",
+    "answer": "Mia's bike is white.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Lily:green:bike",
+    "prompt": "Anna has a black bike. Lily has a green bike. What color is Lily's bike?",
+    "answer": "Lily's bike is green.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Lily:green:bike",
+    "prompt": "Anna has a black bike, but Lily has a green bike. What color is Lily's bike?",
+    "answer": "Lily's bike is green.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Lily:yellow:bag",
+    "prompt": "Anna has a white bag. Lily has a yellow bag. What color is Lily's bag?",
+    "answer": "Lily's bag is yellow.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Lily:yellow:bag",
+    "prompt": "Anna has a white bag, but Lily has a yellow bag. What color is Lily's bag?",
+    "answer": "Lily's bag is yellow.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:yellow:hat",
+    "prompt": "Ben has a white hat. Anna has a yellow hat. What color is Anna's hat?",
+    "answer": "Anna's hat is yellow.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:yellow:hat",
+    "prompt": "Ben has a white hat, but Anna has a yellow hat. What color is Anna's hat?",
+    "answer": "Anna's hat is yellow.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:black:cup",
+    "prompt": "Ben has a red cup. Anna has a black cup. What color is Anna's cup?",
+    "answer": "Anna's cup is black.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:black:cup",
+    "prompt": "Ben has a red cup, but Anna has a black cup. What color is Anna's cup?",
+    "answer": "Anna's cup is black.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:white:hat",
+    "prompt": "Ben has a blue hat. Anna has a white hat. What color is Anna's hat?",
+    "answer": "Anna's hat is white.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:white:hat",
+    "prompt": "Ben has a blue hat, but Anna has a white hat. What color is Anna's hat?",
+    "answer": "Anna's hat is white.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Ben:blue:bike",
+    "prompt": "Ravi has a yellow bike. Ben has a blue bike. What color is Ben's bike?",
+    "answer": "Ben's bike is blue.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Ben:blue:bike",
+    "prompt": "Ravi has a yellow bike, but Ben has a blue bike. What color is Ben's bike?",
+    "answer": "Ben's bike is blue.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Ravi:white:hat",
+    "prompt": "Sara has a blue hat. Ravi has a white hat. What color is Ravi's hat?",
+    "answer": "Ravi's hat is white.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Ravi:white:hat",
+    "prompt": "Sara has a blue hat, but Ravi has a white hat. What color is Ravi's hat?",
+    "answer": "Ravi's hat is white.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Sara:green:bag",
+    "prompt": "Mia has a black bag. Sara has a green bag. What color is Sara's bag?",
+    "answer": "Sara's bag is green.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Sara:green:bag",
+    "prompt": "Mia has a black bag, but Sara has a green bag. What color is Sara's bag?",
+    "answer": "Sara's bag is green.",
+    "split": "test",
+    "source": "authored"
+  }
+]

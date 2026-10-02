@@ -1,0 +1,99 @@
+{
+  "checkpoint": "/home/escanor/Downloads/CrachoLM/checkpoints_capability_mixed_20260928/best_model.pt",
+  "exact_checks": [
+    {
+      "prompt": "hi",
+      "reply": "Hi! How can I help you?",
+      "source": "model"
+    },
+    {
+      "prompt": "Correct this sentence: They is reading books.",
+      "reply": "They are reading books.",
+      "source": "model"
+    },
+    {
+      "prompt": "Fix the grammar: He go to work every day.",
+      "reply": "He goes to work every day.",
+      "source": "model"
+    },
+    {
+      "prompt": "Correct my English: I has two pen.",
+      "reply": "I have two pens.",
+      "source": "model"
+    },
+    {
+      "prompt": "What is 7 + 8?",
+      "reply": "15.",
+      "source": "local_calculator"
+    },
+    {
+      "prompt": "What is 12 - 5?",
+      "reply": "7.",
+      "source": "local_calculator"
+    },
+    {
+      "prompt": "What is 6 times 7?",
+      "reply": "42.",
+      "source": "local_calculator"
+    },
+    {
+      "prompt": "What is 17 + 24?",
+      "reply": "41.",
+      "source": "local_calculator"
+    },
+    {
+      "prompt": "Calculate 0.1 + 0.2",
+      "reply": "0.3.",
+      "source": "local_calculator"
+    },
+    {
+      "prompt": "Which number is greater: 18 or 27?",
+      "reply": "27 is larger.",
+      "source": "local_calculator"
+    }
+  ],
+  "gravity": {
+    "status": "success",
+    "mode": "chat",
+    "source": "model",
+    "reply": "Gravity is the attraction between objects with mass. It keeps us on Earth and planets in orbit.",
+    "prompt": "What is gravity?",
+    "generated_text": "What is gravity?\nGravity is the attraction between objects with mass. It keeps us on Earth and planets in orbit.",
+    "parameters_used": {
+      "max_new_tokens": 80,
+      "temperature": 0.7,
+      "top_k": 40,
+      "greedy": true
+    }
+  },
+  "raw_model_math": {
+    "status": "success",
+    "mode": "chat",
+    "source": "model",
+    "reply": "16.",
+    "prompt": "What is 7 + 8?",
+    "generated_text": "What is 7 + 8?\n16.",
+    "parameters_used": {
+      "max_new_tokens": 80,
+      "temperature": 0.7,
+      "top_k": 40,
+      "greedy": true
+    }
+  },
+  "completion": {
+    "status": "success",
+    "mode": "completion",
+    "source": "model",
+    "reply": " ran after it . The dog",
+    "prompt": "The dog saw a ball and",
+    "generated_text": "The dog saw a ball and ran after it . The dog",
+    "parameters_used": {
+      "max_new_tokens": 8,
+      "temperature": 0.7,
+      "top_k": 40,
+      "greedy": true
+    }
+  },
+  "invalid_requests_rejected": true,
+  "controls_present": true
+}

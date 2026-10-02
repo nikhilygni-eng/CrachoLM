@@ -6,6 +6,7 @@ Serves the web application UI and handles model generation API requests.
 Built with Python standard library HTTP server (no extra dependencies required).
 """
 
+import argparse
 import json
 import os
 import sys
@@ -19,7 +20,9 @@ from src.device import get_device
 from src.tokenizer import CrachoTokenizer
 from src.model import CrachoLM
 from src.generator import generate_text
+from src.assistant_response import generate_assistant_reply
 from src.checkpoint import load_checkpoint_file, get_model_config_from_checkpoint
+from src.inference import load_model_for_inference
 
 # Global State for Model & Tokenizer
 MODEL = None
@@ -28,38 +31,13 @@ DEVICE = None
 MODEL_INFO = {}
 
 
-def init_model():
+def init_model(checkpoint_path=None, tokenizer_path=None):
     global MODEL, TOKENIZER, DEVICE, MODEL_INFO
+    torch.set_num_threads(2)
     DEVICE = get_device()
-    tokenizer_path = os.path.abspath("checkpoints/tokenizer.json")
-    checkpoint_path = os.path.abspath("checkpoints/best_model.pt")
-
-    if not os.path.exists(tokenizer_path) or not os.path.exists(checkpoint_path):
-        print("[X] ERROR: Missing checkpoint or tokenizer file. Please train model first.")
-        sys.exit(1)
-
-    print(f"[*] Loading Tokenizer from {tokenizer_path}...")
-    TOKENIZER = CrachoTokenizer.load(tokenizer_path)
-
-    print(f"[*] Loading Checkpoint from {checkpoint_path}...")
-    checkpoint = load_checkpoint_file(checkpoint_path, DEVICE)
-    model_config = get_model_config_from_checkpoint(checkpoint)
-
-    MODEL = CrachoLM(model_config).to(DEVICE)
-    MODEL.load_state_dict(checkpoint["model_state_dict"])
-    MODEL.eval()
-
-    n_params = sum(p.numel() for p in MODEL.parameters() if p.requires_grad)
-    MODEL_INFO = {
-        "model_name": "CrachoLM-0.1",
-        "parameters": n_params,
-        "parameters_m": round(n_params / 1e6, 2),
-        "vocab_size": TOKENIZER.vocab_size,
-        "checkpoint_epoch": checkpoint.get("epoch", "unknown"),
-        "val_loss": checkpoint.get("val_loss", None),
-        "device": str(DEVICE),
-        "gpu_name": torch.cuda.get_device_name(0) if torch.cuda.is_available() else "CPU",
-    }
+    MODEL, TOKENIZER, MODEL_INFO = load_model_for_inference(
+        checkpoint_path=checkpoint_path, tokenizer_path=tokenizer_path, device=DEVICE
+    )
     print(f"[✓] CrachoLM loaded successfully! ({MODEL_INFO['parameters_m']}M params on {MODEL_INFO['device']})")
 
 
@@ -68,7 +46,14 @@ class CrachoLMHandler(SimpleHTTPRequestHandler):
         # Serve files from web directory
         super().__init__(*args, directory=os.path.join(os.path.dirname(__file__), "web"), **kwargs)
 
+    def end_headers(self):
+        self.send_header("Cache-Control", "no-store, max-age=0")
+        super().end_headers()
+
     def do_GET(self):
+        # Serve fresh local UI after model/app updates, including old browser tabs.
+        if "If-Modified-Since" in self.headers:
+            del self.headers["If-Modified-Since"]
         if self.path == "/api/info":
             self.send_json_response(200, MODEL_INFO)
         else:
@@ -83,26 +68,41 @@ class CrachoLMHandler(SimpleHTTPRequestHandler):
             
             try:
                 body = json.loads(post_data.decode("utf-8"))
-                prompt = body.get("prompt", "First Citizen:")
-                max_new_tokens = int(body.get("max_new_tokens", 100))
+                prompt = body.get("prompt", "")
+                if not isinstance(prompt, str) or not prompt.strip():
+                    raise ValueError("Enter a message.")
+                mode = body.get("mode", "chat")
+                if mode not in ("chat", "completion"):
+                    raise ValueError("Mode must be chat or completion.")
+                max_new_tokens = max(1, min(300, int(body.get("max_new_tokens", 80))))
                 temperature = float(body.get("temperature", 0.7))
                 top_k = int(body.get("top_k", 40))
-                greedy = bool(body.get("greedy", False))
+                greedy = bool(body.get("greedy", True))
+                use_tools = body.get("use_tools", True)
+                if not isinstance(use_tools, bool):
+                    raise ValueError("use_tools must be true or false.")
 
-                # Generate Text
-                generated_text = generate_text(
-                    model=MODEL,
-                    tokenizer=TOKENIZER,
-                    prompt=prompt,
-                    max_new_tokens=max_new_tokens,
-                    temperature=temperature,
-                    top_k=top_k,
-                    greedy=greedy,
-                    device=DEVICE
-                )
+                if mode == "chat":
+                    reply, max_new_tokens, source = generate_assistant_reply(
+                        MODEL, TOKENIZER, prompt, use_tools=use_tools,
+                        max_new_tokens=max_new_tokens, temperature=temperature,
+                        top_k=top_k, greedy=greedy, device=DEVICE,
+                    )
+                    generated_text = prompt + "\n" + reply
+                else:
+                    source = "model"
+                    generated_text = generate_text(
+                        model=MODEL, tokenizer=TOKENIZER, prompt=prompt,
+                        max_new_tokens=max_new_tokens, temperature=temperature,
+                        top_k=top_k, greedy=greedy, device=DEVICE,
+                    )
+                    reply = generated_text[len(prompt):]
 
                 response_payload = {
                     "status": "success",
+                    "mode": mode,
+                    "source": source,
+                    "reply": reply,
                     "prompt": prompt,
                     "generated_text": generated_text,
                     "parameters_used": {
@@ -114,6 +114,8 @@ class CrachoLMHandler(SimpleHTTPRequestHandler):
                 }
                 self.send_json_response(200, response_payload)
 
+            except (ValueError, TypeError) as e:
+                self.send_json_response(400, {"status": "error", "message": str(e)})
             except Exception as e:
                 self.send_json_response(500, {"status": "error", "message": str(e)})
         else:
@@ -127,9 +129,9 @@ class CrachoLMHandler(SimpleHTTPRequestHandler):
         self.wfile.write(json.dumps(data).encode("utf-8"))
 
 
-def run_server(port=7860):
-    init_model()
-    server_address = ("", port)
+def run_server(port=7860, checkpoint_path=None, tokenizer_path=None):
+    init_model(checkpoint_path, tokenizer_path)
+    server_address = ("127.0.0.1", port)
     httpd = HTTPServer(server_address, CrachoLMHandler)
     print("\n" + "=" * 68)
     print(f"  🚀 CrachoLM Web Studio is Live at: http://localhost:{port}")
@@ -142,7 +144,9 @@ def run_server(port=7860):
 
 
 if __name__ == "__main__":
-    port = 7860
-    if len(sys.argv) > 1:
-        port = int(sys.argv[1])
-    run_server(port)
+    parser = argparse.ArgumentParser(description="CrachoLM Web Studio")
+    parser.add_argument("port", nargs="?", type=int, default=7860)
+    parser.add_argument("--checkpoint", default=None)
+    parser.add_argument("--tokenizer", default=None)
+    args = parser.parse_args()
+    run_server(args.port, args.checkpoint, args.tokenizer)

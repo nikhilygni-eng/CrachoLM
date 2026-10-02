@@ -1,0 +1,119 @@
+{
+  "data_manifest": {
+    "source": "https://huggingface.co/datasets/roneneldan/TinyStories",
+    "authors": [
+      "Ronen Eldan",
+      "Yuanzhi Li"
+    ],
+    "paper": "https://arxiv.org/abs/2305.07759",
+    "dataset_license": "CDLA-Sharing-1.0 (as listed on the source dataset card)",
+    "retrieved_utc": "2026-09-27T10:19:32.976873+00:00",
+    "selection": "First N eligible unique stories from each official split; not a random corpus sample.",
+    "normalization": "Unicode punctuation to ASCII equivalents; whitespace collapsed.",
+    "splits": {
+      "train": {
+        "url": "https://huggingface.co/datasets/roneneldan/TinyStories/resolve/main/TinyStoriesV2-GPT4-train.txt",
+        "stories": 5000,
+        "file": "train.txt",
+        "bytes": 4095681,
+        "sha256": "6565aaa5d954a7cc10c6610a275517be96c7846a2653d037fd3a3b80e3bc3eaa"
+      },
+      "valid": {
+        "url": "https://huggingface.co/datasets/roneneldan/TinyStories/resolve/main/TinyStoriesV2-GPT4-valid.txt",
+        "stories": 500,
+        "file": "validation.txt",
+        "bytes": 400710,
+        "sha256": "4e849c45553ba289a2af5b1134cf3cc7cbd3b91c6a8e0f0f342b7b793672947e"
+      }
+    }
+  },
+  "seed": 42,
+  "max_new_tokens": 128,
+  "temperature": 0.7,
+  "top_k": 40,
+  "checkpoints": [
+    {
+      "label": "original_v3",
+      "model": {
+        "model_name": "CrachoLM-General-v3",
+        "parameters": 72580608,
+        "parameters_m": 72.58,
+        "vocab_size": 2048,
+        "checkpoint_epoch": 7,
+        "val_loss": 3.4744247979712934,
+        "tokens_processed": 68354048,
+        "checkpoint": "/home/escanor/Downloads/CrachoLM/checkpoints_general_v3/best_model.pt",
+        "tokenizer": "/home/escanor/Downloads/CrachoLM/checkpoints_general_v3/tokenizer_bpe.json",
+        "device": "cuda",
+        "gpu_name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU"
+      },
+      "loss": 2.976665001053242,
+      "perplexity": 19.622267161471648,
+      "target_tokens": 141824,
+      "samples": [
+        {
+          "prompt": "One day, a little girl went to the park. She",
+          "output": "One day, a little girl went to the park. She flew into the bench , and was already given a sigh , but she was a friend of the couple \u2019 s shop . Suddenly , she was in a foolish and hung by a small girl and was already a couple of guns . She was already a young girl , a child of blood and a girl , a small child . She had two or more maize rice which was in any way of coming on her body . She gave her a"
+        },
+        {
+          "prompt": "Tom was hungry, so he",
+          "output": "Tom was hungry, so he felt that it was not very real that he would have been a young man who had been in a more existing console to him . \u201d \u201c So much the better , \u201d replied Porthos , \u201c I do not think that it was a great reason to do so . \u201d \u201c What about the matter , \u201d replied D \u2019 Artagnan , \u201c I have no pleasure to do with it . Every one has the real passion . \u201d \u201c No , and I do not know what is now , \u201d repli"
+        },
+        {
+          "prompt": "The dog saw a red ball and",
+          "output": "The dog saw a red ball and two @ - @ point shaft . Heaven ' s caught on the track with a half @ - @ point field with a caught grip on the field , with a caught grip and two tortured rider . The next week , the grid was held for a tank , with a rush of 14 yards ( 24 m ) . Heaven ' s pushing was to be used for the grid . The grid opened fire on the caught , with a cau"
+        },
+        {
+          "prompt": "After the rain stopped, Mira",
+          "output": "After the rain stopped, Mira , and his wife returned to the Palestinian Empire on 18 November . They lost the Crown Fire to the Crown Fire on 16 November , aging in a fox to the 11th Crown Fox and then set out in a crowd of arms . = = Empire = = The Crown Fire did not meet any of the Palestinians , and the Empire had the following member of the Palestinian Empire . Miral was pregnant a"
+        },
+        {
+          "prompt": "User: What is machine learning?\nAssistant:",
+          "output": "User: What is machine learning?\nAssistant: People enjoy learning skills with learning in learning , learning from learning a learning and learning ."
+        }
+      ]
+    },
+    {
+      "label": "fluency_candidate",
+      "model": {
+        "model_name": "checkpoints_fluency_stage2_20260927",
+        "parameters": 72580608,
+        "parameters_m": 72.58,
+        "vocab_size": 2048,
+        "checkpoint_epoch": 1,
+        "val_loss": 1.6807677149772644,
+        "tokens_processed": 72450048,
+        "checkpoint": "/home/escanor/Downloads/CrachoLM/checkpoints_fluency_stage2_20260927/best_model.pt",
+        "tokenizer": "/home/escanor/Downloads/CrachoLM/checkpoints_fluency_stage2_20260927/tokenizer_bpe.json",
+        "device": "cuda",
+        "gpu_name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU"
+      },
+      "loss": 1.6581723337139034,
+      "perplexity": 5.249707357985879,
+      "target_tokens": 141824,
+      "samples": [
+        {
+          "prompt": "One day, a little girl went to the park. She",
+          "output": "One day, a little girl went to the park. She saw a big tree with lots of leaves . The tree was very happy to see the leaves because it was dry . Suddenly , a big bear came and asked , \" Do you want to be friends ? \" The bear said , \" Yes , I can help you , too ! \" The girl was very excited and showed the leaves to her friends . Every day , the girl could go to a park with her friends . They would run , jump ,"
+        },
+        {
+          "prompt": "Tom was hungry, so he",
+          "output": "Tom was hungry, so he flew away with a big , scary bird . Tom was scared and cried . \" I am sorry , Tom . I did not like this . You are not a bad bird . \" Tom felt sad and said , \" Yes , it is a bad bird . You should have stayed hungry . \" Tom said , \" Thank you , Tom . You are a good bird . You are a good friend . \" Tom learned a lesson . He was not a bad fri"
+        },
+        {
+          "prompt": "The dog saw a red ball and",
+          "output": "The dog saw a red ball and wanted to play with it . The dog was sad and played with it . The dog was happy that the dog was not jealous anymore ."
+        },
+        {
+          "prompt": "After the rain stopped, Mira",
+          "output": "After the rain stopped, Mira flew away with her . She saw the bird and flew away . She flew to the dog and ran to get back to her paw . Mira and her paw were scared . Mira and her paw were not scared anymore . They ran to the dog and ran away . Mira and her paw were shocked and wet . Mira and her paws were not mad . They did not want to share the bird . They were sad and scared"
+        },
+        {
+          "prompt": "User: What is machine learning?\nAssistant:",
+          "output": "User: What is machine learning?\nAssistant: Machines learning is that important things can be bad and good ."
+        }
+      ]
+    }
+  ],
+  "note": "Loss and perplexity measure story prediction. Examples are unedited model output; they are not a grammar or factual-accuracy score."
+}

@@ -1,0 +1,2114 @@
+[
+  {
+    "category": "grammar",
+    "group": "grammar:i am at home",
+    "prompt": "Please correct this sentence: I are at home.",
+    "answer": "I am at home.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:i have a book",
+    "prompt": "Please correct this sentence: I has a book.",
+    "answer": "I have a book.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:you are writing a letter",
+    "prompt": "Please correct this sentence: You are write a letter.",
+    "answer": "You are writing a letter.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:you are visiting the park",
+    "prompt": "Please correct this sentence: You are visit the park.",
+    "answer": "You are visiting the park.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:you have three bags",
+    "prompt": "Please correct this sentence: You has three bag.",
+    "answer": "You have three bags.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:you have five books",
+    "prompt": "Please correct this sentence: You has five book.",
+    "answer": "You have five books.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:we do not cook dinner",
+    "prompt": "Please correct this sentence: We does not cook dinner.",
+    "answer": "We do not cook dinner.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:we do not drink water",
+    "prompt": "Please correct this sentence: We does not drink water.",
+    "answer": "We do not drink water.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:we learn english",
+    "prompt": "Please correct this sentence: We learns English.",
+    "answer": "We learn English.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:we do not learn english",
+    "prompt": "Please correct this sentence: We does not learn English.",
+    "answer": "We do not learn English.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they do not learn english",
+    "prompt": "Please correct this sentence: They does not learn English.",
+    "answer": "They do not learn English.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they do not wash the dishes",
+    "prompt": "Please correct this sentence: They does not wash the dishes.",
+    "answer": "They do not wash the dishes.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they are learning python",
+    "prompt": "Please correct this sentence: They is learning Python.",
+    "answer": "They are learning Python.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:they have five pens",
+    "prompt": "Please correct this sentence: They has five pen.",
+    "answer": "They have five pens.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he goes to school every day",
+    "prompt": "Please correct this sentence: He go to school every day.",
+    "answer": "He goes to school every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he is watching a movie",
+    "prompt": "Please correct this sentence: He is watch a movie.",
+    "answer": "He is watching a movie.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he is eating breakfast",
+    "prompt": "Please correct this sentence: He is eat breakfast.",
+    "answer": "He is eating breakfast.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he is learning english",
+    "prompt": "Please correct this sentence: He is learn English.",
+    "answer": "He is learning English.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:he does not help a friend",
+    "prompt": "Please correct this sentence: He do not help a friend.",
+    "answer": "He does not help a friend.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:she is going to school every day",
+    "prompt": "Please correct this sentence: She is go to school every day.",
+    "answer": "She is going to school every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:she is tired",
+    "prompt": "Please correct this sentence: She are tired.",
+    "answer": "She is tired.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom is going to school every day",
+    "prompt": "Please correct this sentence: Tom is go to school every day.",
+    "answer": "Tom is going to school every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom is cooking dinner",
+    "prompt": "Please correct this sentence: Tom is cook dinner.",
+    "answer": "Tom is cooking dinner.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom has a pen",
+    "prompt": "Please correct this sentence: Tom have a pen.",
+    "answer": "Tom has a pen.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom has two pens",
+    "prompt": "Please correct this sentence: Tom have two pens.",
+    "answer": "Tom has two pens.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom has two pens",
+    "prompt": "Please correct this sentence: Tom have two pen.",
+    "answer": "Tom has two pens.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:tom has four books",
+    "prompt": "Please correct this sentence: Tom have four book.",
+    "answer": "Tom has four books.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia walks to work",
+    "prompt": "Please correct this sentence: Mia walk to work.",
+    "answer": "Mia walks to work.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia is reading a book",
+    "prompt": "Please correct this sentence: Mia is read a book.",
+    "answer": "Mia is reading a book.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia washes the dishes",
+    "prompt": "Please correct this sentence: Mia wash the dishes.",
+    "answer": "Mia washes the dishes.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia needs more time",
+    "prompt": "Please correct this sentence: Mia need more time.",
+    "answer": "Mia needs more time.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia is at home",
+    "prompt": "Please correct this sentence: Mia are at home.",
+    "answer": "Mia is at home.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia is reading books",
+    "prompt": "Please correct this sentence: Mia are reading books.",
+    "answer": "Mia is reading books.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia has two pens",
+    "prompt": "Please correct this sentence: Mia have two pens.",
+    "answer": "Mia has two pens.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia has a new computer",
+    "prompt": "Please correct this sentence: Mia have a new computer.",
+    "answer": "Mia has a new computer.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia has two pens",
+    "prompt": "Please correct this sentence: Mia have two pen.",
+    "answer": "Mia has two pens.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia has two chairs",
+    "prompt": "Please correct this sentence: Mia have two chair.",
+    "answer": "Mia has two chairs.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:mia has five pens",
+    "prompt": "Please correct this sentence: Mia have five pen.",
+    "answer": "Mia has five pens.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy goes to school every day",
+    "prompt": "Please correct this sentence: The boy go to school every day.",
+    "answer": "The boy goes to school every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy is going to school every day",
+    "prompt": "Please correct this sentence: The boy is go to school every day.",
+    "answer": "The boy is going to school every day.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy does not walk to work",
+    "prompt": "Please correct this sentence: The boy do not walk to work.",
+    "answer": "The boy does not walk to work.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy is cooking dinner",
+    "prompt": "Please correct this sentence: The boy is cook dinner.",
+    "answer": "The boy is cooking dinner.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy makes a cake",
+    "prompt": "Please correct this sentence: The boy make a cake.",
+    "answer": "The boy makes a cake.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy does not need more time",
+    "prompt": "Please correct this sentence: The boy do not need more time.",
+    "answer": "The boy does not need more time.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy has three apples",
+    "prompt": "Please correct this sentence: The boy have three apples.",
+    "answer": "The boy has three apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy has three books",
+    "prompt": "Please correct this sentence: The boy have three book.",
+    "answer": "The boy has three books.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy has three apples",
+    "prompt": "Please correct this sentence: The boy have three apple.",
+    "answer": "The boy has three apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the boy has five apples",
+    "prompt": "Please correct this sentence: The boy have five apple.",
+    "answer": "The boy has five apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the children do not cook dinner",
+    "prompt": "Please correct this sentence: The children does not cook dinner.",
+    "answer": "The children do not cook dinner.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the children are making a cake",
+    "prompt": "Please correct this sentence: The children are make a cake.",
+    "answer": "The children are making a cake.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the children visit the park",
+    "prompt": "Please correct this sentence: The children visits the park.",
+    "answer": "The children visit the park.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the children have four bags",
+    "prompt": "Please correct this sentence: The children has four bag.",
+    "answer": "The children have four bags.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "grammar",
+    "group": "grammar:the children have four chairs",
+    "prompt": "Please correct this sentence: The children has four chair.",
+    "answer": "The children have four chairs.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:2:3",
+    "prompt": "Please calculate 2 plus 3.",
+    "answer": "5.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:2:3",
+    "prompt": "Sam has 2 apples and gets 3 more. How many apples does Sam have?",
+    "answer": "Sam has 5 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:2:3",
+    "prompt": "Please calculate 3 plus 2.",
+    "answer": "5.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:2:3",
+    "prompt": "Sam has 3 apples and gets 2 more. How many apples does Sam have?",
+    "answer": "Sam has 5 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:3:11",
+    "prompt": "Please calculate 3 plus 11.",
+    "answer": "14.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:3:11",
+    "prompt": "Sam has 3 apples and gets 11 more. How many apples does Sam have?",
+    "answer": "Sam has 14 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:5:6",
+    "prompt": "Please calculate 5 plus 6.",
+    "answer": "11.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:5:6",
+    "prompt": "Sam has 5 apples and gets 6 more. How many apples does Sam have?",
+    "answer": "Sam has 11 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:5:13",
+    "prompt": "Please calculate 5 plus 13.",
+    "answer": "18.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:5:13",
+    "prompt": "Sam has 5 apples and gets 13 more. How many apples does Sam have?",
+    "answer": "Sam has 18 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:5:6",
+    "prompt": "Please calculate 6 plus 5.",
+    "answer": "11.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:5:6",
+    "prompt": "Sam has 6 apples and gets 5 more. How many apples does Sam have?",
+    "answer": "Sam has 11 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:6:14",
+    "prompt": "Please calculate 6 plus 14.",
+    "answer": "20.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:6:14",
+    "prompt": "Sam has 6 apples and gets 14 more. How many apples does Sam have?",
+    "answer": "Sam has 20 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:6:16",
+    "prompt": "Please calculate 6 plus 16.",
+    "answer": "22.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:6:16",
+    "prompt": "Sam has 6 apples and gets 16 more. How many apples does Sam have?",
+    "answer": "Sam has 22 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:7:7",
+    "prompt": "Please calculate 7 plus 7.",
+    "answer": "14.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:7:7",
+    "prompt": "Sam has 7 apples and gets 7 more. How many apples does Sam have?",
+    "answer": "Sam has 14 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:8:13",
+    "prompt": "Please calculate 8 plus 13.",
+    "answer": "21.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:8:13",
+    "prompt": "Sam has 8 apples and gets 13 more. How many apples does Sam have?",
+    "answer": "Sam has 21 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:10:14",
+    "prompt": "Please calculate 10 plus 14.",
+    "answer": "24.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:10:14",
+    "prompt": "Sam has 10 apples and gets 14 more. How many apples does Sam have?",
+    "answer": "Sam has 24 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:10:15",
+    "prompt": "Please calculate 10 plus 15.",
+    "answer": "25.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:10:15",
+    "prompt": "Sam has 10 apples and gets 15 more. How many apples does Sam have?",
+    "answer": "Sam has 25 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:3:11",
+    "prompt": "Please calculate 11 plus 3.",
+    "answer": "14.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:3:11",
+    "prompt": "Sam has 11 apples and gets 3 more. How many apples does Sam have?",
+    "answer": "Sam has 14 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:12:13",
+    "prompt": "Please calculate 12 plus 13.",
+    "answer": "25.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:12:13",
+    "prompt": "Sam has 12 apples and gets 13 more. How many apples does Sam have?",
+    "answer": "Sam has 25 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:5:13",
+    "prompt": "Please calculate 13 plus 5.",
+    "answer": "18.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:5:13",
+    "prompt": "Sam has 13 apples and gets 5 more. How many apples does Sam have?",
+    "answer": "Sam has 18 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:8:13",
+    "prompt": "Please calculate 13 plus 8.",
+    "answer": "21.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:8:13",
+    "prompt": "Sam has 13 apples and gets 8 more. How many apples does Sam have?",
+    "answer": "Sam has 21 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:12:13",
+    "prompt": "Please calculate 13 plus 12.",
+    "answer": "25.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:12:13",
+    "prompt": "Sam has 13 apples and gets 12 more. How many apples does Sam have?",
+    "answer": "Sam has 25 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:6:14",
+    "prompt": "Please calculate 14 plus 6.",
+    "answer": "20.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:6:14",
+    "prompt": "Sam has 14 apples and gets 6 more. How many apples does Sam have?",
+    "answer": "Sam has 20 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:10:14",
+    "prompt": "Please calculate 14 plus 10.",
+    "answer": "24.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:10:14",
+    "prompt": "Sam has 14 apples and gets 10 more. How many apples does Sam have?",
+    "answer": "Sam has 24 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:10:15",
+    "prompt": "Please calculate 15 plus 10.",
+    "answer": "25.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:10:15",
+    "prompt": "Sam has 15 apples and gets 10 more. How many apples does Sam have?",
+    "answer": "Sam has 25 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:6:16",
+    "prompt": "Please calculate 16 plus 6.",
+    "answer": "22.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:6:16",
+    "prompt": "Sam has 16 apples and gets 6 more. How many apples does Sam have?",
+    "answer": "Sam has 22 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:18:18",
+    "prompt": "Please calculate 18 plus 18.",
+    "answer": "36.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:+:18:18",
+    "prompt": "Sam has 18 apples and gets 18 more. How many apples does Sam have?",
+    "answer": "Sam has 36 apples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:-:11:7",
+    "prompt": "Please calculate 11 minus 7.",
+    "answer": "4.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:-:13:9",
+    "prompt": "Please calculate 13 minus 9.",
+    "answer": "4.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:-:13:13",
+    "prompt": "Please calculate 13 minus 13.",
+    "answer": "0.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:-:14:12",
+    "prompt": "Please calculate 14 minus 12.",
+    "answer": "2.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:-:15:13",
+    "prompt": "Please calculate 15 minus 13.",
+    "answer": "2.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:-:16:0",
+    "prompt": "Please calculate 16 minus 0.",
+    "answer": "16.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:-:16:10",
+    "prompt": "Please calculate 16 minus 10.",
+    "answer": "6.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:-:16:13",
+    "prompt": "Please calculate 16 minus 13.",
+    "answer": "3.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:-:18:0",
+    "prompt": "Please calculate 18 minus 0.",
+    "answer": "18.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:-:20:8",
+    "prompt": "Please calculate 20 minus 8.",
+    "answer": "12.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:-:20:11",
+    "prompt": "Please calculate 20 minus 11.",
+    "answer": "9.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:*:0:12",
+    "prompt": "Please calculate 0 times 12.",
+    "answer": "0.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:*:3:11",
+    "prompt": "Please calculate 3 times 11.",
+    "answer": "33.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:*:5:6",
+    "prompt": "Please calculate 5 times 6.",
+    "answer": "30.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:*:5:6",
+    "prompt": "Please calculate 6 times 5.",
+    "answer": "30.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:*:3:11",
+    "prompt": "Please calculate 11 times 3.",
+    "answer": "33.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "arithmetic",
+    "group": "arithmetic:*:0:12",
+    "prompt": "Please calculate 12 times 0.",
+    "answer": "0.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:9:11",
+    "prompt": "Which is larger, 9 or 11?",
+    "answer": "11 is larger.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:9:11",
+    "prompt": "Which is smaller, 9 or 11?",
+    "answer": "9 is smaller.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:9:11",
+    "prompt": "Which is larger, 11 or 9?",
+    "answer": "11 is larger.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:9:11",
+    "prompt": "Which is smaller, 11 or 9?",
+    "answer": "9 is smaller.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:9:12",
+    "prompt": "Which is larger, 9 or 12?",
+    "answer": "12 is larger.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:9:12",
+    "prompt": "Which is smaller, 9 or 12?",
+    "answer": "9 is smaller.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:9:12",
+    "prompt": "Which is larger, 12 or 9?",
+    "answer": "12 is larger.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:9:12",
+    "prompt": "Which is smaller, 12 or 9?",
+    "answer": "9 is smaller.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:20:25",
+    "prompt": "Which is larger, 20 or 25?",
+    "answer": "25 is larger.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:20:25",
+    "prompt": "Which is smaller, 20 or 25?",
+    "answer": "20 is smaller.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:20:25",
+    "prompt": "Which is larger, 25 or 20?",
+    "answer": "25 is larger.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "comparison",
+    "group": "comparison:20:25",
+    "prompt": "Which is smaller, 25 or 20?",
+    "answer": "20 is smaller.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Mia:green:box",
+    "prompt": "Mia has a green box. What color is Mia's box?",
+    "answer": "Mia's box is green.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Mia:green:box",
+    "prompt": "Mia has a green box. Tom has a black box. What color is Mia's box?",
+    "answer": "Mia's box is green.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Mia:green:box",
+    "prompt": "Mia has a green box. Who has the green box?",
+    "answer": "Mia has the green box.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Mia:white:bike",
+    "prompt": "Mia has a white bike. What color is Mia's bike?",
+    "answer": "Mia's bike is white.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Mia:white:bike",
+    "prompt": "Mia has a white bike. Tom has a blue bike. What color is Mia's bike?",
+    "answer": "Mia's bike is white.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Mia:white:bike",
+    "prompt": "Mia has a white bike. Who has the white bike?",
+    "answer": "Mia has the white bike.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Lily:green:bike",
+    "prompt": "Lily has a green bike. What color is Lily's bike?",
+    "answer": "Lily's bike is green.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Lily:green:bike",
+    "prompt": "Lily has a green bike. Anna has a black bike. What color is Lily's bike?",
+    "answer": "Lily's bike is green.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Lily:green:bike",
+    "prompt": "Lily has a green bike. Who has the green bike?",
+    "answer": "Lily has the green bike.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Lily:yellow:bag",
+    "prompt": "Lily has a yellow bag. What color is Lily's bag?",
+    "answer": "Lily's bag is yellow.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Lily:yellow:bag",
+    "prompt": "Lily has a yellow bag. Anna has a white bag. What color is Lily's bag?",
+    "answer": "Lily's bag is yellow.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Lily:yellow:bag",
+    "prompt": "Lily has a yellow bag. Who has the yellow bag?",
+    "answer": "Lily has the yellow bag.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:yellow:hat",
+    "prompt": "Anna has a yellow hat. What color is Anna's hat?",
+    "answer": "Anna's hat is yellow.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:yellow:hat",
+    "prompt": "Anna has a yellow hat. Ben has a white hat. What color is Anna's hat?",
+    "answer": "Anna's hat is yellow.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:yellow:hat",
+    "prompt": "Anna has a yellow hat. Who has the yellow hat?",
+    "answer": "Anna has the yellow hat.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:black:cup",
+    "prompt": "Anna has a black cup. What color is Anna's cup?",
+    "answer": "Anna's cup is black.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:black:cup",
+    "prompt": "Anna has a black cup. Ben has a red cup. What color is Anna's cup?",
+    "answer": "Anna's cup is black.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:black:cup",
+    "prompt": "Anna has a black cup. Who has the black cup?",
+    "answer": "Anna has the black cup.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:white:hat",
+    "prompt": "Anna has a white hat. What color is Anna's hat?",
+    "answer": "Anna's hat is white.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:white:hat",
+    "prompt": "Anna has a white hat. Ben has a blue hat. What color is Anna's hat?",
+    "answer": "Anna's hat is white.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Anna:white:hat",
+    "prompt": "Anna has a white hat. Who has the white hat?",
+    "answer": "Anna has the white hat.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Ben:blue:bike",
+    "prompt": "Ben has a blue bike. What color is Ben's bike?",
+    "answer": "Ben's bike is blue.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Ben:blue:bike",
+    "prompt": "Ben has a blue bike. Ravi has a yellow bike. What color is Ben's bike?",
+    "answer": "Ben's bike is blue.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Ben:blue:bike",
+    "prompt": "Ben has a blue bike. Who has the blue bike?",
+    "answer": "Ben has the blue bike.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Ravi:white:hat",
+    "prompt": "Ravi has a white hat. What color is Ravi's hat?",
+    "answer": "Ravi's hat is white.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Ravi:white:hat",
+    "prompt": "Ravi has a white hat. Sara has a blue hat. What color is Ravi's hat?",
+    "answer": "Ravi's hat is white.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Ravi:white:hat",
+    "prompt": "Ravi has a white hat. Who has the white hat?",
+    "answer": "Ravi has the white hat.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Sara:green:bag",
+    "prompt": "Sara has a green bag. What color is Sara's bag?",
+    "answer": "Sara's bag is green.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Sara:green:bag",
+    "prompt": "Sara has a green bag. Mia has a black bag. What color is Sara's bag?",
+    "answer": "Sara's bag is green.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "reading",
+    "group": "reading:Sara:green:bag",
+    "prompt": "Sara has a green bag. Who has the green bag?",
+    "answer": "Sara has the green bag.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a computer",
+    "prompt": "Give a short explanation of a computer.",
+    "answer": "A computer is an electronic machine that processes information and runs programs.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:gravity",
+    "prompt": "Give a short explanation of gravity.",
+    "answer": "Gravity is the attraction between objects with mass. It keeps us on Earth and planets in orbit.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a CPU",
+    "prompt": "Give a short explanation of a CPU.",
+    "answer": "A CPU is a computer's central processing unit. It executes instructions and handles many general tasks.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a GPU",
+    "prompt": "Give a short explanation of a GPU.",
+    "answer": "A GPU performs many calculations in parallel. It is useful for graphics and training neural networks.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:RAM",
+    "prompt": "Give a short explanation of RAM.",
+    "answer": "RAM temporarily stores data that a computer is using. Its contents are usually lost when power is turned off.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an SSD",
+    "prompt": "Give a short explanation of an SSD.",
+    "answer": "An SSD stores files using flash memory. It keeps data even when the computer is switched off.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a Python function",
+    "prompt": "Give a short explanation of a Python function.",
+    "answer": "A Python function is a reusable block of code that performs a task. It can take inputs and return a result.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a variable",
+    "prompt": "Give a short explanation of a variable.",
+    "answer": "A variable is a name that refers to a value in a program.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a loop",
+    "prompt": "Give a short explanation of a loop.",
+    "answer": "A loop repeats a block of code. It can process items in a collection or run while a condition is true.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a Python list",
+    "prompt": "Give a short explanation of a Python list.",
+    "answer": "A Python list is an ordered, mutable collection of values. You can add, remove, and change its items.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a Python tuple",
+    "prompt": "Give a short explanation of a Python tuple.",
+    "answer": "A Python tuple is an ordered collection whose items cannot be replaced after the tuple is created.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a dictionary in Python",
+    "prompt": "Give a short explanation of a dictionary in Python.",
+    "answer": "A Python dictionary stores key-value pairs. You use a key to look up its associated value.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a string",
+    "prompt": "Give a short explanation of a string.",
+    "answer": "A string is a sequence of characters used to represent text.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a boolean",
+    "prompt": "Give a short explanation of a boolean.",
+    "answer": "A boolean has one of two values: true or false.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an integer",
+    "prompt": "Give a short explanation of an integer.",
+    "answer": "An integer is a whole number, such as -2, 0, or 7.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an algorithm",
+    "prompt": "Give a short explanation of an algorithm.",
+    "answer": "An algorithm is a sequence of steps for solving a problem or completing a task.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a bug in a program",
+    "prompt": "Give a short explanation of a bug in a program.",
+    "answer": "A bug is an error in a program that causes incorrect or unexpected behavior.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:debugging",
+    "prompt": "Give a short explanation of debugging.",
+    "answer": "Debugging means finding and fixing errors in a program.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a syntax error",
+    "prompt": "Give a short explanation of a syntax error.",
+    "answer": "A syntax error occurs when code breaks the grammatical rules of a programming language.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an exception",
+    "prompt": "Give a short explanation of an exception.",
+    "answer": "An exception signals a problem during program execution. Code can catch and handle some exceptions.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a unit test",
+    "prompt": "Give a short explanation of a unit test.",
+    "answer": "A unit test checks a small piece of code against an expected result.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:recursion",
+    "prompt": "Give a short explanation of recursion.",
+    "answer": "Recursion happens when a function calls itself. It needs a stopping condition to avoid continuing forever.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:Python",
+    "prompt": "Give a short explanation of Python.",
+    "answer": "Python is a general-purpose programming language used for automation, web development, data analysis, and machine learning.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:Java",
+    "prompt": "Give a short explanation of Java.",
+    "answer": "Java is a programming language commonly used for applications and server software. Java bytecode runs on a Java Virtual Machine.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:JavaScript",
+    "prompt": "Give a short explanation of JavaScript.",
+    "answer": "JavaScript is a programming language used to add behavior to web pages and to build other applications.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:HTML",
+    "prompt": "Give a short explanation of HTML.",
+    "answer": "HTML describes the structure of a web page using elements such as headings, paragraphs, and links.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:CSS",
+    "prompt": "Give a short explanation of CSS.",
+    "answer": "CSS controls the appearance of a web page, including colors, spacing, and layout.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a database",
+    "prompt": "Give a short explanation of a database.",
+    "answer": "A database stores organized information so that it can be searched, retrieved, and updated.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an API",
+    "prompt": "Give a short explanation of an API.",
+    "answer": "An API is an interface that lets software components communicate through defined requests and responses.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an operating system",
+    "prompt": "Give a short explanation of an operating system.",
+    "answer": "An operating system manages computer hardware and provides services that applications use.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:Linux",
+    "prompt": "Give a short explanation of Linux.",
+    "answer": "Linux is an operating system kernel. Linux distributions combine it with other software to provide a complete system.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a file",
+    "prompt": "Give a short explanation of a file.",
+    "answer": "A file is a named collection of data stored on a device.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a folder",
+    "prompt": "Give a short explanation of a folder.",
+    "answer": "A folder organizes files and other folders.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:the internet",
+    "prompt": "Give a short explanation of the internet.",
+    "answer": "The internet is a worldwide network of interconnected computer networks.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a web browser",
+    "prompt": "Give a short explanation of a web browser.",
+    "answer": "A web browser is an application that retrieves and displays web pages.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a server",
+    "prompt": "Give a short explanation of a server.",
+    "answer": "A server provides data or services to other programs or devices over a connection.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a password",
+    "prompt": "Give a short explanation of a password.",
+    "answer": "A password is a secret used to help verify access to an account or system.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:encryption",
+    "prompt": "Give a short explanation of encryption.",
+    "answer": "Encryption transforms readable data into a protected form that requires the appropriate key to read.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:machine learning",
+    "prompt": "Give a short explanation of machine learning.",
+    "answer": "Machine learning uses data to learn patterns that help a computer make predictions or perform tasks.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a neural network",
+    "prompt": "Give a short explanation of a neural network.",
+    "answer": "A neural network is a model with connected layers that transform inputs using learned weights.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a language model",
+    "prompt": "Give a short explanation of a language model.",
+    "answer": "A language model learns patterns in text and predicts tokens. It can generate sentences but may make factual mistakes.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a tokenizer",
+    "prompt": "Give a short explanation of a tokenizer.",
+    "answer": "A tokenizer splits text into units called tokens and maps them to numbers that a model can process.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a model parameter",
+    "prompt": "Give a short explanation of a model parameter.",
+    "answer": "A model parameter is a learned value, such as a weight, that affects the model's predictions.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:training loss",
+    "prompt": "Give a short explanation of training loss.",
+    "answer": "Training loss measures prediction error on training examples. Lower training loss alone does not prove better answers on new questions.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:validation data",
+    "prompt": "Give a short explanation of validation data.",
+    "answer": "Validation data is kept separate from training updates and helps measure how well a model generalizes.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:overfitting",
+    "prompt": "Give a short explanation of overfitting.",
+    "answer": "Overfitting happens when a model learns training examples too closely and performs poorly on new examples.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:gradient descent",
+    "prompt": "Give a short explanation of gradient descent.",
+    "answer": "Gradient descent updates model parameters in a direction intended to reduce a loss function.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a learning rate",
+    "prompt": "Give a short explanation of a learning rate.",
+    "answer": "The learning rate controls the size of parameter updates during training.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a batch",
+    "prompt": "Give a short explanation of a batch.",
+    "answer": "A batch is a group of examples processed together during model training.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an epoch",
+    "prompt": "Give a short explanation of an epoch.",
+    "answer": "An epoch is one pass through the training dataset.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a checkpoint",
+    "prompt": "Give a short explanation of a checkpoint.",
+    "answer": "A checkpoint saves a model's state so it can be loaded later. Training checkpoints may also save optimizer state.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a context window",
+    "prompt": "Give a short explanation of a context window.",
+    "answer": "A context window is the amount of text a language model can consider at one time, measured in tokens.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:photosynthesis",
+    "prompt": "Give a short explanation of photosynthesis.",
+    "answer": "Photosynthesis lets plants use light energy to make sugars from water and carbon dioxide, releasing oxygen.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:evaporation",
+    "prompt": "Give a short explanation of evaporation.",
+    "answer": "Evaporation is the change of a liquid into a gas at its surface.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:condensation",
+    "prompt": "Give a short explanation of condensation.",
+    "answer": "Condensation is the change of a gas into a liquid, such as water vapor forming droplets.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an atom",
+    "prompt": "Give a short explanation of an atom.",
+    "answer": "An atom is a basic unit of ordinary matter. It has a nucleus surrounded by electrons.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a molecule",
+    "prompt": "Give a short explanation of a molecule.",
+    "answer": "A molecule consists of atoms bonded together.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:energy",
+    "prompt": "Give a short explanation of energy.",
+    "answer": "Energy is the capacity to do work or cause change. It can take forms such as heat, motion, and light.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:friction",
+    "prompt": "Give a short explanation of friction.",
+    "answer": "Friction is a force that opposes relative motion between surfaces in contact.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:electric current",
+    "prompt": "Give a short explanation of electric current.",
+    "answer": "Electric current is the flow of electric charge.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a battery",
+    "prompt": "Give a short explanation of a battery.",
+    "answer": "A battery stores chemical energy and can convert it into electrical energy.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a magnet",
+    "prompt": "Give a short explanation of a magnet.",
+    "answer": "A magnet produces a magnetic field and can attract materials such as iron.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a planet",
+    "prompt": "Give a short explanation of a planet.",
+    "answer": "A planet is a large body that orbits a star. Earth is a planet in the Solar System.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a star",
+    "prompt": "Give a short explanation of a star.",
+    "answer": "A star is a hot ball of plasma that produces energy through nuclear fusion. The Sun is a star.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:the Moon",
+    "prompt": "Give a short explanation of the Moon.",
+    "answer": "The Moon is Earth's natural satellite. It reflects sunlight and orbits Earth.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a noun",
+    "prompt": "Give a short explanation of a noun.",
+    "answer": "A noun names a person, place, thing, or idea.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a verb",
+    "prompt": "Give a short explanation of a verb.",
+    "answer": "A verb expresses an action, event, or state.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an adjective",
+    "prompt": "Give a short explanation of an adjective.",
+    "answer": "An adjective describes a noun, as in a red ball or a tall tree.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an adverb",
+    "prompt": "Give a short explanation of an adverb.",
+    "answer": "An adverb can modify a verb, adjective, or another adverb, as in running quickly.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a sentence",
+    "prompt": "Give a short explanation of a sentence.",
+    "answer": "A sentence expresses a complete thought and normally begins with a capital letter and ends with punctuation.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a paragraph",
+    "prompt": "Give a short explanation of a paragraph.",
+    "answer": "A paragraph is a group of related sentences that develop a main idea.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a fraction",
+    "prompt": "Give a short explanation of a fraction.",
+    "answer": "A fraction represents a number as one quantity divided by another, such as 1/2.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a prime number",
+    "prompt": "Give a short explanation of a prime number.",
+    "answer": "A prime number is an integer greater than 1 with exactly two positive divisors: 1 and itself.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an even number",
+    "prompt": "Give a short explanation of an even number.",
+    "answer": "An even integer is divisible by 2 without a remainder.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:an odd number",
+    "prompt": "Give a short explanation of an odd number.",
+    "answer": "An odd integer is not divisible by 2 without a remainder.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a triangle",
+    "prompt": "Give a short explanation of a triangle.",
+    "answer": "A triangle is a polygon with three sides and three angles.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a square",
+    "prompt": "Give a short explanation of a square.",
+    "answer": "A square has four equal sides and four right angles.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "definition:a circle",
+    "prompt": "Give a short explanation of a circle.",
+    "answer": "A circle is the set of points in a plane at a fixed distance from its center.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:why do plants need sunlight",
+    "prompt": "Answer in simple English: Why do plants need sunlight?",
+    "answer": "Plants use light energy for photosynthesis, which lets them make food from water and carbon dioxide.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:why does it rain",
+    "prompt": "Answer in simple English: Why does it rain?",
+    "answer": "Water vapor condenses into droplets in clouds. When the droplets become heavy enough, they fall as rain.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:why is the sky blue",
+    "prompt": "Answer in simple English: Why is the sky blue?",
+    "answer": "Air molecules scatter sunlight. They scatter blue light more strongly than red light, making the daytime sky look blue.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:why do we have day and night",
+    "prompt": "Answer in simple English: Why do we have day and night?",
+    "answer": "Earth rotates. The side facing the Sun has daylight, while the side facing away has night.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:why should i test my code",
+    "prompt": "Answer in simple English: Why should I test my code?",
+    "answer": "Tests help find mistakes and check that changes preserve expected behavior.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:how can i learn programming",
+    "prompt": "Answer in simple English: How can I learn programming?",
+    "answer": "Choose one language, learn its basics, and build small projects. Read error messages and practice solving simple problems.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:give me one tip to learn programming",
+    "prompt": "Answer in simple English: Give me one tip to learn programming.",
+    "answer": "Practice by building a small project and fixing the errors you encounter.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:how can i improve my english sentences",
+    "prompt": "Answer in simple English: How can I improve my English sentences?",
+    "answer": "Use a clear subject and verb, check the tense, and read the sentence aloud. Practice rewriting short sentences.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:how can i improve a language model",
+    "prompt": "Answer in simple English: How can I improve a language model?",
+    "answer": "Use clean and varied training data, check the training code, and compare answers on examples excluded from training.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:does a low training loss mean my model is intelligent",
+    "prompt": "Answer in simple English: Does a low training loss mean my model is intelligent?",
+    "answer": "No. A model can memorize training data. Evaluate its answers on new questions to check understanding and accuracy.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:what is the difference between a cpu and a gpu",
+    "prompt": "Answer in simple English: What is the difference between a CPU and a GPU?",
+    "answer": "A CPU handles varied general tasks. A GPU is designed to perform many similar calculations in parallel.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:what is the difference between ram and storage",
+    "prompt": "Answer in simple English: What is the difference between RAM and storage?",
+    "answer": "RAM holds data currently in use and is usually temporary. Storage keeps files when the power is off.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:what is the difference between a list and a tuple in python",
+    "prompt": "Answer in simple English: What is the difference between a list and a tuple in Python?",
+    "answer": "A list is mutable, so its items can be changed. A tuple is immutable, so its items cannot be replaced.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:what is the difference between training and inference",
+    "prompt": "Answer in simple English: What is the difference between training and inference?",
+    "answer": "Training updates a model's learned parameters. Inference uses those parameters to produce an output.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:what is the difference between hardware and software",
+    "prompt": "Answer in simple English: What is the difference between hardware and software?",
+    "answer": "Hardware is the physical equipment. Software is the programs and instructions that run on it.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:can language models make mistakes",
+    "prompt": "Answer in simple English: Can language models make mistakes?",
+    "answer": "Yes. Language models can produce fluent but incorrect answers. Check important claims against reliable evidence.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:can you see my screen",
+    "prompt": "Answer in simple English: Can you see my screen?",
+    "answer": "I do not have screen access through this chat model.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:what is the weather right now",
+    "prompt": "Answer in simple English: What is the weather right now?",
+    "answer": "I do not have live weather data. Check a weather service for your location.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:what is my password",
+    "prompt": "Answer in simple English: What is my password?",
+    "answer": "I do not know your password.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:who will win tomorrow's match",
+    "prompt": "Answer in simple English: Who will win tomorrow's match?",
+    "answer": "I cannot know the result of a future match.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:write one sentence about rain",
+    "prompt": "Answer in simple English: Write one sentence about rain.",
+    "answer": "Rain falls from the clouds and waters the plants.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:write one sentence about a dog",
+    "prompt": "Answer in simple English: Write one sentence about a dog.",
+    "answer": "The friendly dog ran across the garden.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:write one sentence about learning",
+    "prompt": "Answer in simple English: Write one sentence about learning.",
+    "answer": "Learning a little every day helps us build new skills.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:write a short story about a lost cat",
+    "prompt": "Answer in simple English: Write a short story about a lost cat.",
+    "answer": "A small cat wandered away from home. A kind neighbor found it near a tree and helped it return to its family.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:help me",
+    "prompt": "Answer in simple English: Help me.",
+    "answer": "What would you like help with?",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:can you fix this",
+    "prompt": "Answer in simple English: Can you fix this?",
+    "answer": "Please share the text or problem you want me to fix.",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "explanation",
+    "group": "explanation:explain it",
+    "prompt": "Answer in simple English: Explain it.",
+    "answer": "What would you like me to explain?",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "chat",
+    "group": "greeting",
+    "prompt": "Hi there!",
+    "answer": "Hi! How can I help you?",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "chat",
+    "group": "greeting",
+    "prompt": "hey bro",
+    "answer": "Hi! How can I help you?",
+    "split": "test",
+    "source": "authored"
+  },
+  {
+    "category": "chat",
+    "group": "greeting",
+    "prompt": "Good afternoon!",
+    "answer": "Hi! How can I help you?",
+    "split": "test",
+    "source": "authored"
+  }
+]

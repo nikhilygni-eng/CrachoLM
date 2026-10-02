@@ -25,10 +25,14 @@ def get_warmup_cosine_scheduler(optimizer, warmup_steps: int, total_steps: int, 
     """
     Creates a Learning Rate Scheduler with Linear Warmup followed by Cosine Decay.
     """
+    total_steps = max(1, total_steps)
+    warmup_steps = min(max(0, warmup_steps), total_steps)
     def lr_lambda(current_step: int):
         if current_step < warmup_steps:
-            return float(current_step) / float(max(1, warmup_steps))
+            # LambdaLR applies step 0 at construction: the first update must learn.
+            return float(current_step + 1) / float(max(1, warmup_steps))
         progress = float(current_step - warmup_steps) / float(max(1, total_steps - warmup_steps))
+        progress = min(1.0, max(0.0, progress))
         cosine_decay = 0.5 * (1.0 + math.cos(math.pi * progress))
         return min_lr_ratio + (1.0 - min_lr_ratio) * cosine_decay
 
@@ -124,6 +128,8 @@ class CrachoTrainer:
         """
         self.model.train()
         total_train_loss = 0.0
+        total_target_tokens = 0
+        group_target_tokens = 0
         start_time = time.time()
         self.optimizer.zero_grad(set_to_none=True)
 
@@ -137,10 +143,16 @@ class CrachoTrainer:
 
             try:
                 # Forward pass with AMP if enabled
-                # Determine micro-batch count for current accumulation group
-                rem = len(self.train_loader) % self.grad_accum_steps
-                is_final_step = (step + 1) == len(self.train_loader)
-                current_group_size = rem if (is_final_step and rem > 0) else self.grad_accum_steps
+                # Weight each micro-batch by non-padding targets, including the
+                # short final batch. Normalize the whole group before clipping.
+                valid_tokens = int((y != 0).sum().item())
+                if not valid_tokens:
+                    raise ValueError("Training batch has no non-padding targets.")
+                if step % self.grad_accum_steps == 0:
+                    nominal_tokens = current_tokens * self.grad_accum_steps
+                    group_target_tokens = 0
+                group_target_tokens += valid_tokens
+                current_group_size = nominal_tokens / valid_tokens
 
                 if self.use_amp:
                     with torch.amp.autocast('cuda'):
@@ -156,23 +168,31 @@ class CrachoTrainer:
                 else:
                     scaled_loss.backward()
 
-                total_train_loss += loss.item()
+                total_train_loss += loss.item() * valid_tokens
+                total_target_tokens += valid_tokens
 
                 # Perform Optimizer step on accumulation boundary
                 is_accum_boundary = ((step + 1) % self.grad_accum_steps == 0) or ((step + 1) == len(self.train_loader))
                 if is_accum_boundary:
                     if self.use_amp:
                         self.scaler.unscale_(self.optimizer)
-                        torch.nn.utils.clip_grad_norm_(self.model.parameters(), self.config.training.grad_clip)
+                    correction = nominal_tokens / group_target_tokens
+                    for parameter in self.model.parameters():
+                        if parameter.grad is not None:
+                            parameter.grad.mul_(correction)
+                    torch.nn.utils.clip_grad_norm_(self.model.parameters(), self.config.training.grad_clip)
+                    did_step = True
+                    if self.use_amp:
+                        old_scale = self.scaler.get_scale()
                         self.scaler.step(self.optimizer)
                         self.scaler.update()
+                        did_step = self.scaler.get_scale() >= old_scale
                     else:
-                        torch.nn.utils.clip_grad_norm_(self.model.parameters(), self.config.training.grad_clip)
                         self.optimizer.step()
-
-                    self.scheduler.step()
+                    if did_step:
+                        self.scheduler.step()
+                        self.global_step += 1
                     self.optimizer.zero_grad(set_to_none=True)
-                    self.global_step += 1
 
                 # Step Metrics Logging
                 if (step + 1) % self.config.training.log_interval == 0 or (step + 1) == len(self.train_loader):
@@ -208,7 +228,7 @@ class CrachoTrainer:
                 print("!" * 68 + "\n")
                 raise oom_err
 
-        avg_train_loss = total_train_loss / len(self.train_loader)
+        avg_train_loss = total_train_loss / max(total_target_tokens, 1)
         return avg_train_loss
 
     @torch.no_grad()
@@ -218,6 +238,7 @@ class CrachoTrainer:
         """
         self.model.eval()
         total_val_loss = 0.0
+        total_target_tokens = 0
 
         for x, y in self.val_loader:
             x, y = x.to(self.device, non_blocking=True), y.to(self.device, non_blocking=True)
@@ -227,9 +248,12 @@ class CrachoTrainer:
             else:
                 logits, loss = self.model(x, y)
 
-            total_val_loss += loss.item()
+            valid_tokens = int((y != 0).sum().item())
+            if valid_tokens:
+                total_val_loss += loss.item() * valid_tokens
+                total_target_tokens += valid_tokens
 
-        avg_val_loss = total_val_loss / max(len(self.val_loader), 1)
+        avg_val_loss = total_val_loss / max(total_target_tokens, 1)
         return avg_val_loss
 
     def save_checkpoint(self, filepath: str, epoch: int, val_loss: float, is_best: bool = False):
@@ -250,6 +274,8 @@ class CrachoTrainer:
             val_loss=val_loss,
             best_val_loss=self.best_val_loss,
         )
+        if self.scaler is not None:
+            state["scaler_state_dict"] = self.scaler.state_dict()
         torch.save(state, filepath)
         tag = "BEST MODEL" if is_best else "CHECKPOINT"
         print(f"[{tag}] Saved to: {filepath} (Val Loss: {val_loss:.4f}, format v{state['cracho_ckpt_version']})")
@@ -269,6 +295,9 @@ class CrachoTrainer:
         sched_state = state.get("scheduler_state_dict", {})
         if sched_state:
             self.scheduler.load_state_dict(sched_state)
+
+        if self.scaler is not None and state.get("scaler_state_dict"):
+            self.scaler.load_state_dict(state["scaler_state_dict"])
 
         self.start_epoch = state.get("epoch", 0)
         self.global_step = state.get("global_step", 0)

@@ -1,0 +1,247 @@
+{
+  "source_model": {
+    "model_name": "checkpoints_chat_turns_20260927",
+    "parameters": 72580608,
+    "parameters_m": 72.58,
+    "vocab_size": 2048,
+    "checkpoint_epoch": 1,
+    "val_loss": 0.08937968189517657,
+    "tokens_processed": null,
+    "checkpoint": "/home/escanor/Downloads/CrachoLM/checkpoints_chat_turns_20260927/best_model.pt",
+    "tokenizer": "/home/escanor/Downloads/CrachoLM/checkpoints_chat_turns_20260927/tokenizer_bpe.json",
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU"
+  },
+  "args": {
+    "checkpoint": "/home/escanor/Downloads/CrachoLM/checkpoints_chat_turns_20260927/best_model.pt",
+    "output": "/home/escanor/Downloads/CrachoLM/checkpoints_capability_20260928",
+    "steps": 1600,
+    "learning_rate": 0.00012,
+    "eval_every": 400,
+    "batch_size": 4,
+    "accum": 4,
+    "seed": 28
+  },
+  "examples": {
+    "train": {
+      "grammar": 2385,
+      "arithmetic": 2576,
+      "comparison": 464,
+      "reading": 768,
+      "explanation": 471,
+      "chat": 20
+    },
+    "validation": {
+      "grammar": 43,
+      "arithmetic": 69,
+      "comparison": 24,
+      "reading": 66,
+      "explanation": 105,
+      "chat": 2
+    },
+    "test": {
+      "grammar": 53,
+      "arithmetic": 61,
+      "comparison": 12,
+      "reading": 30,
+      "explanation": 105,
+      "chat": 3
+    }
+  },
+  "rejected": {},
+  "loss": "mean of per-example answer-token losses; prompts and padding masked",
+  "sampling": {
+    "grammar": 0.25,
+    "arithmetic": 0.22,
+    "reading": 0.2,
+    "explanation": 0.23,
+    "comparison": 0.04,
+    "chat": 0.06
+  },
+  "split_note": "Grammar, reading, comparison, and arithmetic groups are disjoint in this curriculum. Explanation tests use new wording for trained facts. Some basic facts/arithmetic appeared in earlier checkpoints. This is not a broad intelligence benchmark.",
+  "data_source": "Authored synthetic examples in capability_curriculum.py; no external dataset added in this run.",
+  "baseline_validation_loss": 2.995773115118996,
+  "history": [
+    {
+      "step": 400,
+      "validation_loss": 0.26451374783150117,
+      "dev_exact": 0.59375,
+      "scores": {
+        "arithmetic": {
+          "correct": 0,
+          "total": 6
+        },
+        "chat": {
+          "correct": 2,
+          "total": 2
+        },
+        "comparison": {
+          "correct": 0,
+          "total": 6
+        },
+        "explanation": {
+          "correct": 6,
+          "total": 6
+        },
+        "grammar": {
+          "correct": 5,
+          "total": 6
+        },
+        "reading": {
+          "correct": 6,
+          "total": 6
+        }
+      }
+    },
+    {
+      "step": 800,
+      "validation_loss": 0.21575723197061872,
+      "dev_exact": 0.6875,
+      "scores": {
+        "arithmetic": {
+          "correct": 0,
+          "total": 6
+        },
+        "chat": {
+          "correct": 2,
+          "total": 2
+        },
+        "comparison": {
+          "correct": 2,
+          "total": 6
+        },
+        "explanation": {
+          "correct": 6,
+          "total": 6
+        },
+        "grammar": {
+          "correct": 6,
+          "total": 6
+        },
+        "reading": {
+          "correct": 6,
+          "total": 6
+        }
+      }
+    },
+    {
+      "step": 1200,
+      "validation_loss": 0.20401703130711793,
+      "dev_exact": 0.6875,
+      "scores": {
+        "arithmetic": {
+          "correct": 0,
+          "total": 6
+        },
+        "chat": {
+          "correct": 2,
+          "total": 2
+        },
+        "comparison": {
+          "correct": 2,
+          "total": 6
+        },
+        "explanation": {
+          "correct": 6,
+          "total": 6
+        },
+        "grammar": {
+          "correct": 6,
+          "total": 6
+        },
+        "reading": {
+          "correct": 6,
+          "total": 6
+        }
+      }
+    },
+    {
+      "step": 1600,
+      "validation_loss": 0.17456471793059894,
+      "dev_exact": 0.75,
+      "scores": {
+        "arithmetic": {
+          "correct": 0,
+          "total": 6
+        },
+        "chat": {
+          "correct": 2,
+          "total": 2
+        },
+        "comparison": {
+          "correct": 4,
+          "total": 6
+        },
+        "explanation": {
+          "correct": 6,
+          "total": 6
+        },
+        "grammar": {
+          "correct": 6,
+          "total": 6
+        },
+        "reading": {
+          "correct": 6,
+          "total": 6
+        }
+      }
+    }
+  ],
+  "best_step": 1600,
+  "elapsed_seconds": 284.28,
+  "answer_target_tokens_seen": 335468,
+  "test_before": {
+    "arithmetic": {
+      "correct": 1,
+      "total": 16
+    },
+    "chat": {
+      "correct": 2,
+      "total": 3
+    },
+    "comparison": {
+      "correct": 0,
+      "total": 12
+    },
+    "explanation": {
+      "correct": 0,
+      "total": 16
+    },
+    "grammar": {
+      "correct": 1,
+      "total": 16
+    },
+    "reading": {
+      "correct": 0,
+      "total": 16
+    }
+  },
+  "test_after": {
+    "arithmetic": {
+      "correct": 1,
+      "total": 16
+    },
+    "chat": {
+      "correct": 1,
+      "total": 3
+    },
+    "comparison": {
+      "correct": 7,
+      "total": 12
+    },
+    "explanation": {
+      "correct": 14,
+      "total": 16
+    },
+    "grammar": {
+      "correct": 16,
+      "total": 16
+    },
+    "reading": {
+      "correct": 16,
+      "total": 16
+    }
+  },
+  "exact_before": 0.05063291139240506,
+  "exact_after": 0.6962025316455697
+}

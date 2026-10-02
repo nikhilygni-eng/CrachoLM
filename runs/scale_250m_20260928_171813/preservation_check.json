@@ -1,0 +1,8 @@
+{
+  "original_files_checked": 93,
+  "changed": [],
+  "sha256_verified": [
+    "checkpoints_capability_mixed_20260928/best_model.pt",
+    "checkpoints_general_v3/best_model.pt"
+  ]
+}

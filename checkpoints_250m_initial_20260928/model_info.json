@@ -1,0 +1,52 @@
+{
+  "config_dict": {
+    "model": {
+      "vocab_size": 2048,
+      "d_model": 1024,
+      "n_layers": 20,
+      "n_heads": 16,
+      "d_ff": 4000,
+      "max_seq_len": 512,
+      "dropout": 0.0,
+      "bias": false,
+      "use_sdpa": true,
+      "gradient_checkpointing": true
+    },
+    "training": {
+      "batch_size": 1,
+      "grad_accum_steps": 16,
+      "learning_rate": 0.0003,
+      "min_lr": 3e-05,
+      "weight_decay": 0.1,
+      "max_epochs": 1,
+      "warmup_steps": 100,
+      "grad_clip": 1.0,
+      "checkpoint_interval": 1,
+      "log_interval": 16
+    },
+    "data": {
+      "base_dir": "/home/escanor/Downloads/CrachoLM",
+      "raw_data_dir": "/home/escanor/Downloads/CrachoLM/data/raw",
+      "processed_data_dir": "/home/escanor/Downloads/CrachoLM/data/processed",
+      "train_filename": "tinyshakespeare.txt",
+      "val_filename": "val.txt"
+    },
+    "system": {
+      "device": "auto",
+      "seed": 42,
+      "checkpoints_dir": "/home/escanor/Downloads/CrachoLM/checkpoints_250m_initial_20260928",
+      "logs_dir": "/home/escanor/Downloads/CrachoLM/logs",
+      "num_workers": 2
+    }
+  },
+  "epoch": 0,
+  "global_step": 0,
+  "tokens_processed": 0,
+  "checkpoint_kind": "random_initialization_untrained",
+  "tokenizer_sha256": "eeb45dc266feaef7d9ae51edca5dbee7671b1f3d2b7ce39939c211dfeb93eeaf",
+  "parameters": 250431488,
+  "torch_version": "2.13.0+cu130",
+  "seed": 42,
+  "checkpoint": "/home/escanor/Downloads/CrachoLM/checkpoints_250m_initial_20260928/initial_model.pt",
+  "sha256": "6a931ae9fc0a614274d313675430f5ca15c5aad88ac5caaaaf0bba6eac535bee"
+}

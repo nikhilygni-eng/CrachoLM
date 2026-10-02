@@ -5,6 +5,7 @@ CrachoLM Interactive Chat CLI
 Type any prompt or question in terminal to test model responses interactively.
 """
 
+import argparse
 import os
 import sys
 import torch
@@ -13,25 +14,23 @@ from src.device import get_device
 from src.tokenizer import CrachoTokenizer
 from src.model import CrachoLM
 from src.generator import generate_text
+from src.assistant_response import generate_assistant_reply
 from src.checkpoint import load_checkpoint_file, get_model_config_from_checkpoint
+from src.inference import load_model_for_inference
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Chat with CrachoLM")
+    parser.add_argument("--checkpoint", default=None)
+    parser.add_argument("--tokenizer", default=None)
+    parser.add_argument("--no-tools", action="store_true", help="Use only model inference, including for arithmetic.")
+    args = parser.parse_args()
+    torch.set_num_threads(2)
     device = get_device()
-    tokenizer_path = os.path.abspath("checkpoints/tokenizer.json")
-    checkpoint_path = os.path.abspath("checkpoints/best_model.pt")
-
-    if not os.path.exists(tokenizer_path) or not os.path.exists(checkpoint_path):
-        print("[X] ERROR: Missing checkpoint or tokenizer. Please run train.py first.")
-        return
-
-    tokenizer = CrachoTokenizer.load(tokenizer_path)
-    checkpoint = load_checkpoint_file(checkpoint_path, device)
-    model_config = get_model_config_from_checkpoint(checkpoint)
-
-    model = CrachoLM(model_config).to(device)
-    model.load_state_dict(checkpoint["model_state_dict"])
-    model.eval()
+    model, tokenizer, info = load_model_for_inference(
+        args.checkpoint, args.tokenizer, device
+    )
+    print(f"Loaded {info['model_name']} ({info['parameters_m']}M parameters)")
 
     print("\n" + "=" * 60)
     print("      CrachoLM Interactive Chat (Type 'exit' to quit)")
@@ -47,17 +46,13 @@ def main():
                 continue
 
             print("\nCrachoLM is thinking...\n")
-            output = generate_text(
-                model=model,
-                tokenizer=tokenizer,
-                prompt=prompt,
-                max_new_tokens=100,
-                temperature=0.7,
-                top_k=40,
-                device=device
+            output, _, source = generate_assistant_reply(
+                model, tokenizer, prompt, max_new_tokens=100,
+                greedy=True, use_tools=not args.no_tools,
+                temperature=0.7, top_k=40, device=device,
             )
             print("=" * 60)
-            print("CrachoLM Response:")
+            print("Local calculator:" if source == "local_calculator" else "CrachoLM Response:")
             print("=" * 60)
             print(output)
             print("=" * 60 + "\n")

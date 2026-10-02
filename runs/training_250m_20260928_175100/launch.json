@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/home/escanor/Downloads/CrachoLM/.venv/bin/python",
+    "-u",
+    "/home/escanor/Downloads/CrachoLM/train_250m.py",
+    "train",
+    "--train-text",
+    "/home/escanor/Downloads/CrachoLM/data_general/fluency_stories/train.txt",
+    "--validation-text",
+    "/home/escanor/Downloads/CrachoLM/data_general/fluency_stories/validation.txt",
+    "--output",
+    "/home/escanor/Downloads/CrachoLM/checkpoints_250m_story_20260928_175100",
+    "--epochs",
+    "1"
+  ],
+  "output": "/home/escanor/Downloads/CrachoLM/checkpoints_250m_story_20260928_175100",
+  "log": "/home/escanor/Downloads/CrachoLM/runs/training_250m_20260928_175100/training.log",
+  "terminal_pid": 21960,
+  "started_local": "2026-09-28 17:51:00",
+  "training_pid": 21972,
+  "verified_running": true,
+  "latest_log": "Script started on 2026-09-28 17:51:00+05:30 [COMMAND=\"exec /home/escanor/Downloads/CrachoLM/.venv/bin/python -u /home/escanor/Downloads/CrachoLM/train_250m.py train --train-text /home/escanor/Downloads/CrachoLM/data_general/fluency_stories/train.txt --validation-text /home/escanor/Downloads/CrachoLM/data_general/fluency_stories/validation.txt --output /home/escanor/Downloads/CrachoLM/checkpoints_250m_story_20260928_175100 --epochs 1\" TERM=\"xterm-256color\" TTY=\"/dev/pts/8\" COLUMNS=\"132\" LINES=\"74\"]\n[CrachoBPETokenizer] Loaded BPE tokenizer from: /home/escanor/Downloads/CrachoLM/checkpoints_250m_initial_20260928/tokenizer_bpe.json (Vocab Size: 2048)\nTraining ready. Press Ctrl+C once to save progress and stop. Wait for 'Checkpoint saved; training stopped safely.'\nEpoch 1/1 | batch 160/2828 | update 10 | loss 6.7589 | tokens 81,920\n"
+}

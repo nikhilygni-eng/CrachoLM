@@ -1,0 +1,145 @@
+{
+  "scope": "Small authored single-turn chat curriculum, not a general capability benchmark.",
+  "training_unique_pairs": 157,
+  "validation_pairs": [
+    [
+      "Hi there!",
+      "Hi! How can I help you?"
+    ],
+    [
+      "HELLO",
+      "Hi! How can I help you?"
+    ],
+    [
+      "hey bro",
+      "Hi! How can I help you?"
+    ],
+    [
+      "Good evening!",
+      "Hi! How can I help you?"
+    ],
+    [
+      "Thank you so much!",
+      "You are welcome!"
+    ],
+    [
+      "Tell me your name.",
+      "My name is CrachoLM."
+    ],
+    [
+      "Please calculate 5 plus 3.",
+      "8."
+    ]
+  ],
+  "source_model": {
+    "model_name": "checkpoints_fluency_stage2_20260927",
+    "parameters": 72580608,
+    "parameters_m": 72.58,
+    "vocab_size": 2048,
+    "checkpoint_epoch": 1,
+    "val_loss": 1.6807677149772644,
+    "tokens_processed": 72450048,
+    "checkpoint": "/home/escanor/Downloads/CrachoLM/checkpoints_fluency_stage2_20260927/best_model.pt",
+    "tokenizer": "/home/escanor/Downloads/CrachoLM/checkpoints_fluency_stage2_20260927/tokenizer_bpe.json",
+    "device": "cuda",
+    "gpu_name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU"
+  },
+  "optimizer_steps": 200,
+  "validation_loss_before": 3.320276896158854,
+  "validation_loss_after": 0.08937968189517657,
+  "before": [
+    {
+      "prompt": "hi",
+      "reply": "The big, red ball, and the red ball were all very happy. They played together every day.",
+      "budget": 32
+    },
+    {
+      "prompt": "Hi!",
+      "reply": "Hi Sam was a nice dog who liked to play with his friends. They played together every day. They had a lo",
+      "budget": 32
+    },
+    {
+      "prompt": "hello",
+      "reply": "Hello, Daisy, Daisy, and her mom were best friends. They liked to play together every",
+      "budget": 32
+    },
+    {
+      "prompt": "hey",
+      "reply": "The big, red ball is a big, red ball. The ball is very high. It is a small, red ball. The ball is very",
+      "budget": 32
+    },
+    {
+      "prompt": "Hi there!",
+      "reply": "Hi Sam was a very nice dog named Max. Max was a very nice dog. He liked to play with his",
+      "budget": 32
+    },
+    {
+      "prompt": "hey bro",
+      "reply": "Hey bro, Spot, and Spot are friends. They like to play with their toys and have fun. They",
+      "budget": 32
+    },
+    {
+      "prompt": "Hi, what is 2 + 2?",
+      "reply": "K is a 3. It is a 3. 3 metres. It is a 3. 3 metres. It has a lot of shapes and a picture. It has a picture of a picture of a picture of a picture of a picture",
+      "budget": 64
+    },
+    {
+      "prompt": "What is machine learning?",
+      "reply": "Machine learning is a way to learn how to learn how to learn how to learn. Machine learning is a way to learn how to learn how to learn how to learn.",
+      "budget": 64
+    },
+    {
+      "prompt": "Tell me your name.",
+      "reply": "Tom and Sue are friends. They like to play with their toys and cars. They have fun and have fun. They are happy.",
+      "budget": 64
+    }
+  ],
+  "after": [
+    {
+      "prompt": "hi",
+      "reply": "Hi! How can I help you?",
+      "budget": 32
+    },
+    {
+      "prompt": "Hi!",
+      "reply": "Hi! How can I help you?",
+      "budget": 32
+    },
+    {
+      "prompt": "hello",
+      "reply": "Hi! How can I help you?",
+      "budget": 32
+    },
+    {
+      "prompt": "hey",
+      "reply": "Hi! How can I help you?",
+      "budget": 32
+    },
+    {
+      "prompt": "Hi there!",
+      "reply": "Hi! How can I help you?",
+      "budget": 32
+    },
+    {
+      "prompt": "hey bro",
+      "reply": "Hi! How can I help you?",
+      "budget": 32
+    },
+    {
+      "prompt": "Hi, what is 2 + 2?",
+      "reply": "3.",
+      "budget": 64
+    },
+    {
+      "prompt": "What is machine learning?",
+      "reply": "Machine learning lets computers learn patterns from data.",
+      "budget": 64
+    },
+    {
+      "prompt": "Tell me your name.",
+      "reply": "My name is CrachoLM.",
+      "budget": 64
+    }
+  ],
+  "greeting_smoke_passed": true
+}

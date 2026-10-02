@@ -1,0 +1,822 @@
+[
+  [
+    "hi",
+    "Hi! How can I help you?"
+  ],
+  [
+    "Hi!",
+    "Hi! How can I help you?"
+  ],
+  [
+    "HI",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hello",
+    "Hi! How can I help you?"
+  ],
+  [
+    "Hello!",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hey",
+    "Hi! How can I help you?"
+  ],
+  [
+    "Hey!",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hiya",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hi bro",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hello there",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hey there",
+    "Hi! How can I help you?"
+  ],
+  [
+    "good morning",
+    "Hi! How can I help you?"
+  ],
+  [
+    "good afternoon",
+    "Hi! How can I help you?"
+  ],
+  [
+    "good evening",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hello CrachoLM",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hi CrachoLM",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hi",
+    "Hi! How can I help you?"
+  ],
+  [
+    "Hi!",
+    "Hi! How can I help you?"
+  ],
+  [
+    "HI",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hello",
+    "Hi! How can I help you?"
+  ],
+  [
+    "Hello!",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hey",
+    "Hi! How can I help you?"
+  ],
+  [
+    "Hey!",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hiya",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hi bro",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hello there",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hey there",
+    "Hi! How can I help you?"
+  ],
+  [
+    "good morning",
+    "Hi! How can I help you?"
+  ],
+  [
+    "good afternoon",
+    "Hi! How can I help you?"
+  ],
+  [
+    "good evening",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hello CrachoLM",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hi CrachoLM",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hi",
+    "Hi! How can I help you?"
+  ],
+  [
+    "Hi!",
+    "Hi! How can I help you?"
+  ],
+  [
+    "HI",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hello",
+    "Hi! How can I help you?"
+  ],
+  [
+    "Hello!",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hey",
+    "Hi! How can I help you?"
+  ],
+  [
+    "Hey!",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hiya",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hi bro",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hello there",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hey there",
+    "Hi! How can I help you?"
+  ],
+  [
+    "good morning",
+    "Hi! How can I help you?"
+  ],
+  [
+    "good afternoon",
+    "Hi! How can I help you?"
+  ],
+  [
+    "good evening",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hello CrachoLM",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hi CrachoLM",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hi",
+    "Hi! How can I help you?"
+  ],
+  [
+    "Hi!",
+    "Hi! How can I help you?"
+  ],
+  [
+    "HI",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hello",
+    "Hi! How can I help you?"
+  ],
+  [
+    "Hello!",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hey",
+    "Hi! How can I help you?"
+  ],
+  [
+    "Hey!",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hiya",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hi bro",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hello there",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hey there",
+    "Hi! How can I help you?"
+  ],
+  [
+    "good morning",
+    "Hi! How can I help you?"
+  ],
+  [
+    "good afternoon",
+    "Hi! How can I help you?"
+  ],
+  [
+    "good evening",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hello CrachoLM",
+    "Hi! How can I help you?"
+  ],
+  [
+    "hi CrachoLM",
+    "Hi! How can I help you?"
+  ],
+  [
+    "how are you?",
+    "I am ready to help. How are you?"
+  ],
+  [
+    "how are you doing?",
+    "I am here and ready to help."
+  ],
+  [
+    "who are you?",
+    "I am CrachoLM, a small experimental language model."
+  ],
+  [
+    "what is your name?",
+    "My name is CrachoLM."
+  ],
+  [
+    "what's your name?",
+    "My name is CrachoLM."
+  ],
+  [
+    "are you a human?",
+    "No. I am a language model."
+  ],
+  [
+    "what can you do?",
+    "I can try to answer questions and help with writing."
+  ],
+  [
+    "can you make mistakes?",
+    "Yes. I can make mistakes, so check important information."
+  ],
+  [
+    "thanks",
+    "You are welcome!"
+  ],
+  [
+    "thank you",
+    "You are welcome!"
+  ],
+  [
+    "thanks bro",
+    "You are welcome!"
+  ],
+  [
+    "thank you for helping",
+    "You are welcome!"
+  ],
+  [
+    "bye",
+    "Goodbye! Have a good day."
+  ],
+  [
+    "goodbye",
+    "Goodbye! Have a good day."
+  ],
+  [
+    "see you",
+    "See you!"
+  ],
+  [
+    "please keep it short",
+    "Okay, I will keep my answers short."
+  ],
+  [
+    "stop",
+    "Okay."
+  ],
+  [
+    "What is machine learning?",
+    "Machine learning lets computers learn patterns from data."
+  ],
+  [
+    "Explain machine learning.",
+    "Machine learning lets computers learn patterns from data."
+  ],
+  [
+    "What is a sentence?",
+    "A sentence expresses a complete thought."
+  ],
+  [
+    "What is a noun?",
+    "A noun names a person, place, thing, or idea."
+  ],
+  [
+    "What is a verb?",
+    "A verb describes an action or a state."
+  ],
+  [
+    "What is a tokenizer?",
+    "A tokenizer splits text into units called tokens."
+  ],
+  [
+    "What is a GPU?",
+    "A GPU performs many calculations in parallel."
+  ],
+  [
+    "What does CPU stand for?",
+    "CPU stands for central processing unit."
+  ],
+  [
+    "What is Python?",
+    "Python is a programming language."
+  ],
+  [
+    "What is a variable?",
+    "A variable is a name that refers to a value."
+  ],
+  [
+    "What is a function?",
+    "A function is a reusable block of code."
+  ],
+  [
+    "What is photosynthesis?",
+    "Plants use sunlight to make food from water and carbon dioxide."
+  ],
+  [
+    "What is the capital of France?",
+    "The capital of France is Paris."
+  ],
+  [
+    "What is the capital of India?",
+    "The capital of India is New Delhi."
+  ],
+  [
+    "What is the opposite of hot?",
+    "The opposite of hot is cold."
+  ],
+  [
+    "What is the opposite of big?",
+    "The opposite of big is small."
+  ],
+  [
+    "What is the opposite of happy?",
+    "The opposite of happy is sad."
+  ],
+  [
+    "Name a fruit.",
+    "An apple is a fruit."
+  ],
+  [
+    "Name an animal.",
+    "A dog is an animal."
+  ],
+  [
+    "How many days are in a week?",
+    "There are seven days in a week."
+  ],
+  [
+    "How many months are in a year?",
+    "There are twelve months in a year."
+  ],
+  [
+    "Complete the sentence: Tom was hungry, so he",
+    "Tom was hungry, so he ate some food."
+  ],
+  [
+    "Complete the sentence: The dog saw a ball and",
+    "The dog saw a ball and ran after it."
+  ],
+  [
+    "Fix this sentence: She go to school.",
+    "She goes to school."
+  ],
+  [
+    "Fix this sentence: He are happy.",
+    "He is happy."
+  ],
+  [
+    "Fix this sentence: They is playing.",
+    "They are playing."
+  ],
+  [
+    "Fix this sentence: I has a pen.",
+    "I have a pen."
+  ],
+  [
+    "Fix this sentence: We was late.",
+    "We were late."
+  ],
+  [
+    "What is 2 + 1?",
+    "3."
+  ],
+  [
+    "Calculate 2 plus 1.",
+    "3."
+  ],
+  [
+    "Hi, what is 2 + 1?",
+    "3."
+  ],
+  [
+    "What is 2 + 2?",
+    "4."
+  ],
+  [
+    "Calculate 2 plus 2.",
+    "4."
+  ],
+  [
+    "Hi, what is 2 + 2?",
+    "4."
+  ],
+  [
+    "What is 2 + 3?",
+    "5."
+  ],
+  [
+    "Calculate 2 plus 3.",
+    "5."
+  ],
+  [
+    "Hi, what is 2 + 3?",
+    "5."
+  ],
+  [
+    "What is 2 + 4?",
+    "6."
+  ],
+  [
+    "Calculate 2 plus 4.",
+    "6."
+  ],
+  [
+    "Hi, what is 2 + 4?",
+    "6."
+  ],
+  [
+    "What is 3 + 1?",
+    "4."
+  ],
+  [
+    "Calculate 3 plus 1.",
+    "4."
+  ],
+  [
+    "Hi, what is 3 + 1?",
+    "4."
+  ],
+  [
+    "What is 3 + 2?",
+    "5."
+  ],
+  [
+    "Calculate 3 plus 2.",
+    "5."
+  ],
+  [
+    "Hi, what is 3 + 2?",
+    "5."
+  ],
+  [
+    "What is 3 + 3?",
+    "6."
+  ],
+  [
+    "Calculate 3 plus 3.",
+    "6."
+  ],
+  [
+    "Hi, what is 3 + 3?",
+    "6."
+  ],
+  [
+    "What is 3 + 4?",
+    "7."
+  ],
+  [
+    "Calculate 3 plus 4.",
+    "7."
+  ],
+  [
+    "Hi, what is 3 + 4?",
+    "7."
+  ],
+  [
+    "What is 4 + 1?",
+    "5."
+  ],
+  [
+    "Calculate 4 plus 1.",
+    "5."
+  ],
+  [
+    "Hi, what is 4 + 1?",
+    "5."
+  ],
+  [
+    "What is 4 + 2?",
+    "6."
+  ],
+  [
+    "Calculate 4 plus 2.",
+    "6."
+  ],
+  [
+    "Hi, what is 4 + 2?",
+    "6."
+  ],
+  [
+    "What is 4 + 3?",
+    "7."
+  ],
+  [
+    "Calculate 4 plus 3.",
+    "7."
+  ],
+  [
+    "Hi, what is 4 + 3?",
+    "7."
+  ],
+  [
+    "What is 4 + 4?",
+    "8."
+  ],
+  [
+    "Calculate 4 plus 4.",
+    "8."
+  ],
+  [
+    "Hi, what is 4 + 4?",
+    "8."
+  ],
+  [
+    "What is 5 + 1?",
+    "6."
+  ],
+  [
+    "Calculate 5 plus 1.",
+    "6."
+  ],
+  [
+    "Hi, what is 5 + 1?",
+    "6."
+  ],
+  [
+    "What is 5 + 2?",
+    "7."
+  ],
+  [
+    "Calculate 5 plus 2.",
+    "7."
+  ],
+  [
+    "Hi, what is 5 + 2?",
+    "7."
+  ],
+  [
+    "What is 5 + 3?",
+    "8."
+  ],
+  [
+    "Calculate 5 plus 3.",
+    "8."
+  ],
+  [
+    "Hi, what is 5 + 3?",
+    "8."
+  ],
+  [
+    "What is 5 + 4?",
+    "9."
+  ],
+  [
+    "Calculate 5 plus 4.",
+    "9."
+  ],
+  [
+    "Hi, what is 5 + 4?",
+    "9."
+  ],
+  [
+    "What is 6 + 1?",
+    "7."
+  ],
+  [
+    "Calculate 6 plus 1.",
+    "7."
+  ],
+  [
+    "Hi, what is 6 + 1?",
+    "7."
+  ],
+  [
+    "What is 6 + 2?",
+    "8."
+  ],
+  [
+    "Calculate 6 plus 2.",
+    "8."
+  ],
+  [
+    "Hi, what is 6 + 2?",
+    "8."
+  ],
+  [
+    "What is 6 + 3?",
+    "9."
+  ],
+  [
+    "Calculate 6 plus 3.",
+    "9."
+  ],
+  [
+    "Hi, what is 6 + 3?",
+    "9."
+  ],
+  [
+    "What is 6 + 4?",
+    "10."
+  ],
+  [
+    "Calculate 6 plus 4.",
+    "10."
+  ],
+  [
+    "Hi, what is 6 + 4?",
+    "10."
+  ],
+  [
+    "What is 7 + 1?",
+    "8."
+  ],
+  [
+    "Calculate 7 plus 1.",
+    "8."
+  ],
+  [
+    "Hi, what is 7 + 1?",
+    "8."
+  ],
+  [
+    "What is 7 + 2?",
+    "9."
+  ],
+  [
+    "Calculate 7 plus 2.",
+    "9."
+  ],
+  [
+    "Hi, what is 7 + 2?",
+    "9."
+  ],
+  [
+    "What is 7 + 3?",
+    "10."
+  ],
+  [
+    "Calculate 7 plus 3.",
+    "10."
+  ],
+  [
+    "Hi, what is 7 + 3?",
+    "10."
+  ],
+  [
+    "What is 7 + 4?",
+    "11."
+  ],
+  [
+    "Calculate 7 plus 4.",
+    "11."
+  ],
+  [
+    "Hi, what is 7 + 4?",
+    "11."
+  ],
+  [
+    "What is 8 + 1?",
+    "9."
+  ],
+  [
+    "Calculate 8 plus 1.",
+    "9."
+  ],
+  [
+    "Hi, what is 8 + 1?",
+    "9."
+  ],
+  [
+    "What is 8 + 2?",
+    "10."
+  ],
+  [
+    "Calculate 8 plus 2.",
+    "10."
+  ],
+  [
+    "Hi, what is 8 + 2?",
+    "10."
+  ],
+  [
+    "What is 8 + 3?",
+    "11."
+  ],
+  [
+    "Calculate 8 plus 3.",
+    "11."
+  ],
+  [
+    "Hi, what is 8 + 3?",
+    "11."
+  ],
+  [
+    "What is 8 + 4?",
+    "12."
+  ],
+  [
+    "Calculate 8 plus 4.",
+    "12."
+  ],
+  [
+    "Hi, what is 8 + 4?",
+    "12."
+  ],
+  [
+    "What is 9 + 1?",
+    "10."
+  ],
+  [
+    "Calculate 9 plus 1.",
+    "10."
+  ],
+  [
+    "Hi, what is 9 + 1?",
+    "10."
+  ],
+  [
+    "What is 9 + 2?",
+    "11."
+  ],
+  [
+    "Calculate 9 plus 2.",
+    "11."
+  ],
+  [
+    "Hi, what is 9 + 2?",
+    "11."
+  ],
+  [
+    "What is 9 + 3?",
+    "12."
+  ],
+  [
+    "Calculate 9 plus 3.",
+    "12."
+  ],
+  [
+    "Hi, what is 9 + 3?",
+    "12."
+  ],
+  [
+    "What is 9 + 4?",
+    "13."
+  ],
+  [
+    "Calculate 9 plus 4.",
+    "13."
+  ],
+  [
+    "Hi, what is 9 + 4?",
+    "13."
+  ]
+]

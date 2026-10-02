@@ -215,7 +215,7 @@ class CrachoBPETokenizer:
         for part in parts:
             if not part:
                 continue
-            if part in self.token2idx:
+            if part in self.special_tokens:
                 tokens.append(self.token2idx[part])
             else:
                 words = re.findall(r"\w+|\S", part)

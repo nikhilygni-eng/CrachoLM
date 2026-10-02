@@ -1,5 +1,40 @@
 #  CrachoLM-0.1: Custom Decoder-Only Transformer Language Model
 
+## Current model and launch commands (28 September 2026)
+
+The web app, chat CLI, and general-generation CLI now load
+`checkpoints_capability_mixed_20260928/best_model.pt` with its paired BPE tokenizer.
+The web page defaults to Chat mode with deterministic replies. It includes an
+optional local calculator whose answers are explicitly labelled. Grammar, reading,
+and taught explanations improved on a small reserved task check; unfamiliar
+questions remain unreliable. See `CAPABILITY_UPDATE.md` for results and limitations
+and `DATA_SOURCES.md` for training-data provenance.
+This is a **72.58M parameter** model: 10 layers, width 768, 12 attention
+heads, feed-forward width 3072, 2048 vocabulary entries, and 256-token context.
+
+Run from this project directory:
+
+```bash
+.venv/bin/python app.py 7861
+.venv/bin/python chat.py
+.venv/bin/python -m unittest tests.test_chat_turns -v
+.venv/bin/python -m unittest tests.test_sentence_quality -v
+```
+
+Open http://127.0.0.1:7861 for the web app. All three inference commands
+accept `--checkpoint PATH --tokenizer PATH` to select another trained model.
+For chat-style prompts, use `User: ...\nAssistant:`; `chat.py` adds this format.
+
+The earlier v3 baseline was epoch 7, validation loss 3.4744. It saw
+68,354,048 token positions across seven passes over about 9.76M training
+tokens per pass. Later epochs did not improve validation loss.
+It can produce sentence-like text but is not a reliable general assistant.
+Further progress requires cleaner, more varied training text and held-out
+generation evaluation; changing defaults does not retrain saved weights.
+Tokenizer whitespace normalization and the 256-token context remain limitations.
+
+The sections below describe the original character-model workflow.
+
 Welcome to **CrachoLM**, an educational yet real decoder-only Transformer language model built completely **from scratch** using Python and PyTorch.
 
 ---
@@ -159,3 +194,7 @@ Results are saved automatically to:
 ---
 
 *CrachoLM is developed step-by-step for complete insight into decoder-only Transformer mechanics.*
+
+## Separate 250M model (28 September 2026)
+
+A new, untrained 250,431,488-parameter PyTorch checkpoint is available alongside the original 72.6M model. The existing model remains the chat default. See [MODEL_250M.md](MODEL_250M.md) for verified GPU memory, preserved checkpoint records, limitations, and initialization/training commands.

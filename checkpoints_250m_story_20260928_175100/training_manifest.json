@@ -1,0 +1,36 @@
+{
+  "source_checkpoint": "/home/escanor/Downloads/CrachoLM/checkpoints_250m_initial_20260928/initial_model.pt",
+  "data": [
+    {
+      "path": "/home/escanor/Downloads/CrachoLM/data_general/fluency_stories/train.txt",
+      "sha256": "6565aaa5d954a7cc10c6610a275517be96c7846a2653d037fd3a3b80e3bc3eaa",
+      "tokens": 1448280,
+      "unknown": 0
+    },
+    {
+      "path": "/home/escanor/Downloads/CrachoLM/data_general/fluency_stories/validation.txt",
+      "sha256": "4e849c45553ba289a2af5b1134cf3cc7cbd3b91c6a8e0f0f342b7b793672947e",
+      "tokens": 141895,
+      "unknown": 0
+    }
+  ],
+  "epochs": 1,
+  "sequence_length": 512,
+  "grad_accum": 16,
+  "seed": 42,
+  "model_config": {
+    "vocab_size": 2048,
+    "d_model": 1024,
+    "n_layers": 20,
+    "n_heads": 16,
+    "d_ff": 4000,
+    "max_seq_len": 512,
+    "dropout": 0.0,
+    "bias": false,
+    "use_sdpa": true,
+    "gradient_checkpointing": true
+  },
+  "torch_version": "2.13.0+cu130",
+  "checkpoint_every": 100,
+  "note": "Next-token pretraining; this is not instruction tuning or an intelligence benchmark."
+}

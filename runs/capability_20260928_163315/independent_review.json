@@ -1,0 +1,365 @@
+{
+  "note": "First 18 prompts are baseline diagnostic probes; extra probes include out-of-curriculum tasks. Some diagnostic questions match training examples and are not held-out scores. Story check uses 32 seeded chunks, not the entire validation corpus.",
+  "results": [
+    {
+      "label": "baseline",
+      "model": {
+        "model_name": "checkpoints_chat_turns_20260927",
+        "parameters": 72580608,
+        "parameters_m": 72.58,
+        "vocab_size": 2048,
+        "checkpoint_epoch": 1,
+        "val_loss": 0.08937968189517657,
+        "tokens_processed": null,
+        "checkpoint": "/home/escanor/Downloads/CrachoLM/checkpoints_chat_turns_20260927/best_model.pt",
+        "tokenizer": "/home/escanor/Downloads/CrachoLM/checkpoints_chat_turns_20260927/tokenizer_bpe.json",
+        "device": "cuda",
+        "gpu_name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU"
+      },
+      "answers": [
+        {
+          "prompt": "hi",
+          "reply": "Hi! How can I help you?",
+          "seconds": 0.299
+        },
+        {
+          "prompt": "How are you today?",
+          "reply": "I am here and ready to help.",
+          "seconds": 0.078
+        },
+        {
+          "prompt": "Can you explain what a computer is?",
+          "reply": "A computer is a programming language.",
+          "seconds": 0.075
+        },
+        {
+          "prompt": "Why do plants need sunlight?",
+          "reply": "plants use sunlight to make food from water and carbon dioxide.",
+          "seconds": 0.154
+        },
+        {
+          "prompt": "What is gravity?",
+          "reply": "gravity is a programming language.",
+          "seconds": 0.065
+        },
+        {
+          "prompt": "What is the difference between a CPU and a GPU?",
+          "reply": "The difference between a CPU performs many calculations in parallel.",
+          "seconds": 0.132
+        },
+        {
+          "prompt": "What does a Python function do?",
+          "reply": "A Python is a programming language.",
+          "seconds": 0.082
+        },
+        {
+          "prompt": "Fix the grammar: He go to work every day.",
+          "reply": "He is ready to help.",
+          "seconds": 0.057
+        },
+        {
+          "prompt": "Correct this sentence: They is reading books.",
+          "reply": "They are ready to help.",
+          "seconds": 0.056
+        },
+        {
+          "prompt": "Correct my English: I has two pen.",
+          "reply": "I have a pen.",
+          "seconds": 0.042
+        },
+        {
+          "prompt": "What is 7 + 8?",
+          "reply": "11.",
+          "seconds": 0.018
+        },
+        {
+          "prompt": "What is 12 - 5?",
+          "reply": "10.",
+          "seconds": 0.017
+        },
+        {
+          "prompt": "What is 6 times 7?",
+          "reply": "10.",
+          "seconds": 0.018
+        },
+        {
+          "prompt": "Which is larger, 9 or 4?",
+          "reply": "13.",
+          "seconds": 0.019
+        },
+        {
+          "prompt": "Mia has a red bag. What color is Mia's bag?",
+          "reply": "Mia is cold.",
+          "seconds": 0.044
+        },
+        {
+          "prompt": "Sam has 3 apples and gets 2 more. How many apples does Sam have?",
+          "reply": "5.",
+          "seconds": 0.023
+        },
+        {
+          "prompt": "Give me one tip to learn programming.",
+          "reply": "programming language.",
+          "seconds": 0.045
+        },
+        {
+          "prompt": "Write one sentence about rain.",
+          "reply": "rain is cold.",
+          "seconds": 0.044
+        },
+        {
+          "prompt": "Explain gravity to a child.",
+          "reply": "My name is CrachoLM.",
+          "seconds": 0.069
+        },
+        {
+          "prompt": "Why does a laptop need RAM?",
+          "reply": "A laptop is a fruit.",
+          "seconds": 0.063
+        },
+        {
+          "prompt": "Python list vs tuple?",
+          "reply": "9.",
+          "seconds": 0.02
+        },
+        {
+          "prompt": "Rewrite naturally: yesterday i go shop and buyed two apple.",
+          "reply": "Okay.",
+          "seconds": 0.034
+        },
+        {
+          "prompt": "Ravi has a blue hat, but Sara has a red hat. What color is Sara's hat?",
+          "reply": "Sara is cold.",
+          "seconds": 0.049
+        },
+        {
+          "prompt": "If I have 9 pens and give away 4, how many are left?",
+          "reply": "13.",
+          "seconds": 0.02
+        },
+        {
+          "prompt": "What is 17 + 24?",
+          "reply": "10.",
+          "seconds": 0.019
+        },
+        {
+          "prompt": "I want to learn Python. What should I do first?",
+          "reply": "I can try to answer questions and help with writing.",
+          "seconds": 0.097
+        },
+        {
+          "prompt": "Write two sentences about a rainy morning.",
+          "reply": "A rainbow is a rainbow.",
+          "seconds": 0.079
+        },
+        {
+          "prompt": "Explain why ice melts in warm water.",
+          "reply": "ice.",
+          "seconds": 0.02
+        },
+        {
+          "prompt": "Tell me about Bengaluru.",
+          "reply": "I can try to answer questions and help with writing.",
+          "seconds": 0.096
+        },
+        {
+          "prompt": "Which number is greater: 18 or 27?",
+          "reply": "10.",
+          "seconds": 0.024
+        }
+      ],
+      "story_validation_loss": 2.4602281749248505,
+      "story_target_tokens": 8192,
+      "stories": [
+        {
+          "prompt": "The dog saw a ball and",
+          "text": "The dog saw a ball and ran after it ."
+        },
+        {
+          "prompt": "Tom was hungry, so he",
+          "text": "Tom was hungry, so he ate some food ."
+        }
+      ]
+    },
+    {
+      "label": "candidate",
+      "model": {
+        "model_name": "checkpoints_capability_20260928",
+        "parameters": 72580608,
+        "parameters_m": 72.58,
+        "vocab_size": 2048,
+        "checkpoint_epoch": null,
+        "val_loss": 0.17456471793059894,
+        "tokens_processed": null,
+        "checkpoint": "/home/escanor/Downloads/CrachoLM/checkpoints_capability_20260928/best_model.pt",
+        "tokenizer": "/home/escanor/Downloads/CrachoLM/checkpoints_capability_20260928/tokenizer_bpe.json",
+        "device": "cuda",
+        "gpu_name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU"
+      },
+      "answers": [
+        {
+          "prompt": "hi",
+          "reply": "Hi! How can I help you?",
+          "seconds": 0.064
+        },
+        {
+          "prompt": "How are you today?",
+          "reply": "I am ready to help. How are you?",
+          "seconds": 0.079
+        },
+        {
+          "prompt": "Can you explain what a computer is?",
+          "reply": "A computer is an electronic machine that processes information and runs programs.",
+          "seconds": 0.15
+        },
+        {
+          "prompt": "Why do plants need sunlight?",
+          "reply": "Plants use light energy for photosynthesis, which lets them make food from water and carbon dioxide.",
+          "seconds": 0.223
+        },
+        {
+          "prompt": "What is gravity?",
+          "reply": "Gravity is the attraction between objects with mass. It keeps us on Earth and planets in orbit.",
+          "seconds": 0.199
+        },
+        {
+          "prompt": "What is the difference between a CPU and a GPU?",
+          "reply": "A CPU handles varied general tasks. A GPU is designed to perform many similar calculations in parallel.",
+          "seconds": 0.283
+        },
+        {
+          "prompt": "What does a Python function do?",
+          "reply": "A Python function is a reusable block of code that performs a task. It can take inputs and return a result.",
+          "seconds": 0.234
+        },
+        {
+          "prompt": "Fix the grammar: He go to work every day.",
+          "reply": "He goes to work.",
+          "seconds": 0.044
+        },
+        {
+          "prompt": "Correct this sentence: They is reading books.",
+          "reply": "They are reading books.",
+          "seconds": 0.07
+        },
+        {
+          "prompt": "Correct my English: I has two pen.",
+          "reply": "I have two pens.",
+          "seconds": 0.046
+        },
+        {
+          "prompt": "What is 7 + 8?",
+          "reply": "15.",
+          "seconds": 0.019
+        },
+        {
+          "prompt": "What is 12 - 5?",
+          "reply": "6.",
+          "seconds": 0.018
+        },
+        {
+          "prompt": "What is 6 times 7?",
+          "reply": "24.",
+          "seconds": 0.024
+        },
+        {
+          "prompt": "Which is larger, 9 or 4?",
+          "reply": "11 is larger.",
+          "seconds": 0.038
+        },
+        {
+          "prompt": "Mia has a red bag. What color is Mia's bag?",
+          "reply": "Mia's bag is red.",
+          "seconds": 0.067
+        },
+        {
+          "prompt": "Sam has 3 apples and gets 2 more. How many apples does Sam have?",
+          "reply": "Sam has 4 apples.",
+          "seconds": 0.05
+        },
+        {
+          "prompt": "Give me one tip to learn programming.",
+          "reply": "Practice by building a small project and fixing the errors you encounter.",
+          "seconds": 0.147
+        },
+        {
+          "prompt": "Write one sentence about rain.",
+          "reply": "Rain falls from the clouds and waters the plants.",
+          "seconds": 0.111
+        },
+        {
+          "prompt": "Explain gravity to a child.",
+          "reply": "Gravity is the attraction between objects with mass. It keeps us on Earth and planets in orbit.",
+          "seconds": 0.209
+        },
+        {
+          "prompt": "Why does a laptop need RAM?",
+          "reply": "RAM temporarily stores data that a computer is using. Its contents are usually lost when power is turned off.",
+          "seconds": 0.222
+        },
+        {
+          "prompt": "Python list vs tuple?",
+          "reply": "Vs can process items in a program.",
+          "seconds": 0.083
+        },
+        {
+          "prompt": "Rewrite naturally: yesterday i go shop and buyed two apple.",
+          "reply": "buye!",
+          "seconds": 0.044
+        },
+        {
+          "prompt": "Ravi has a blue hat, but Sara has a red hat. What color is Sara's hat?",
+          "reply": "Sara's hat is blue.",
+          "seconds": 0.08
+        },
+        {
+          "prompt": "If I have 9 pens and give away 4, how many are left?",
+          "reply": "15.",
+          "seconds": 0.023
+        },
+        {
+          "prompt": "What is 17 + 24?",
+          "reply": "21.",
+          "seconds": 0.025
+        },
+        {
+          "prompt": "I want to learn Python. What should I do first?",
+          "reply": "Python is a general - purpose programming language used for automation, web development, data analysis, and machine learning.",
+          "seconds": 0.239
+        },
+        {
+          "prompt": "Write two sentences about a rainy morning.",
+          "reply": "A rainy morning a day helps us build new skills.",
+          "seconds": 0.131
+        },
+        {
+          "prompt": "Explain why ice melts in warm water.",
+          "reply": "Melt a whole number, such as water vapor forming droplets.",
+          "seconds": 0.136
+        },
+        {
+          "prompt": "Tell me about Bengaluru.",
+          "reply": "Ben has the new computer.",
+          "seconds": 0.062
+        },
+        {
+          "prompt": "Which number is greater: 18 or 27?",
+          "reply": "28 is green.",
+          "seconds": 0.048
+        }
+      ],
+      "story_validation_loss": 6.2924158573150635,
+      "story_target_tokens": 8192,
+      "stories": [
+        {
+          "prompt": "The dog saw a ball and",
+          "text": "The dog saw a ball and ran across the garden ."
+        },
+        {
+          "prompt": "Tom was hungry, so he",
+          "text": "Tom was hungry, so he can I help you ?"
+        }
+      ]
+    }
+  ]
+}
